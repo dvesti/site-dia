@@ -1,11 +1,11 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "/mnt/c/Hugo/sites/site-dia",
+	"sourceRoot": "/mnt/c/Hugo/Sites/site-dia",
 	"sources": [
 		"/mnt/c/Hugo/CodeIT/assets/css/style.scss",
 		"../../CodeIT/assets/css/_variables.scss",
-		"../../sites/site-dia/assets/css/_override.scss",
+		"assets/css/_override.scss",
 		"../../CodeIT/assets/css/_mixin/_index.scss",
 		"../../CodeIT/assets/css/_mixin/_compatibility.scss",
 		"../../CodeIT/assets/css/_mixin/_link.scss",
@@ -40,7 +40,7 @@
 		"../../CodeIT/assets/css/_partial/_footer.scss",
 		"../../CodeIT/assets/css/_partial/_pagination.scss",
 		"../../CodeIT/assets/css/_core/_media.scss",
-		"../../sites/site-dia/assets/css/_custom.scss"
+		"assets/css/_custom.scss"
 	],
 	"sourcesContent": [
 		"@charset \"utf-8\";\n\n@import \"_variables\";\n@import \"_override\";\n\n@import \"_mixin/index\";\n\n@import \"_core/base\";\n@import \"_core/layout\";\n\n@import \"_page/index\";\n\n@import \"_partial/header\";\n@import \"_partial/footer\";\n@import \"_partial/pagination\";\n\n@import \"_core/media\";\n\n@import \"_custom\";\n",
