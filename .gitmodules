@@ -4,4 +4,4 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/dvesti/diagonaal.git
-	branch = mшin
+	branch = main
