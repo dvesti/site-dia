@@ -2,7 +2,11 @@
     <channel>
         <title>Diagonaal</title>
         <link>https://diagonaal.ru/</link>
+<<<<<<< HEAD
         <description>Diagonaal</description>
+=======
+        <description>Автор: Antuan</description>
+>>>>>>> eff05c369b62310d991339e0daab1723b7a7ae2a
         <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
             <webMaster>one2one@hot.ee (Antuan)</webMaster><lastBuildDate>Sat, 13 Feb 2021 20:58:54 &#43;0200</lastBuildDate>
             <atom:link href="https://diagonaal.ru/index.xml" rel="self" type="application/rss+xml" />
