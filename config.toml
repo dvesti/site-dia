@@ -2,7 +2,7 @@ baseURL = "https://www.baty.net/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "ru"
 # language code
-languageCode = "en"
+languageCode = "ru"
 title = "Jack Baty's Weblog"
 
 gnoreErrors = ["error-remote-getjson"]
@@ -17,7 +17,7 @@ theme = "CodeIT"
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Posts"
+    name = "Архив"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
@@ -26,7 +26,7 @@ theme = "CodeIT"
     identifier = "categories"
     pre = ""
     post = ""
-    name = "Categories"
+    name = "Категории"
     url = "/categories/"
     title = ""
     weight = 2
