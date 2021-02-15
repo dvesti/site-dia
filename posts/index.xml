@@ -1,25 +1,25 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Все Статьи - Jack Baty&#39;s Weblog</title>
-        <link>https://www.baty.net/posts/</link>
-        <description>Все Статьи | Jack Baty&#39;s Weblog</description>
-        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>jack@baty.net (Jack)</managingEditor>
-            <webMaster>jack@baty.net (Jack)</webMaster><lastBuildDate>Sat, 13 Feb 2021 20:58:54 &#43;0200</lastBuildDate><atom:link href="https://www.baty.net/posts/" rel="self" type="application/rss+xml" /><item>
+        <title>Все Статьи - Diagonaal</title>
+        <link>https://diagonaal.ru/posts/</link>
+        <description>Все Статьи | Diagonaal</description>
+        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
+            <webMaster>one2one@hot.ee (Antuan)</webMaster><lastBuildDate>Sat, 13 Feb 2021 20:58:54 &#43;0200</lastBuildDate><atom:link href="https://diagonaal.ru/posts/" rel="self" type="application/rss+xml" /><item>
     <title>First post</title>
-    <link>https://www.baty.net/2021/first-post/</link>
+    <link>https://diagonaal.ru/2021/first-post/</link>
     <pubDate>Sat, 13 Feb 2021 20:58:54 &#43;0200</pubDate>
     <author>Автор</author>
-    <guid>https://www.baty.net/2021/first-post/</guid>
+    <guid>https://diagonaal.ru/2021/first-post/</guid>
     <description><![CDATA[<p><strong>Привет</strong> <em>всем</em>!<br>
 Тест<br>
 Testing</p>
 ]]></description>
 </item><item>
     <title>Сборная CCCР – чемпион Европы-1960</title>
-    <link>https://www.baty.net/2020/cccp-60-football/</link>
+    <link>https://diagonaal.ru/2020/cccp-60-football/</link>
     <pubDate>Fri, 10 Jul 2020 16:25:13 &#43;0300</pubDate>
     <author>Автор</author>
-    <guid>https://www.baty.net/2020/cccp-60-football/</guid>
+    <guid>https://diagonaal.ru/2020/cccp-60-football/</guid>
     <description><![CDATA[<p><strong>Ровно 60 лет назад, 10 июля 1960 года</strong>, сборная СССР выиграла первый в истории чемпионат Европы по футболу. В финальном матче подопечные Гавриила Качалина одолели в Париже Югославию - 2:1.</p>
 <p>Основное время поединка завершилось вничью - 1:1. Судьбу встречи в дополнительные полчаса решил точный удар Виктора Понедельника на 113-й минуте.</p>
 
