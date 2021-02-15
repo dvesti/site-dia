@@ -1,6 +1,6 @@
 baseURL = "https://www.baty.net/"
 # [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "en"
+defaultContentLanguage = "ru"
 # language code
 languageCode = "en"
 title = "Jack Baty's Weblog"
