@@ -1,0 +1,20 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Jack Baty&#39;s Weblog</title>
+        <link>https://www.baty.net/</link>
+        <description>A personal weblog by Jack Baty</description>
+        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>jack@baty.net (Jack)</managingEditor>
+            <webMaster>jack@baty.net (Jack)</webMaster><lastBuildDate>Sat, 13 Feb 2021 20:58:54 &#43;0200</lastBuildDate>
+            <atom:link href="https://www.baty.net/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>First post</title>
+    <link>https://www.baty.net/2021/first-post/</link>
+    <pubDate>Sat, 13 Feb 2021 20:58:54 &#43;0200</pubDate>
+    <author>Автор</author>
+    <guid>https://www.baty.net/2021/first-post/</guid>
+    <description><![CDATA[<p><strong>Привет</strong> <em>всем</em>!<br>
+Тест<br>
+Testing</p>
+]]></description>
+</item></channel>
+</rss>
