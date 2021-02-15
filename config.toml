@@ -601,7 +601,37 @@ defaultContentLanguage = "en"
       title = ""
       weight = 3
 
-  [languages.fr]
+  [languages.ru]
+    weight = 3
+    title = "Тема для Hugo"
+    languageCode = "ru"
+    languageName = "Русский"
+    [[languages.ru.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Статьи"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.ru.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Тэги"
+      url = "/tags/"
+      title = ""
+      weight = 2
+    [[languages.ru.menu.main]]
+      identifier = "categories"
+      name = "Категории"
+      pre = ""
+      post = ""
+      url = "/categories/"
+      title = ""
+      weight = 3
+
+    [languages.fr]
     weight = 3
     title = "Mon nouveau site Hugo"
     languageCode = "fr"
@@ -630,3 +660,4 @@ defaultContentLanguage = "en"
       url = "/categories/"
       title = ""
       weight = 3
+
