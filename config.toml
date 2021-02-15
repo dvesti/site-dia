@@ -1,36 +1,89 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.baty.net/"
 # [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "ru"
+defaultContentLanguage = "en"
 # language code
-languageCode = "ru"
-title = "Diagonaal Site"
+languageCode = "en"
+title = "Jack Baty's Weblog"
+
+gnoreErrors = ["error-remote-getjson"]
 
 # Change the default theme to be use when building the site with Hugo
 theme = "CodeIT"
 
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 2
+    
+	[[menu.main]]
+	  identifier = "about"
+	  pre = ""
+	  post = ""
+	  name = "About"
+	  url = "/about/"
+	  title = ""
+	  weight = 4
+    
+    [[menu.main]]
+    identifier = "stuff"
+    pre = ""
+    post = ""
+    name = "Stuff"
+    url = "/stuff/"
+    title = ""
+    weight = 5
+
+	[[menu.main]]
+	  identifier = "wiki"
+	  pre = ""
+	  post = ""
+	  name = "Wiki"
+	  url = "https://rudimentarylathe.wiki"
+	  title = ""
+	  weight = 6
+
+
+
 [params]
-  # CodeIT theme version
+  #  LoveIt theme version
   version = "0.2.X"
   # site description
-  description = "This is My New Hugo Site"
+  description = "A personal weblog by Jack Baty"
   # site keywords
   keywords = ["Theme", "Hugo"]
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   gitRepo = ""
-  # which hash function used for SRI, when empty, no SRI is used
+  #  which hash function used for SRI, when empty, no SRI is used
   # ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
-  # date format
-  dateFormat = "2006-01-02"
+  #  date format
+  #dateFormat = "2006-01-02"
+  dateFormat = "Monday, Jan 2, 2006"
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
+  images = ["/img/logo.png"]
 
-  # App icon config
+  #  App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "CodeIT"
+    title = "Baty.net"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -42,7 +95,7 @@ theme = "CodeIT"
     # Windows v8-10 tile color
     tileColor = "#da532c"
 
-  # Search config
+  #  Search config
   [params.search]
     enable = true
     # type of search engine ("lunr", "algolia")
@@ -51,13 +104,13 @@ theme = "CodeIT"
     contentLength = 4000
     # placeholder of the search bar
     placeholder = ""
-    # max number of results length
+    #  max number of results length
     maxResultLength = 10
-    # snippet length of the result
+    #  snippet length of the result
     snippetLength = 30
-    # HTML tag name of the highlight part in results
+    #  HTML tag name of the highlight part in results
     highlightTag = "em"
-    # whether to use the absolute URL based on the baseURL in search index
+    #  whether to use the absolute URL based on the baseURL in search index
     absoluteURL = false
     [params.search.algolia]
       index = ""
@@ -67,61 +120,61 @@ theme = "CodeIT"
   # Header config
   [params.header]
     # desktop header mode ("fixed", "normal", "auto")
-    desktopMode = "fixed"
+    desktopMode = "normal"
     # mobile header mode ("fixed", "normal", "auto")
     mobileMode = "auto"
-    # Header title config
+    #  Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = ""
+      logo = "/img/logo.png"
       # title name
-      name = "Diagonaal Site"
+      name = "Jack Baty's Weblog"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
-      # whether to use typeit animation for title name
+      #  whether to use typeit animation for title name
       typeit = false
 
   # Footer config
   [params.footer]
     enable = true
-    # Custom content (HTML format is supported)
+    #  Custom content (HTML format is supported)
     custom = ''
-    # whether to show Hugo and theme info
-    hugo = true
-    # whether to show copyright info
+    #  whether to show Hugo and theme info
+    hugo = false
+    #  whether to show copyright info
     copyright = true
-    # whether to show the author
-    author = true
+    #  whether to show the author
+    author = false
     # Site creation time
-    since = 2019
+    since = 2000
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
     license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-  # Section (all posts) page config
+  #  Section (all posts) page config
   [params.section]
     # special amount of posts in each section page
-    paginate = 20
+    paginate = 2000
     # date format (month and day)
-    dateFormat = "01-02"
+    dateFormat = "Jan 02"
     # amount of RSS pages
     rss = 10
 
-  # List (category or tag) page config
+  #  List (category or tag) page config
   [params.list]
     # special amount of posts in each list page
     paginate = 20
     # date format (month and day)
-    dateFormat = "01-02"
+    dateFormat = "Jan 02"
     # amount of RSS pages
     rss = 10
 
   # Home page config
   [params.home]
-    # amount of RSS pages
+    #  amount of RSS pages
     rss = 10
     # Home page profile
     [params.home.profile]
@@ -129,34 +182,34 @@ theme = "CodeIT"
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/avatar.png"
-      # title shown in home page (HTML format is supported)
+      avatarURL = "/img/jack-headshot-96.jpg"
+      #  title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
-      subtitle = "This is My New Hugo Site"
+      subtitle = "Jack Baty – Director of Unspecified Services"
       # whether to use typeit animation for subtitle
-      typeit = true
+      typeit = false
       # whether to show social links
       social = true
-      # disclaimer (HTML format is supported)
+      #  disclaimer (HTML format is supported)
       disclaimer = ""
     # Home page posts
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
-      paginate = 6
-      # replaced with hiddenFromHomePage in params.page
+      paginate = 20
+      #  replaced with hiddenFromHomePage in params.page
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
 
   # Social config about the author
   [params.social]
-    GitHub = "xxxx"
+    GitHub = "jackbaty"
     Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Twitter = "jackbaty"
+    Instagram = "mrjackbaty"
+    Facebook = ""
+    Telegram = ""
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -174,7 +227,7 @@ theme = "CodeIT"
     Weibo = ""
     Odnoklassniki = ""
     VK = ""
-    Flickr = ""
+    Flickr = "jbaty"
     Xing = ""
     Snapchat = ""
     Soundcloud = ""
@@ -206,45 +259,45 @@ theme = "CodeIT"
     Vine = ""
     Googlescholar = ""
     Researchgate = ""
-    Mastodon = ""
+    Mastodon = "@jackbaty"
     Thingiverse = ""
     Devto = ""
     Gitea = ""
     XMPP = ""
     Matrix = ""
     Bilibili = ""
-    Email = "xxxx@xxxx.com"
-    RSS = true #
+    Email = "jack@baty.net"
+    RSS = true # 
 
-  # Page config
+  #  Page config
   [params.page]
-    # whether to hide a page from home page
+    #  whether to hide a page from home page
     hiddenFromHomePage = false
-    # whether to hide a page from search results
+    #  whether to hide a page from search results
     hiddenFromSearch = false
-    # whether to enable twemoji
+    #  whether to enable twemoji
     twemoji = false
     # whether to enable lightgallery
-    lightgallery = false
-    # whether to enable the ruby extended syntax
+    lightgallery = true
+    #  whether to enable the ruby extended syntax
     ruby = true
-    # whether to enable the fraction extended syntax
+    #  whether to enable the fraction extended syntax
     fraction = true
-    # whether to enable the fontawesome extended syntax
+    #  whether to enable the fontawesome extended syntax
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
-    linkToMarkdown = true
-    # whether to show the full text content in RSS
-    rssFullText = false
-    # Table of the contents config
+    linkToMarkdown = false
+    #  whether to show the full text content in RSS
+    rssFullText = true
+    #  Table of the contents config
     [params.page.toc]
       # whether to enable the table of the contents
-      enable = true
-      # whether to keep the static table of the contents in front of the post
+      enable = false
+      #  whether to keep the static table of the contents in front of the post
       keepStatic = true
       # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
-    # KaTeX mathematical formulas
+    #  KaTeX mathematical formulas
     [params.page.math]
       enable = true
       # default block delimiter is $$ ... $$ and \\[ ... \\]
@@ -257,13 +310,13 @@ theme = "CodeIT"
       copyTex = true
       # KaTeX extension mhchem
       mhchem = true
-    # Code config
+    #  Code config
     [params.page.code]
       # whether to show the copy button of the code block
       copy = true
       # the maximum number of lines of displayed code by default
-      maxShownLines = 10
-    # Mapbox GL JS config
+      maxShownLines = 25
+    #  Mapbox GL JS config
     [params.page.mapbox]
       # access token of Mapbox GL JS
       accessToken = ""
@@ -279,13 +332,13 @@ theme = "CodeIT"
       scale = true
       # whether to add FullscreenControl
       fullscreen = true
-    # social share links in post page
+    #  social share links in post page
     [params.page.share]
       enable = true
       Twitter = true
       Facebook = true
       Linkedin = false
-      Whatsapp = true
+      Whatsapp = false
       Pinterest = false
       Tumblr = false
       HackerNews = false
@@ -293,32 +346,34 @@ theme = "CodeIT"
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Digg = false
       Stumbleupon = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Renren = false
-      Myspace = true
-      Blogger = true
+      Myspace = false
+      Blogger = false
       Baidu = false
       Odnoklassniki = false
-      Evernote = true
+      Evernote = false
       Skype = false
       Trello = false
       Mix = false
-    # Comment config
+    #  Comment config
     [params.page.comment]
       enable = true
       # Disqus comment config
       [params.page.comment.disqus]
+        # 
         enable = false
         # Disqus shortname to use Disqus in posts
         shortname = ""
       # Gitalk comment config
       [params.page.comment.gitalk]
+        # 
         enable = false
         owner = ""
         repo = ""
@@ -339,9 +394,9 @@ theme = "CodeIT"
         highlight = true
         enableQQ = false
         serverURLs = ""
-        # emoji data file name, default is "google.yml"
+        #  emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
-        # located in "themes/CodeIT/assets/data/emoji/" directory
+        # located in "themes/LoveIt/assets/data/emoji/" directory
         # you can store your own data files in the same path under your project:
         # "assets/data/emoji/"
         emoji = ""
@@ -352,7 +407,7 @@ theme = "CodeIT"
         numPosts = 10
         appId = ""
         languageCode = ""
-      # Telegram comments config
+      #  Telegram comments config
       [params.page.comment.telegram]
         enable = false
         siteID = ""
@@ -362,10 +417,10 @@ theme = "CodeIT"
         colorful = true
         dislikes = false
         outlined = false
-      # Commento comment config
+      #  Commento comment config
       [params.page.comment.commento]
-        enable = false
-      # Utterances comment config
+        enable = true
+      #  Utterances comment config
       [params.page.comment.utterances]
         enable = false
         # owner/repo
@@ -374,7 +429,7 @@ theme = "CodeIT"
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
-    # Third-party library config
+    #  Third-party library config
     [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
@@ -386,7 +441,7 @@ theme = "CodeIT"
         # located in "assets/"
         # Or
         # someJavascript = "https://cdn.example.com/some.js"
-    # Page SEO config
+    #  Page SEO config
     [params.page.seo]
       # image URL
       images = []
@@ -395,7 +450,7 @@ theme = "CodeIT"
         name = ""
         logoUrl = ""
 
-  # TypeIt config
+  #  TypeIt config
   [params.typeit]
     # typing speed between each step (measured in milliseconds)
     speed = 100
@@ -414,16 +469,16 @@ theme = "CodeIT"
     pinterest = ""
     baidu = ""
 
-  # Site SEO config
+  #  Site SEO config
   [params.seo]
     # image URL
     image = ""
     # thumbnail URL
     thumbnailUrl = ""
 
-  # Analytics config
+  #  Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
       id = ""
@@ -434,34 +489,65 @@ theme = "CodeIT"
       id = ""
       # server url for your tracker if you're self hosting
       server = ""
-    #  Plausible Analytics
-    [params.analytics.plausible]
-      domain = ""
 
-  # Cookie consent config
+  #  Cookie consent config
   [params.cookieconsent]
-    enable = true
+    enable = false
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
       message = ""
       dismiss = ""
       link = ""
 
-  # CDN config for third-party library files
+  #  CDN config for third-party library files
+  [params.cdn]
+    # CDN data file name, disabled by default
+    # ("jsdelivr.yml")
+    # located in "themes/LoveIt/assets/data/cdn/" directory
+    # you can store your own data files in the same path under your project:
+    # "assets/data/cdn/"
+    data = ""
 
-  # Compatibility config
+  #  Compatibility config
   [params.compatibility]
     # whether to use Polyfill.io to be compatible with older browsers
     polyfill = false
     # whether to use object-fit-images to be compatible with older browsers
     objectFit = false
 
-
+# Markup related config in Hugo
+[markup]
+  # Syntax Highlighting
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    # false is a necessary configuration
+    # (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
+  name = "Jack"
+  email = "jack@baty.net"
   link = ""
 
 # Sitemap config
@@ -473,11 +559,11 @@ theme = "CodeIT"
 # Permalinks config
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = ":year/:slug"
 
 # Privacy config
 [privacy]
-  # privacy of the Google Analytics (replaced by params.analytics.google)
+  #  privacy of the Google Analytics (replaced by params.analytics.google)
   [privacy.googleAnalytics]
     # ...
   [privacy.twitter]
@@ -498,166 +584,9 @@ theme = "CodeIT"
 
 # Options to make hugo output files
 [outputs]
+  # 
   home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "MarkDown"]
+  page = ["HTML"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
-
-
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
-    weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-    weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
-    weight = 3
-
-# [en, zh-cn, fr, pl, ...] determines default content language
-defaultContentLanguage = "en"
-
-[languages]
-  [languages.en]
-    weight = 1
-    title = "My New Hugo Site"
-    languageCode = "en"
-    languageName = "English"
-    [[languages.en.menu.main]]
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "Posts"
-      url = "/posts/"
-      title = ""
-      weight = 1
-    [[languages.en.menu.main]]
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "Tags"
-      url = "/tags/"
-      title = ""
-      weight = 2
-    [[languages.en.menu.main]]
-      identifier = "categories"
-      pre = ""
-      post = ""
-      name = "Categories"
-      url = "/categories/"
-      title = ""
-      weight = 3
-
-  [languages.zh-cn]
-    weight = 2
-    title = "我的全新 Hugo 网站"
-    # language code, CN only here
-    languageCode = "zh-CN"
-    languageName = "简体中文"
-    # whether to include Chinese/Japanese/Korean
-    hasCJKLanguage = true
-    [[languages.zh-cn.menu.main]]
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "文章"
-      url = "/posts/"
-      title = ""
-      weight = 1
-    [[languages.zh-cn.menu.main]]
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "标签"
-      url = "/tags/"
-      title = ""
-      weight = 2
-    [[languages.zh-cn.menu.main]]
-      identifier = "categories"
-      pre = ""
-      post = ""
-      name = "分类"
-      url = "/categories/"
-      title = ""
-      weight = 3
-
-  [languages.ru]
-    weight = 4
-    title = "Тема для Hugo"
-    languageCode = "ru"
-    languageName = "Русский"
-    [[languages.ru.menu.main]]
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "Статьи"
-      url = "/posts/"
-      title = ""
-      weight = 1
-    [[languages.ru.menu.main]]
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "Тэги"
-      url = "/tags/"
-      title = ""
-      weight = 2
-    [[languages.ru.menu.main]]
-      identifier = "categories"
-      name = "Категории"
-      pre = ""
-      post = ""
-      url = "/categories/"
-      title = ""
-      weight = 3
-
-    [languages.fr]
-    weight = 3
-    title = "Mon nouveau site Hugo"
-    languageCode = "fr"
-    languageName = "Français"
-    [[languages.fr.menu.main]]
-      identifier = "posts"
-      pre = ""
-      post = ""
-      name = "Postes"
-      url = "/posts/"
-      title = ""
-      weight = 1
-    [[languages.fr.menu.main]]
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "Balises"
-      url = "/tags/"
-      title = ""
-      weight = 2
-    [[languages.fr.menu.main]]
-      identifier = "categories"
-      name = "Catégories"
-      pre = ""
-      post = ""
-      url = "/categories/"
-      title = ""
-      weight = 3
-
