@@ -1,0 +1,3 @@
+[submodule "diagonaal"]
+	path = diagonaal
+	url = https://github.com/dvesti/diagonaal.git
