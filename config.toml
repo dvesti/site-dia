@@ -1,8 +1,8 @@
 baseURL = "http://example.org/"
 # [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "ru"
+defaultContentLanguage = "en"
 # language code
-languageCode = "ru"
+languageCode = "en"
 title = "Diagonaal Site"
 
 # Change the default theme to be use when building the site with Hugo
@@ -448,13 +448,6 @@ theme = "CodeIT"
       link = ""
 
   # CDN config for third-party library files
-  [params.cdn]
-    # CDN data file name, disabled by default
-    # ("jsdelivr.yml")
-    # located in "themes/CodeIT/assets/data/cdn/" directory
-    # you can store your own data files in the same path under your project:
-    # "assets/data/cdn/"
-    data = ""
 
   # Compatibility config
   [params.compatibility]
@@ -540,3 +533,100 @@ theme = "CodeIT"
     url = "/categories/"
     title = ""
     weight = 3
+
+# [en, zh-cn, fr, pl, ...] determines default content language
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    weight = 1
+    title = "My New Hugo Site"
+    languageCode = "en"
+    languageName = "English"
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.en.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+      weight = 2
+    [[languages.en.menu.main]]
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categories"
+      url = "/categories/"
+      title = ""
+      weight = 3
+
+  [languages.zh-cn]
+    weight = 2
+    title = "我的全新 Hugo 网站"
+    # language code, CN only here
+    languageCode = "zh-CN"
+    languageName = "简体中文"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = true
+    [[languages.zh-cn.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "文章"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.zh-cn.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "标签"
+      url = "/tags/"
+      title = ""
+      weight = 2
+    [[languages.zh-cn.menu.main]]
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "分类"
+      url = "/categories/"
+      title = ""
+      weight = 3
+
+  [languages.fr]
+    weight = 3
+    title = "Mon nouveau site Hugo"
+    languageCode = "fr"
+    languageName = "Français"
+    [[languages.fr.menu.main]]
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Postes"
+      url = "/posts/"
+      title = ""
+      weight = 1
+    [[languages.fr.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Balises"
+      url = "/tags/"
+      title = ""
+      weight = 2
+    [[languages.fr.menu.main]]
+      identifier = "categories"
+      name = "Catégories"
+      pre = ""
+      post = ""
+      url = "/categories/"
+      title = ""
+      weight = 3
