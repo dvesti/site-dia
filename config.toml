@@ -1,8 +1,8 @@
 baseURL = "http://example.org/"
 # [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "en"
+defaultContentLanguage = "ru"
 # language code
-languageCode = "en"
+languageCode = "ru"
 title = "Diagonaal Site"
 
 # Change the default theme to be use when building the site with Hugo
@@ -75,7 +75,7 @@ theme = "CodeIT"
       # URL of the LOGO
       logo = ""
       # title name
-      name = ""
+      name = "Diagonaal Site"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -602,7 +602,7 @@ defaultContentLanguage = "en"
       weight = 3
 
   [languages.ru]
-    weight = 3
+    weight = 4
     title = "Тема для Hugo"
     languageCode = "ru"
     languageName = "Русский"
