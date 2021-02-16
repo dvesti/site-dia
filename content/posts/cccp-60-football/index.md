@@ -1,14 +1,11 @@
 ---
-type: "post"
-subtitle: ""
-summary: ""
-authors: []
 title: "Сборная CCCР – чемпион Европы-1960"
 slug: "cccp-60-football"
+authors: []
 draft: false
-date: "2020-07-10 16:25:13+0300"  
+date: 2020-07-10T16:25:13+03:00
 lastmod: ""
-tags: "Football"
+tags: ["Football"]
 categories: ["Sport"]
 featured: false
 image:

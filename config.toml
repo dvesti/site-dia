@@ -30,6 +30,15 @@ theme = "CodeIT"
     url = "/categories/"
     title = ""
     weight = 2
+
+    [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Тэги"
+    url = "/tags/"
+    title = ""
+    weight = 3
     
 	[[menu.main]]
 	  identifier = "about"
@@ -140,7 +149,7 @@ theme = "CodeIT"
     #  Custom content (HTML format is supported)
     custom = ''
     #  whether to show Hugo and theme info
-    hugo = false
+    hugo = true #false
     #  whether to show copyright info
     copyright = true
     #  whether to show the author
