@@ -2,7 +2,7 @@ baseURL = "https://diagonaal.ru/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "ru"
 # language code
-languageCode = "rus"
+languageCode = "ru"
 title = "Diagonaal"
 
 ignoreErrors = ["error-remote-getjson"]
