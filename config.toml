@@ -119,10 +119,15 @@ theme = "CodeIT"
     highlightTag = "em"
     #  whether to use the absolute URL based on the baseURL in search index
     absoluteURL = false
+    #[params.search.algolia]
+    #  index = ""
+    #  appID = ""
+    #  searchKey = ""
+
     [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
+      index = "index"
+      appID = "PASDMWALPK"
+      searchKey = "b42948e51daaa93df92381c8e2ac0f93"  
 
   # Header config
   [params.header]
