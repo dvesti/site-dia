@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Diagonaal</title>
-        <link>https://diagonaal.ru/</link>
-        <description>Diagonaal</description>
+        <title>Markdown - Категория - Diagonaal</title>
+        <link>https://diagonaal.ru/categories/markdown/</link>
+        <description>Markdown - Категория - Diagonaal</description>
         <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
-            <webMaster>one2one@hot.ee (Antuan)</webMaster><lastBuildDate>Sat, 13 Feb 2021 20:58:54 &#43;0200</lastBuildDate>
-            <atom:link href="https://diagonaal.ru/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>one2one@hot.ee (Antuan)</webMaster><lastBuildDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/categories/markdown/" rel="self" type="application/rss+xml" /><item>
     <title>Basic Markdown Syntax</title>
     <link>https://diagonaal.ru/2019/basic-markdown-syntax/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
@@ -1104,34 +1102,5 @@ This is a footnote with &#34;label&#34;[^label]
 </li>
 </ol>
 </section>]]></description>
-</item><item>
-    <title>First post</title>
-    <link>https://diagonaal.ru/2021/first-post/</link>
-    <pubDate>Sat, 13 Feb 2021 20:58:54 &#43;0200</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2021/first-post/</guid>
-    <description><![CDATA[<p><strong>Привет</strong> <em>всем</em>!<br>
-Тест<br>
-Testing</p>
-]]></description>
-</item><item>
-    <title>Сборная CCCР – чемпион Европы-1960</title>
-    <link>https://diagonaal.ru/2020/cccp-60-football/</link>
-    <pubDate>Fri, 10 Jul 2020 16:25:13 &#43;0300</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/cccp-60-football/</guid>
-    <description><![CDATA[<p><strong>Ровно 60 лет назад, 10 июля 1960 года</strong>, сборная СССР выиграла первый в истории чемпионат Европы по футболу. В финальном матче подопечные Гавриила Качалина одолели в Париже Югославию - 2:1.</p>
-<p>Основное время поединка завершилось вничью - 1:1. Судьбу встречи в дополнительные полчаса решил точный удар Виктора Понедельника на 113-й минуте.</p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/fAQ9GwAAosw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<p>Сборная СССР финальный поединок провела в следующем составе: Яшин, Чохели, Масленкин, Крутиков, Войнов, Нетто, Метревели, Вал. Иванов, Понедельник, Бубукин, Месхи.</p>
-<p>Замены в то время не разрешалось проводить. Из участников победного финала в живых остается только Понедельник, которому в мае исполнилось 83 года.
-</p>
-<p>Золото чемпионата Европы 1960 года – главная победа в истории советского футбола. Сборная СССР еще дважды выигрывала Олимпийские игры (1956, 1988), но на этих турнирах действовали ряд ограничений.</p>
-<p>В первом финальном турнире чемпионата Европы принимали участие четыре команды. В полуфинале СССР победил Чехословакию - 3:0</p>
-<p><a href="https://rus.delfi.ee/sport/jalgpall/video-60-let-nazad-sbornaya-sssr-vyigrala-pervyj-chempionat-evropy-po-futbolu?id=90415071" target="_blank" rel="noopener noreferrer">Источник</a></p>]]></description>
 </item></channel>
 </rss>
