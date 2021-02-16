@@ -13,8 +13,8 @@ image:
   focal_point: ""
   preview_only: true
 resources:
-  - name: "featured"
-    src: "featured.jpg"  
+  - name: "featured-image"
+    src: "featured.jpg" 
 ---
 
 Купленная картошка и оставленная на полу в пакете сгнила через 3 дня. И не жарко было. Клубни превратились в кисель на радость мушкам.
