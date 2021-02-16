@@ -8,6 +8,9 @@ categories: ["poetry"]
 description: Взляд из коробки
 image: 
 featured: false
+resources:
+  - name: "featured-image"
+    src: "featured.jpg" 
 ---
 
 ![Котик в коробке](featured.jpg)  
