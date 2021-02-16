@@ -5,7 +5,7 @@ defaultContentLanguage = "ru"
 languageCode = "ru"
 title = "Diagonaal"
 
-gnoreErrors = ["error-remote-getjson"]
+ignoreErrors = ["error-remote-getjson"]
 
 # Change the default theme to be use when building the site with Hugo
 theme = "CodeIT"
