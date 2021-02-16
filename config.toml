@@ -1,6 +1,6 @@
 baseURL = "https://diagonaal.ru/"
 # [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "ru"
+defaultContentLanguage = "rus"
 # language code
 languageCode = "ru"
 title = "Diagonaal"
