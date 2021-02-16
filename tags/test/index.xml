@@ -14,5 +14,15 @@
 Тест<br>
 Testing</p>
 ]]></description>
+</item><item>
+    <title>Тест-1</title>
+    <link>https://diagonaal.ru/2020/%D1%82%D0%B5%D1%81%D1%82-1/</link>
+    <pubDate>Fri, 14 Aug 2020 17:04:31 &#43;0300</pubDate>
+    <author>Автор</author>
+    <guid>https://diagonaal.ru/2020/%D1%82%D0%B5%D1%81%D1%82-1/</guid>
+    <description><![CDATA[<p>Это <del>тест</del>овое сообщение <em>с этой</em> <strong>картинкой</strong>:</p>
+<p></p>
+<p>которая отображается при пересылке ссылки, например, в Скайп</p>
+]]></description>
 </item></channel>
 </rss>
