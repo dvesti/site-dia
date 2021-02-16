@@ -1,5 +1,6 @@
 ---
 title: "Погладь меня"
+slug: "pogladj-menja"
 date: 2020-08-22T19:01:23+03:00
 lastmod: 
 draft: false
