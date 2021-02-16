@@ -4176,10 +4176,10 @@ But sometimes you may want to start a set of <code>typeit</code> contents in ord
 </div><p>You can see the output in the console of the developer tool.</p>]]></description>
 </item><item>
     <title>Basic Markdown Syntax</title>
-    <link>https://diagonaal.ru/2019/basic-markdown-syntax/</link>
-    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+    <link>https://diagonaal.ru/2020/basic-markdown-syntax/</link>
+    <pubDate>Wed, 01 Jan 2020 16:45:40 &#43;0800</pubDate>
     <author>Автор</author>
-    <guid>https://diagonaal.ru/2019/basic-markdown-syntax/</guid>
+    <guid>https://diagonaal.ru/2020/basic-markdown-syntax/</guid>
     <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
@@ -4217,7 +4217,8 @@ the single biggest source of inspiration for Markdown’s syntax is the format o
             <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
-            <div class="admonition-content"><i class="far fa-bookmark fa-fw"></i>&nbsp;Bookmark this page for easy future reference!</div>
+            <div class="admonition-content"><i class="far fa-bookmark fa-fw"></i>&nbsp;Добавьте эту страницу в закладки, чтобы легко было пользоваться разметкой Markdown в будущем<br>
+Bookmark this page for easy future reference!</div>
         </div>
     </div>
 <h2 id="1-headings">1 Headings</h2>
