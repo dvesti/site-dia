@@ -1,22 +1,15 @@
 ---
-type: "post"
-subtitle: ""
-summary: ""
-authors: []
 title: "Оруэлл «1984»"
 slug: "Orwell-1984"
 draft: false
-date: "2020-07-05 21:30:13+0300"  
+date: 2020-07-05T21:30:13+03:00  
 lastmod: ""
-tags: 
-- Books
-- Coincidence
-categories: 
-- Writer
+tags: ["books"]
+categories: ["Writer"]
 featured: false
-image:
-  placement: 1
-  caption: "Image credit: [**Pinterest.com**](https://tr.pinterest.com/pin/574279389986359085/)"
+resources:
+  - name: "featured-image"
+    src: "featured.jpg"
 ---
 
 За день упоминание о романе Джорджа Оруэлла **«1984»** встретил 3 раза. Редкое совпадение. Правда, иногда подразумевали и **«Скотный Двор»**

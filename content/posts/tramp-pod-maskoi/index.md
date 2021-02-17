@@ -1,16 +1,11 @@
 ---
 title: "Трамп под маской"
 slug: "tramp-pod-maskoi"
-draft: false
-date: "2020-07-12T17:30:13+03:00"  
+date: 2020-07-12T17:30:13+03:00  
 lastmod: ""
+draft: false
 tags: ["USA"]
 categories: ["COVID-19"]
-image:
-  placement: 2
-  caption: 'Image credit: [**Rus.Delfi.ee**](https://rus.delfi.ee/)'
-  focal_point: ""
-  preview_only: false
 resources:
   - name: "features-image"
     src: "featured.jpg"    

@@ -6,14 +6,12 @@ lastmod:
 draft: false
 tags: ["cat", "image"]
 categories: ["Poetry"]
-description: Котик недоволен
-image: 
 resources:
   - name: "features-image"
     src: "featured.jpg"
 ---
 
-![Котик](featured.jpg)   
+<!--![Котик](featured.jpg)-->   
 
 **Если я разоблачён, –  
 Надо зафиксировать!  

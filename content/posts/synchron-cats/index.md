@@ -12,7 +12,7 @@ resources:
     src: "featured.jpg"  
 ---
 
-![Синхрон](featured.jpg)  
+<!--![Синхрон](featured.jpg) -->  
 
 **Синхронно, сидя на окошке,  
 Себя вылизывают кошки**  
