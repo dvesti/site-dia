@@ -19,7 +19,9 @@
     <pubDate>Sun, 23 Aug 2020 17:04:31 &#43;0300</pubDate>
     <author>Автор</author>
     <guid>https://diagonaal.ru/2020/style-23-08-2020/</guid>
-    <description><![CDATA[<p>Меняю стили каждый день, как я и писал ранее, в ущерб написанию заметок.<br>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div><p>Меняю стили каждый день, как я и писал ранее, в ущерб написанию заметок.<br>
 Сейчас всё-таки изменил размер шрифта даты, который был связан с другими стилями, поэтому пришлось выделить в отдельные строки.</p>
 <p>Использовал стили оригинала — <strong>Refined</strong>, а также <strong>Jane</strong></p>
 <p>Менять пришлось и <em>курсив</em>, так как он брался из другого шрифта получался другого размера (в частности, меньше), что было не очень красиво.</p>
@@ -49,8 +51,10 @@
     <pubDate>Fri, 14 Aug 2020 17:04:31 &#43;0300</pubDate>
     <author>Автор</author>
     <guid>https://diagonaal.ru/2020/test-1/</guid>
-    <description><![CDATA[<p>Это <del>тест</del>овое сообщение <em>с этой</em> <strong>картинкой</strong>:</p>
-<p></p>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div><p>Это <del>тест</del>овое сообщение <em>с этой</em> <strong>картинкой</strong>:</p>
+<!--![](featured.jpg) -->
 <p>которая отображается при пересылке ссылки, например, в Скайп</p>
 ]]></description>
 </item><item>
@@ -59,7 +63,7 @@
     <pubDate>Tue, 11 Aug 2020 19:01:23 &#43;0800</pubDate>
     <author>Автор</author>
     <guid>https://diagonaal.ru/2020/synchron/</guid>
-    <description><![CDATA[<p></p>
+    <description><![CDATA[<!--![Синхрон](featured.jpg) -->  
 <p><strong>Синхронно, сидя на окошке,<br>
 Себя вылизывают кошки</strong></p>
 ]]></description>
@@ -69,7 +73,9 @@
     <pubDate>Mon, 10 Aug 2020 19:01:23 &#43;0800</pubDate>
     <author>Автор</author>
     <guid>https://diagonaal.ru/2020/razoblachenie/</guid>
-    <description><![CDATA[<p></p>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div><!--![Котик](featured.jpg)-->     
 <p><strong>Если я разоблачён, –<br>
 Надо зафиксировать!<br>
 Если тема <em>ни-о-чём</em>:<br>
@@ -81,7 +87,9 @@
     <pubDate>Sun, 12 Jul 2020 17:30:13 &#43;0300</pubDate>
     <author>Автор</author>
     <guid>https://diagonaal.ru/2020/tramp-pod-maskoi/</guid>
-    <description><![CDATA[<p>Президент США <strong>Дональд Трамп</strong> при посещении Национального военно-медицинского центра в пригороде Вашингтона впервые после начала пандемии коронавируса надел защитную медицинскую маску, обратили внимание мировые СМИ.</p>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div><p>Президент США <strong>Дональд Трамп</strong> при посещении Национального военно-медицинского центра в пригороде Вашингтона впервые после начала пандемии коронавируса надел защитную медицинскую маску, обратили внимание мировые СМИ.</p>
 <p>&ldquo;<em>Я думаю, что когда вы находитесь в больнице, особенно в этой конкретной обстановке, когда вы разговариваете с большим количеством солдат, людей, которые в некоторых случаях только что были на операционном столе, считаю, что это отличная вещь — надевать маску</em>&rdquo;, — сказал Трамп журналистам.</p>
 <p>Ранее президент отказывался носить маску на публике, не принуждая к этому других. По его словам, это — личный выбор каждого человека. В то же время, он говорил, что будет пользоваться маской в условиях, когда вокруг будет много людей и соблюдать определенную дистанцию будет невозможно.</p>
 <p><a href="https://rus.delfi.ee/daily/abroad/tramp-vpervye-poyavilsya-na-publike-v-zaschitnoj-maske?id=90425915" target="_blank" rel="noopener noreferrer">Источник</a></p>]]></description>

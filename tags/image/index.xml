@@ -22,7 +22,7 @@
     <pubDate>Tue, 11 Aug 2020 19:01:23 &#43;0800</pubDate>
     <author>Автор</author>
     <guid>https://diagonaal.ru/2020/synchron/</guid>
-    <description><![CDATA[<p></p>
+    <description><![CDATA[<!--![Синхрон](featured.jpg) -->  
 <p><strong>Синхронно, сидя на окошке,<br>
 Себя вылизывают кошки</strong></p>
 ]]></description>
@@ -32,7 +32,9 @@
     <pubDate>Mon, 10 Aug 2020 19:01:23 &#43;0800</pubDate>
     <author>Автор</author>
     <guid>https://diagonaal.ru/2020/razoblachenie/</guid>
-    <description><![CDATA[<p></p>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div><!--![Котик](featured.jpg)-->     
 <p><strong>Если я разоблачён, –<br>
 Надо зафиксировать!<br>
 Если тема <em>ни-о-чём</em>:<br>

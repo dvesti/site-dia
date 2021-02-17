@@ -10,8 +10,10 @@
     <pubDate>Fri, 14 Aug 2020 17:04:31 &#43;0300</pubDate>
     <author>Автор</author>
     <guid>https://diagonaal.ru/2020/test-1/</guid>
-    <description><![CDATA[<p>Это <del>тест</del>овое сообщение <em>с этой</em> <strong>картинкой</strong>:</p>
-<p></p>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div><p>Это <del>тест</del>овое сообщение <em>с этой</em> <strong>картинкой</strong>:</p>
+<!--![](featured.jpg) -->
 <p>которая отображается при пересылке ссылки, например, в Скайп</p>
 ]]></description>
 </item></channel>
