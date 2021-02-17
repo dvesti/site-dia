@@ -103,7 +103,7 @@ theme = "CodeIT"
     tileColor = "#da532c"
 
   #  Search config
-  [params.search]
+  [languages.ru.params.search]
     enable = true
     # type of search engine ("lunr", "algolia")
     type = "lunr" #"algolia" 
