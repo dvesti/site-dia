@@ -489,7 +489,7 @@ theme = "CodeIT"
       [params.page.comment.utterances]
         enable = true #false
         # owner/repo
-        repo = ""
+        repo = "dvesti/diagonaal"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
