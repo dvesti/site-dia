@@ -6,10 +6,9 @@ date: "2020-07-04 21:30:13+0300"
 lastmod: ""
 tags: ["USA"]
 categories: ["COVID-19"]
-featured: false
 resources:
   - name: "featured-image"
-    src: "featured.jpg"
+    src: "featured.jpg"  
 image:
   placement: 3
   caption: 'Image credit:: [**www.rbc.ru**](https://www.rbc.ru/)'
