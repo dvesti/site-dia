@@ -1,16 +1,12 @@
 ---
-title: Стили от 23-08-2020
+title: "Стили от 23-08-2020"
 slug: "style-23-08-2020"
-date: "2020-08-23T17:04:31+03:00"
 draft: false
-description: 
+date: "2020-08-23T17:04:31+03:00"
+lastmod: ""
 tags: ["font", "style", "quote"]
 categories: ["Blog"]
-image: 
-  placement: 2
-  caption: 'Image credit: [**Ilya Pavlov
-**](https://unsplash.com/photos/OqtafYT5kTw)'
-  preview_only: true
+featured: false
 resources:
   - name: "features-image"
     src: "featured.jpg"  

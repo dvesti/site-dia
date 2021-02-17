@@ -8,7 +8,6 @@ tags: ["cat", "image"]
 categories: ["Poetry"]
 description: Взляд из коробки
 image: 
-featured: false
 resources:
   - name: "featured-image"
     src: "featured.jpg" 

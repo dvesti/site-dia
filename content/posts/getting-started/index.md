@@ -2,17 +2,16 @@
 title: 'Academic: the website builder for Hugo'
 subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
 summary: Create a beautifully simple website in under 10 minutes.
-tags: ["Academic"]
-categories: ["Demo"]
 date: "2016-04-20T00:00:00+3:00"
 lastmod: "2019-04-17T00:00:00+3:00"
+tags: ["Academic"]
+categories: ["Demo"]
 draft: false
-
+featured: false
 image:
   placement: 2
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
   focal_point: ""
-
 resources:
   - name: "features-image"
     src: "featured.jpg"  
