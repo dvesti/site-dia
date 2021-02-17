@@ -1,16 +1,20 @@
 ---
 title: Стили от 23-08-2020
+slug: "style-23-08-2020"
 date: "2020-08-23T17:04:31+03:00"
 draft: false
 featured: true
 description: 
 tags: ["font", "style", "quote"]
-categories: ["blog"]
+categories: ["Blog"]
 image: 
   placement: 2
   caption: 'Image credit: [**Ilya Pavlov
 **](https://unsplash.com/photos/OqtafYT5kTw)'
   preview_only: true
+  resources:
+  - name: "features-image"
+    src: "featured.jpg"
 ---
 
 Меняю стили каждый день, как я и писал ранее, в ущерб написанию заметок.  

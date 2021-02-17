@@ -1,16 +1,15 @@
 ---
-type: "post"
-subtitle: ""
-summary: ""
-authors: []
 title: "К нам приехала пожарка"
 slug: "priehala-pojarka"
 draft: false
 date: "2020-07-03 12:42:13"  
 lastmod: ""
-tags: ["Tallinn", "Fire", "House"]
+tags: ["Tallinn", "fire", "house"]
 categories: ["Life"]
 featured: false
+resources:
+  - name: "featured-image"
+    src: "featured.jpg"
 image:
   placement: 3
   caption: 'Image credit:: [**Rus.Delfi.ee**](https://rus.delfi.ee/)'

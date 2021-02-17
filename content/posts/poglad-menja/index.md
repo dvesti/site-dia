@@ -5,7 +5,7 @@ date: 2020-08-22T19:01:23+03:00
 lastmod: 
 draft: false
 tags: ["cat", "image"]
-categories: ["poetry"]
+categories: ["Poetry"]
 description: Взляд из коробки
 image: 
 featured: false

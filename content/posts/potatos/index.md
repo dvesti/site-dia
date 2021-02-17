@@ -1,10 +1,9 @@
 ---
-authors: []
 title: "Не все клубни, как клубни"
 slug: "potatos"
 draft: false
 date: 2020-07-05T13:42:13+03:00  
-tags: ["Food"]
+tags: ["food"]
 categories: ["Life"]
 featured: false
 image:

@@ -5,7 +5,7 @@ authors: []
 draft: false
 date: 2020-07-10T16:25:13+03:00
 lastmod: ""
-tags: ["Football"]
+tags: ["football"]
 categories: ["Sport"]
 featured: false
 image:

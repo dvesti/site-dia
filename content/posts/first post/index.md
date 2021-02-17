@@ -3,7 +3,7 @@ title: "Приветствие!"
 slug: "privestvie"
 date: 2021-02-13T20:58:54+02:00
 draft: false
-tags: ["Test"]
+tags: ["test"]
 categories: ["Blog"]
 ---
 
