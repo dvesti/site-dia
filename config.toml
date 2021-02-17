@@ -364,7 +364,7 @@ theme = "CodeIT"
       auto = true
     #  KaTeX mathematical formulas
     [params.page.math]
-      enable = false #true
+      enable = true
       # default block delimiter is $$ ... $$ and \\[ ... \\]
       blockLeftDelimiter = ""
       blockRightDelimiter = ""

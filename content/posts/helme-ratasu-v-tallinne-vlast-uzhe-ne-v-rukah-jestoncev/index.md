@@ -6,13 +6,12 @@ date: "2020-07-04 15:30:13+0300"
 lastmod: ""
 tags: ["Tallinn", "Estonia"]
 categories: ["Politics"]
-featured: false
 image:
   placement: 3
   caption: 'Image credit:: [**Rus.Err.ee**](https://rus.err.ee/)'
   focal_point: ""
   preview_only: false #true
-  resources:
+resources:
   - name: "featured-image"
     src: "featured.jpg" 
 ---

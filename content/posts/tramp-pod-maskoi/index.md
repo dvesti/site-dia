@@ -1,8 +1,4 @@
 ---
-type: "post"
-subtitle: ""
-summary: ""
-authors: []
 title: "Трамп под маской"
 slug: "tramp-pod-maskoi"
 draft: false
@@ -10,12 +6,14 @@ date: "2020-07-12 17:30:13+0300"
 lastmod: ""
 tags: "USA"
 categories: ["COVID-19"]
-featured: false
 image:
   placement: 2
   caption: 'Image credit: [**Rus.Delfi.ee**](https://rus.delfi.ee/)'
   focal_point: ""
   preview_only: false
+resources:
+  - name: "features-image"
+    src: "featured.jpg"    
 ---
 
 Президент США **Дональд Трамп** при посещении Национального военно-медицинского центра в пригороде Вашингтона впервые после начала пандемии коронавируса надел защитную медицинскую маску, обратили внимание мировые СМИ.

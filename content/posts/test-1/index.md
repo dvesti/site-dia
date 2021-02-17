@@ -3,7 +3,6 @@ title: Тест-1
 slug: "test-1"
 date: "2020-08-14T17:04:31+03:00"
 draft: false
-featured: true
 description: Тест для отображении картинки статьи в Скайпе
 image: 
   placement: 2
@@ -11,6 +10,9 @@ image:
   preview_only: true
 tags: ["test"]
 categories: ["Blog"]
+resources:
+  - name: "features-image"
+    src: "featured.jpg"  
 ---
 
 Это ~~тест~~овое сообщение _с этой_ **картинкой**: 

@@ -8,10 +8,9 @@ tags: ["cat", "image"]
 categories: ["Poetry"]
 description: Синхронные Котики
 image: 
-featured: false
 resources:
   - name: "features-image"
-    src: "featured.jpg"
+    src: "featured.jpg"  
 ---
 
 ![Синхрон](featured.jpg)  
