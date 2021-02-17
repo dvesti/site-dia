@@ -484,10 +484,10 @@ theme = "CodeIT"
         outlined = false
       #  Commento comment config
       [params.page.comment.commento]
-        enable = true
+        enable = false #true
       #  Utterances comment config
       [params.page.comment.utterances]
-        enable = false
+        enable = true #false
         # owner/repo
         repo = ""
         issueTerm = "pathname"
