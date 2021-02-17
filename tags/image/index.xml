@@ -10,8 +10,9 @@
     <pubDate>Sat, 22 Aug 2020 19:01:23 &#43;0300</pubDate>
     <author>Автор</author>
     <guid>https://diagonaal.ru/2020/pogladj-menja/</guid>
-    <description><![CDATA[<!--![Котик в коробке](featured.jpg) --> 
-<p><strong>Почему такой ты робкий?<br>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div><p><strong>Почему такой ты робкий?<br>
 Потому что я в коробке?<br>
 Не стесняйся и – погладь:<br>
 Будешь ночью крепче спать!</strong></p>
