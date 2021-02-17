@@ -102,8 +102,7 @@ theme = "CodeIT"
     # Windows v8-10 tile color
     tileColor = "#da532c"
 
-  [languages]
-  [languages.ru]
+    [languages.ru]
     weight = 1
     # language code
     languageCode = "ru"
@@ -118,9 +117,8 @@ theme = "CodeIT"
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     
-  [languages]
   [languages.en]
-    weight = 1
+    weight = 2
     # language code
     languageCode = "en"
     # language name
