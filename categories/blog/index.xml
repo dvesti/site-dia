@@ -14,19 +14,11 @@
 Сервис от <a href="https://utteranc.es/" target="_blank" rel="noopener noreferrer"><strong>Utterances</strong></a> позволяет всем зарегистрованным на <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><strong>GitHub</strong></a> оставлять свои комментарии</p>
 ]]></description>
 </item><item>
-    <title>Приветствие!</title>
-    <link>https://diagonaal.ru/2021/privestvie/</link>
-    <pubDate>Sat, 13 Feb 2021 20:58:54 &#43;0200</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2021/privestvie/</guid>
-    <description><![CDATA[<p><strong>Привет</strong> <em>всем</em>, кто зашёл на этот сайт!</p>
-]]></description>
-</item><item>
     <title>Стили от 23-08-2020</title>
-    <link>https://diagonaal.ru/2020/%D1%81%D1%82%D0%B8%D0%BB%D0%B8-%D0%BE%D1%82-23-08-2020/</link>
+    <link>https://diagonaal.ru/2020/style-23-08-2020/</link>
     <pubDate>Sun, 23 Aug 2020 17:04:31 &#43;0300</pubDate>
     <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/%D1%81%D1%82%D0%B8%D0%BB%D0%B8-%D0%BE%D1%82-23-08-2020/</guid>
+    <guid>https://diagonaal.ru/2020/style-23-08-2020/</guid>
     <description><![CDATA[<p>Меняю стили каждый день, как я и писал ранее, в ущерб написанию заметок.<br>
 Сейчас всё-таки изменил размер шрифта даты, который был связан с другими стилями, поэтому пришлось выделить в отдельные строки.</p>
 <p>Использовал стили оригинала — <strong>Refined</strong>, а также <strong>Jane</strong></p>
@@ -41,10 +33,10 @@
 <p>Изменил внешний вид цитаты, убрал отображение тэгов и категорий на странице Архива.  По секрету: на сайте есть страница и тэгов и категорий, просто не указана в меню.  При необходимых минимальных навыках, эти странички можно отыскать самому</p>]]></description>
 </item><item>
     <title>Тест-1</title>
-    <link>https://diagonaal.ru/2020/%D1%82%D0%B5%D1%81%D1%82-1/</link>
+    <link>https://diagonaal.ru/2020/test-1/</link>
     <pubDate>Fri, 14 Aug 2020 17:04:31 &#43;0300</pubDate>
     <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/%D1%82%D0%B5%D1%81%D1%82-1/</guid>
+    <guid>https://diagonaal.ru/2020/test-1/</guid>
     <description><![CDATA[<p>Это <del>тест</del>овое сообщение <em>с этой</em> <strong>картинкой</strong>:</p>
 <p></p>
 <p>которая отображается при пересылке ссылки, например, в Скайп</p>
