@@ -1,12 +1,9 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "My Article Name – Тест"
 slug: "my-article-name"
-summary: ""
-authors: []
-tags: ["Blog"]
 categories: ["Academic"]
+tags: ["Blog"]
+
 date: 2020-05-19T16:31:46+03:00
 lastmod: 2020-05-19T16:31:46+03:00
 featured: false
@@ -30,6 +27,10 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+resources:
+- name: "featured-image"
+  src: "featured.png"
+
 ---
 
 Проверка Шахматных Диаграмм

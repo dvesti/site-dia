@@ -28,8 +28,8 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 resources:
-  - name: "featured-image"
-    src: "featured.jpg" 
+  - name: "features-image"
+    src: "featured.jpg"       
 ---
 
 **Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 _widgets_, _themes_, and _language packs_ included!**
