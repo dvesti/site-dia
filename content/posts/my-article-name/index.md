@@ -3,34 +3,13 @@ title: "My Article Name – Тест"
 slug: "my-article-name"
 categories: ["Academic"]
 tags: ["Blog"]
-
 date: 2020-05-19T16:31:46+03:00
 lastmod: 2020-05-19T16:31:46+03:00
-featured: false
 draft: false
 math: true
 diagram: true
-
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  placement: 1
-  caption: "caption: Image by [Rachel Martin](https://unsplash.com/photos/PnAc2UaeqII)"
-  focal_point: ""
-  preview_only: true #false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
-resources:
-- name: "featured-image"
-  src: "featured.png"
-
+featuredImage: ""
+featuredImagePreview: "featured.jpg"
 ---
 
 Проверка Шахматных Диаграмм

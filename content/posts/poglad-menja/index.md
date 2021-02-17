@@ -7,13 +7,9 @@ draft: false
 tags: ["cat", "image"]
 categories: ["Poetry"]
 description: Взляд из коробки
-image: 
-resources:
-  - name: "featured-image"
-    src: "featured.jpg" 
+featuredImage: "featured.jpg"
+featuredImagePreview: ""  
 ---
-
-<!--![Котик в коробке](featured.jpg) --> 
 
 **Почему такой ты робкий?  
 Потому что я в коробке?  

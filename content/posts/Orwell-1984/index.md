@@ -6,10 +6,8 @@ date: 2020-07-05T21:30:13+03:00
 lastmod: ""
 tags: ["books"]
 categories: ["Writer"]
-featured: false
-resources:
-  - name: "featured-image"
-    src: "featured.jpg"
+featuredImage: ""
+featuredImagePreview: ""
 ---
 
 За день упоминание о романе Джорджа Оруэлла **«1984»** встретил 3 раза. Редкое совпадение. Правда, иногда подразумевали и **«Скотный Двор»**
