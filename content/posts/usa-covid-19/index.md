@@ -6,12 +6,8 @@ date: "2020-07-04 21:30:13+0300"
 lastmod: ""
 tags: ["USA"]
 categories: ["COVID-19"]
-resources:
-  - name: "featured-image"
-    src: "featured.jpg"  
-image:
-  placement: 3
-  caption: 'Image credit:: [**www.rbc.ru**](https://www.rbc.ru/)'
+featuredImage: "featured.jpg"
+featuredImagePreview: "" 
 ---
 
 За последние девять дней в США седьмой раз обновился анти-рекорд по суточному приросту заразившихся *COVID-19* — он достиг **57,5 тыс.** Главный инфекционист страны предупредил, что прирост может подскочить и до 100 тыс. человек.

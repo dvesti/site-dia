@@ -7,14 +7,8 @@ lastmod: "2019-04-17T00:00:00+3:00"
 tags: ["Academic"]
 categories: ["Demo"]
 draft: false
-featured: false
-image:
-  placement: 2
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
-  focal_point: ""
-resources:
-  - name: "features-image"
-    src: "featured.jpg"  
+featuredImage: "featured.jpg"
+featuredImagePreview: ""   
 ---
 
 **Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 _widgets_, _themes_, and _language packs_ included!**
