@@ -1,5 +1,6 @@
 ---
 title: "Добавлено комментирование"
+slug: "add-comments"
 date: 2021-02-17T17:58:22+02:00
 draft: false
 resources:
