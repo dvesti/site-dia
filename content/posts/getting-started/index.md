@@ -2,7 +2,7 @@
 title: 'Academic: the website builder for Hugo'
 subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
 summary: Create a beautifully simple website in under 10 minutes.
-date: "2016-04-20T00:00:00+3:00"
+date: 2016-04-20T00:00:00+3:00
 lastmod: "2019-04-17T00:00:00+3:00"
 tags: ["Academic"]
 categories: ["Demo"]
