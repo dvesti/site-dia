@@ -4,13 +4,22 @@
         <link>https://diagonaal.ru/tags/installation/</link>
         <description>installation - Тэг - Diagonaal</description>
         <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
-            <webMaster>one2one@hot.ee (Antuan)</webMaster><lastBuildDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/tags/installation/" rel="self" type="application/rss+xml" /><item>
-    <title>Theme Documentation - Basics</title>
-    <link>https://diagonaal.ru/2020/theme-documentation-basics/</link>
-    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/tags/installation/" rel="self" type="application/rss+xml" /><item>
+    <title>Thème Documentation - Concepts de Base</title>
+    <link>https://diagonaal.ru/2020/th%C3%A8me-documentation-concepts-de-base/</link>
+    <pubDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</pubDate>
     <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/theme-documentation-basics/</guid>
-    <description><![CDATA[<p>Discover what the Hugo - <strong>CodeIT</strong> theme is all about and the core-concepts behind it.</p>
+    <guid>https://diagonaal.ru/2020/th%C3%A8me-documentation-concepts-de-base/</guid>
+    <description><![CDATA[<p>Découvrez en quoi consiste le thème Hugo - <strong>CodeIT</strong> et les concepts fondamentaux qui le sous-tendent.</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
+Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
+        </div>
+    </div>
 <h2 id="1-requirements">1 Requirements</h2>
 <p>Thanks to the simplicity of Hugo, <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> is the only dependency of this theme.</p>
 <p>Just install latest version of <a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreferrer"><i class="far fa-file-archive fa-fw"></i>&nbsp;Hugo (&gt; 0.78.1)</a> for your OS (<strong>Windows</strong>, <strong>Linux</strong>, <strong>macOS</strong>).</p>
@@ -203,7 +212,7 @@ git submodule add https://github.com/sunt-programator/CodeIT.git themes/CodeIT
 </code></pre></td></tr></table>
 </div>
 </div><p>Go to <code>http://localhost:1313</code>.</p>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-basics/basic-configuration-preview.png" title="Basic configuration preview" data-thumbnail="/2020/theme-documentation-basics/basic-configuration-preview.png" data-sub-html="<h2>Basic configuration preview</h2><p>Basic configuration preview</p>">
+<p><figure><a class="lightgallery" href="/2020/th%C3%A8me-documentation-concepts-de-base/basic-configuration-preview.png" title="Basic configuration preview" data-thumbnail="/2020/th%C3%A8me-documentation-concepts-de-base/basic-configuration-preview.png" data-sub-html="<h2>Basic configuration preview</h2><p>Basic configuration preview</p>">
         
     </a><figcaption class="image-caption">Basic configuration preview</figcaption>
     </figure></p>
@@ -1414,7 +1423,7 @@ which is you can refer to.</p>
 </div>
         </div>
     </div>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-basics/complete-configuration-preview.png" title="Complete configuration preview" data-thumbnail="/2020/theme-documentation-basics/complete-configuration-preview.png" data-sub-html="<h2>Complete configuration preview</h2><p>Complete configuration preview</p>">
+<p><figure><a class="lightgallery" href="/2020/th%C3%A8me-documentation-concepts-de-base/complete-configuration-preview.png" title="Complete configuration preview" data-thumbnail="/2020/th%C3%A8me-documentation-concepts-de-base/complete-configuration-preview.png" data-sub-html="<h2>Complete configuration preview</h2><p>Complete configuration preview</p>">
         
     </a><figcaption class="image-caption">Complete configuration preview</figcaption>
     </figure></p>
@@ -1458,7 +1467,7 @@ which is you can refer to.</p>
 </div><p>In <code>assets/css/_custom.scss</code>, you can add some css style code to customize the style.</p>
 <h2 id="4-multilingual-and-i18n">4 Multilingual and i18n</h2>
 <p><strong>CodeIT</strong> theme is fully compatible with Hugo multilingual mode, which provides in-browser language switching.</p>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-basics/language-switch.gif" title="Language Switch" data-thumbnail="/2020/theme-documentation-basics/language-switch.gif" data-sub-html="<h2>Language Switch</h2><p>Language Switch</p>">
+<p><figure><a class="lightgallery" href="/2020/th%C3%A8me-documentation-concepts-de-base/language-switch.gif" title="Language Switch" data-thumbnail="/2020/th%C3%A8me-documentation-concepts-de-base/language-switch.gif" data-sub-html="<h2>Language Switch</h2><p>Language Switch</p>">
         
     </a><figcaption class="image-caption">Language Switch</figcaption>
     </figure></p>

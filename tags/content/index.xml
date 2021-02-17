@@ -4,13 +4,22 @@
         <link>https://diagonaal.ru/tags/content/</link>
         <description>content - Тэг - Diagonaal</description>
         <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
-            <webMaster>one2one@hot.ee (Antuan)</webMaster><lastBuildDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/tags/content/" rel="self" type="application/rss+xml" /><item>
-    <title>Theme Documentation - Content</title>
-    <link>https://diagonaal.ru/2020/theme-documentation-content/</link>
-    <pubDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</pubDate>
+            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/tags/content/" rel="self" type="application/rss+xml" /><item>
+    <title>Thème Documentation - Contenu</title>
+    <link>https://diagonaal.ru/2020/th%C3%A8me-documentation-contenu/</link>
+    <pubDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</pubDate>
     <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/theme-documentation-content/</guid>
-    <description><![CDATA[<p>Find out how to create and organize your content quickly and intuitively in <strong>CodeIT</strong> theme.</p>
+    <guid>https://diagonaal.ru/2020/th%C3%A8me-documentation-contenu/</guid>
+    <description><![CDATA[<p>Découvrez comment créer et organiser votre contenu rapidement et intuitivement dans le thème <strong>CodeIT</strong>.</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
+Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
+        </div>
+    </div>
 <h2 id="contents-organization">1 Contents Organization</h2>
 <p>A few suggestions to help you get a good looking site quickly:</p>
 <ul>
@@ -305,7 +314,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
     </div>
 <h2 id="3-content-summaries">3 Content Summaries</h2>
 <p><strong>CodeIT</strong> theme uses the summary of the content to display abstract information in the home page. Hugo can generate summaries of your content.</p>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-content/summary.png" title="Summary Preview" data-thumbnail="/2020/theme-documentation-content/summary.png" data-sub-html="<h2>Summary Preview</h2><p>Summary Preview</p>">
+<p><figure><a class="lightgallery" href="/2020/th%C3%A8me-documentation-contenu/summary.png" title="Summary Preview" data-thumbnail="/2020/th%C3%A8me-documentation-contenu/summary.png" data-sub-html="<h2>Summary Preview</h2><p>Summary Preview</p>">
         
     </a><figcaption class="image-caption">Summary Preview</figcaption>
     </figure></p>

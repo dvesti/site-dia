@@ -25,7 +25,7 @@
         "url": "https:\/\/diagonaal.ru\/","inLanguage": "ru","author": {
                 "@type": "Person",
                 "name": "Antuan"
-            },"description": "Diagonaal","name": "Diagonaal"
+            },"description": "Diagonaal","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","name": "Diagonaal"
     }
     </script></head>
     <body header-desktop="normal" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -36,7 +36,9 @@
             <a href="/" title="Diagonaal"><span class="header-title-pre"><i class='fas fa-laptop-code fa-fw'></i></span>Diagonaal</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Архив </a><a class="menu-item" href="/categories/"> Категории </a><a class="menu-item" href="/tags/"> Тэги </a><a class="menu-item" href="/about/"> O нас </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Архив </a><a class="menu-item" href="/categories/"> Категории </a><a class="menu-item" href="/tags/"> Тэги </a><a class="menu-item" href="/about/"> O нас </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="Выбор Языка">Русский<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/" selected>Русский</option><option value="/en/">English</option></select>
+                    </a><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Поиск заголовков или содержимого ..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Поиск">
                             <i class="fas fa-search fa-fw"></i>
@@ -81,7 +83,9 @@
                     </a>
                 </div><a class="menu-item" href="/posts/" title="">Архив</a><a class="menu-item" href="/categories/" title="">Категории</a><a class="menu-item" href="/tags/" title="">Тэги</a><a class="menu-item" href="/about/" title="">O нас</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Сменить Тему">
                 <i class="fas fa-adjust fa-fw"></i>
-            </a></div>
+            </a><a href="javascript:void(0);" class="menu-item" title="Выбор Языка">Русский<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/" selected>Русский</option><option value="/en/">English</option></select>
+                </a></div>
     </div>
 </header>
 <div class="search-dropdown desktop">
@@ -99,77 +103,7 @@
         data-sizes="auto"
         alt="/images/avatar.png"
         title="/images/avatar.png" /></a></div><h2 class="home-subtitle">Antuan – настоящий...</h2><div class="links"><a href="https://github.com/dvesti" title="GitHub" target="_blank" rel="noopener noreferrer me"><i class="fab fa-github-alt fa-fw"></i></a><a href="https://twitter.com/Prorab" title="Twitter" target="_blank" rel="noopener noreferrer me"><i class="fab fa-twitter fa-fw"></i></a><a href="https://facebook.com/vladimir.dmitrijev.9" title="Facebook" target="_blank" rel="noopener noreferrer me"><i class="fab fa-facebook-square fa-fw"></i></a><a href="https://balalaika-blog.tumblr.com/" title="Tumblr" target="_blank" rel="noopener noreferrer me"><i class="fab fa-tumblr-square fa-fw"></i></a><a href="https://vk.com/dmitrijev" title="VK" target="_blank" rel="noopener noreferrer me"><i class="fab fa-vk fa-fw"></i></a><a href="https://www.flickr.com/photos/dvesti" title="Flickr" target="_blank" rel="noopener noreferrer me"><i class="fab fa-flickr fa-fw"></i></a><a href="https://estonija.blogspot.com/" title="Blogger" target="_blank" rel="noopener noreferrer me"><i class="fab fa-blogger-b"></i></a><a href="https://dvesti.wordpress.com/" title="WordPress" target="_blank" rel="noopener noreferrer me"><i class="fab fa-wordpress fa-fw"></i></a><a href="mailto:one2one@hot.ee" title="Email" rel=" me"><i class="far fa-envelope fa-fw"></i></a><a href="/index.xml" title="RSS" target="_blank" rel="noopener noreferrer me"><i class="fas fa-rss fa-fw"></i></a></div></div>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-            <a href="/2020/theme-documentation-basics/"><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/2020/theme-documentation-basics/featured-image.jpg"
-        data-srcset="/2020/theme-documentation-basics/featured-image.jpg, /2020/theme-documentation-basics/featured-image.jpg 1.5x, /2020/theme-documentation-basics/featured-image.jpg 2x"
-        data-sizes="auto"
-        alt="/2020/theme-documentation-basics/featured-image.jpg"
-        title="Discover what the Hugo - CodeIT theme is all about and the core-concepts behind it." /></a>
-        </div><h1 class="single-title" itemprop="name headline">
-        <a href="/2020/theme-documentation-basics/">Theme Documentation - Basics</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://suntprogramator.dev/" title="Author" target="_blank" rel="noopener noreferrer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Sunt Programator!</a></span>&nbsp;<span class="post-publish">Дата: <time datetime="06-03-2020">06-03-2020</time></span>&nbsp;<span class="post-category">Категория: <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>documentation</a></span></div><div class="content"><p>Discover what the Hugo - <strong>CodeIT</strong> theme is all about and the core-concepts behind it.</p></div><div class="post-footer">
-        <a href="/2020/theme-documentation-basics/">Читать дальше</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/installation/">installation</a>,&nbsp;<a href="/tags/configuration/">configuration</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-            <a href="/2020/theme-documentation-content/"><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/2020/theme-documentation-content/featured-image.jpg"
-        data-srcset="/2020/theme-documentation-content/featured-image.jpg, /2020/theme-documentation-content/featured-image.jpg 1.5x, /2020/theme-documentation-content/featured-image.jpg 2x"
-        data-sizes="auto"
-        alt="/2020/theme-documentation-content/featured-image.jpg"
-        title="Find out how to create and organize your content quickly and intuitively in CodeIT theme." /></a>
-        </div><h1 class="single-title" itemprop="name headline">
-        <a href="/2020/theme-documentation-content/">Theme Documentation - Content</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://suntprogramator.dev/" title="Author" target="_blank" rel="noopener noreferrer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Sunt Programator!</a></span>&nbsp;<span class="post-publish">Дата: <time datetime="05-03-2020">05-03-2020</time></span>&nbsp;<span class="post-category">Категория: <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>documentation</a></span></div><div class="content"><p>Find out how to create and organize your content quickly and intuitively in <strong>CodeIT</strong> theme.</p></div><div class="post-footer">
-        <a href="/2020/theme-documentation-content/">Читать дальше</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/content/">content</a>,&nbsp;<a href="/tags/markdown/">Markdown</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-            <a href="/2020/theme-documentation-built-in-shortcodes/"><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/2020/theme-documentation-built-in-shortcodes/featured-image.png"
-        data-srcset="/2020/theme-documentation-built-in-shortcodes/featured-image.png, /2020/theme-documentation-built-in-shortcodes/featured-image.png 1.5x, /2020/theme-documentation-built-in-shortcodes/featured-image.png 2x"
-        data-sizes="auto"
-        alt="/2020/theme-documentation-built-in-shortcodes/featured-image.png"
-        title="Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean." /></a>
-        </div><h1 class="single-title" itemprop="name headline">
-        <a href="/2020/theme-documentation-built-in-shortcodes/">Theme Documentation - Built-in Shortcodes</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://suntprogramator.dev/" title="Author" target="_blank" rel="noopener noreferrer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Sunt Programator!</a></span>&nbsp;<span class="post-publish">Дата: <time datetime="04-03-2020">04-03-2020</time></span>&nbsp;<span class="post-category">Категория: <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>documentation</a></span></div><div class="content"><p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p></div><div class="post-footer">
-        <a href="/2020/theme-documentation-built-in-shortcodes/">Читать дальше</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/shortcodes/">shortcodes</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-            <a href="/2020/theme-documentation-extended-shortcodes/"><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/2020/theme-documentation-extended-shortcodes/featured-image-preview.jpg"
-        data-srcset="/2020/theme-documentation-extended-shortcodes/featured-image-preview.jpg, /2020/theme-documentation-extended-shortcodes/featured-image-preview.jpg 1.5x, /2020/theme-documentation-extended-shortcodes/featured-image-preview.jpg 2x"
-        data-sizes="auto"
-        alt="/2020/theme-documentation-extended-shortcodes/featured-image-preview.jpg"
-        title="CodeIT theme provides multiple shortcodes on top of built-in ones in Hugo." /></a>
-        </div><h1 class="single-title" itemprop="name headline">
-        <a href="/2020/theme-documentation-extended-shortcodes/">Theme Documentation - Extended Shortcodes</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://suntprogramator.dev/" title="Author" target="_blank" rel="noopener noreferrer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Sunt Programator!</a></span>&nbsp;<span class="post-publish">Дата: <time datetime="03-03-2020">03-03-2020</time></span>&nbsp;<span class="post-category">Категория: <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>documentation</a></span></div><div class="content"><p><strong>CodeIT</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p></div><div class="post-footer">
-        <a href="/2020/theme-documentation-extended-shortcodes/">Читать дальше</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/shortcodes/">shortcodes</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
-            <a href="/2020/basic-markdown-syntax/"><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/2020/basic-markdown-syntax/featured-image.png"
-        data-srcset="/2020/basic-markdown-syntax/featured-image.png, /2020/basic-markdown-syntax/featured-image.png 1.5x, /2020/basic-markdown-syntax/featured-image.png 2x"
-        data-sizes="auto"
-        alt="/2020/basic-markdown-syntax/featured-image.png"
-        title="This article shows the basic Markdown syntax and format." /></a>
-        </div><h1 class="single-title" itemprop="name headline">
-        <a href="/2020/basic-markdown-syntax/">Basic Markdown Syntax</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://suntprogramator.dev/" title="Author" target="_blank" rel="noopener noreferrer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Sunt Programator!</a></span>&nbsp;<span class="post-publish">Дата: <time datetime="01-01-2020">01-01-2020</time></span>&nbsp;<span class="post-category">Категория: <a href="/categories/markdown/"><i class="far fa-folder fa-fw"></i>Markdown</a></span></div><div class="content"><p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p></div><div class="post-footer">
-        <a href="/2020/basic-markdown-syntax/">Читать дальше</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/markdown/">Markdown</a>,&nbsp;<a href="/tags/html/">HTML</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/2021/first-post/">First post</a>
     </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Antuan</a></span>&nbsp;<span class="post-publish">Дата: <time datetime="13-02-2021">13-02-2021</time></span>&nbsp;<span class="post-category">Категория: <a href="/categories/blog/"><i class="far fa-folder fa-fw"></i>Blog</a></span></div><div class="content">Привет всем!
 Тест
