@@ -7,9 +7,8 @@ lastmod: ""
 tags: ["font", "style", "quote"]
 categories: ["Blog"]
 featured: false
-resources:
-  - name: "features-image"
-    src: "featured.jpg"  
+featuredImage: "featured.jpg"
+featuredImagePreview: "featured.jpg" 
 ---
 
 Меняю стили каждый день, как я и писал ранее, в ущерб написанию заметок.  

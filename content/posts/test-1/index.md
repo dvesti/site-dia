@@ -10,13 +10,12 @@ image:
   preview_only: true
 tags: ["test"]
 categories: ["Blog"]
-resources:
-  - name: "features-image"
-    src: "featured.jpg"  
+featuredImage: "featured.jpg"
+featuredImagePreview: "featured.jpg"  
 ---
 
 Это ~~тест~~овое сообщение _с этой_ **картинкой**: 
 
-![](featured.jpg)
+<!--![](featured.jpg) -->
 
 которая отображается при пересылке ссылки, например, в Скайп  
