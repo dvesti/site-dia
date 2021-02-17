@@ -4,7 +4,7 @@ slug: "tramp-pod-maskoi"
 draft: false
 date: "2020-07-12 17:30:13+0300"  
 lastmod: ""
-tags: "USA"
+tags: ["USA"]
 categories: ["COVID-19"]
 image:
   placement: 2
