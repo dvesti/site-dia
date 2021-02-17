@@ -6,7 +6,6 @@ date: "2020-07-07 13:00:13+0300"
 lastmod: ""
 tags: ["music", 'date']
 categories: ["Life"]
-featured: false
 image:
   placement: 2
   caption: ""

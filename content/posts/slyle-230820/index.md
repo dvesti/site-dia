@@ -11,9 +11,9 @@ image:
   caption: 'Image credit: [**Ilya Pavlov
 **](https://unsplash.com/photos/OqtafYT5kTw)'
   preview_only: true
-  resources:
+resources:
   - name: "features-image"
-    src: "featured.jpg"
+    src: "featured.jpg"  
 ---
 
 Меняю стили каждый день, как я и писал ранее, в ущерб написанию заметок.  
