@@ -1,5 +1,6 @@
 ---
 title: Тест-1
+slug: "Test-1"
 date: "2020-08-14T17:04:31+03:00"
 draft: false
 featured: true
