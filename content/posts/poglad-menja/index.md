@@ -7,6 +7,7 @@ draft: false
 tags: ["cat", "image"]
 categories: ["Poetry"]
 description: Взляд из коробки
+images: []
 featuredImage: "featured.jpg"
 featuredImagePreview: ""  
 ---
