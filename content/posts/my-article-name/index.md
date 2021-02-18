@@ -1,13 +1,14 @@
 ---
 title: "My Article Name – Тест"
 slug: "my-article-name"
-categories: ["Academic"]
+categories: ["test"]
 tags: ["Blog"]
 date: 2020-05-19T16:31:46+03:00
 lastmod: 2020-05-19T16:31:46+03:00
 draft: false
 math: true
 diagram: true
+description: "Шахматная диаграмма"
 featuredImage: ""
 featuredImagePreview: "featured.jpg"
 ---

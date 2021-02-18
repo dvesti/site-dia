@@ -7,6 +7,7 @@ lastmod: ""
 tags: ["Academic"]
 categories: ["Demo"]
 draft: false
+description: ""
 featuredImage: #"featured.jpg"
 featuredImagePreview: ""   
 ---
