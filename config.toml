@@ -491,7 +491,7 @@ theme = "CodeIT"
         # owner/repo
         repo = "dvesti/diagonaal"
         issueTerm = "pathname"
-        label = ""
+        label = "💬 comments"
         lightTheme = "github-light"
         darkTheme = "github-dark"
     #  Third-party library config
