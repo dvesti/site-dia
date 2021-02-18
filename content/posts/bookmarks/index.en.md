@@ -176,7 +176,6 @@ See [😎 awesome Markdown](https://github.com/mundimark/awesome-markdown) for a
 
 - [SciWheel](https://sciwheel.com/work/), [docs](https://sciwheel.com/work/#/faq/all-topics), browser extension with Google Doc and MS Word plugin
 - [Mendeley](https://www.mendeley.com/), [quick start guide](https://static.mendeley.com/weblet-awareness/documents/Mendeley-Quick-Start.pdf)(pdf)
-<!-- - [Zotero](https://www.zotero.org/), an open-source reference manager. Also see [my post]({{< ref "posts/zotero.md" >}}) about Zotero. -->
 
 ## Publications
 
