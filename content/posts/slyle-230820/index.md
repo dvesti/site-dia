@@ -7,7 +7,8 @@ lastmod: ""
 tags: ["font", "style", "quote"]
 categories: ["Blog"]
 featured: false
-images: [https://unsplash.com/photos/OqtafYT5kTw]
+description: "**Ilya Pavlov**"
+images: [(https://unsplash.com/photos/OqtafYT5kTw)]
 featuredImage: "featured.jpg"
 featuredImagePreview: "featured.jpg" 
 ---
