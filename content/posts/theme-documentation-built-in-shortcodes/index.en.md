@@ -15,6 +15,10 @@ tags: ["shortcodes"]
 categories: ["documentation"]
 
 lightgallery: true
+
+toc:
+  enable: true
+  auto: true #false  
 ---
 
 **Hugo** provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.

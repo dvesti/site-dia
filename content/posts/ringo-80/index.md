@@ -6,9 +6,10 @@ date: 2020-07-07T13:00:13+03:00
 lastmod: ""
 tags: ["music", "date"]
 categories: ["Life"]
-resources:
-  - name: "featured-image"
-    src: "featured.jpg"
+description: "Ringo Starr"
+featuredImage: ""
+featuredImagePreview: ""
 ---
 
+![Ринго Старр](featured.jpg)  
 Барабанщику группы «Битлз» Ринго Старру – 80!

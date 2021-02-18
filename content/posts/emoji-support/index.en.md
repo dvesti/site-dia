@@ -6,9 +6,11 @@ draft: false
 author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
 description: "Guide to emoji usage in Hugo and CodeIT."
-resources:
-  - name: "featured-image"
-    src: "featured-image.jpg"  
+featuredImage: "featured-image.jpg"
+featuredImagePreview: ""
+#resources:
+#  - name: "featured-image"
+#    src: "featured-image.jpg"  
 
 tags: ["emoji"]
 categories: ["Markdown"]
