@@ -38,10 +38,10 @@ featuredImagePreview: "featured.jpg"
 
 <center>Centered text</center>
 
-## An example **flowchart**:
+## An example **flowchart** линия LR:
 
     ```mermaid
-    graph TD
+    graph LR
     A[Толик] -->|Плюс| B(Вовик)
     B --> C{Родные Братья}
     C -->|Один| D[Стрёмберг]
@@ -51,7 +51,7 @@ featuredImagePreview: "featured.jpg"
 renders as
 
 {{< mermaid >}}
-graph TD
+graph LR
 A[Толик] -->|Плюс| B(Вовик)
 B --> C{Родные Братья}
 C -->|Один| D[Стрёмберг]
@@ -62,14 +62,16 @@ C -->|Другой| E[Дмитриев]
 
 Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter.
 
-## An example **flowchart**:
+## An example **flowchart** -- в столбец TD:
 
     ```mermaid
+    {{</* mermaid */>}}
     graph TD
     A[Hard] -->|Text| B(Round)
     B --> C{Decision}
     C -->|One| D[Result 1]
     C -->|Two| E[Result 2]
+    {{</* /mermaid */>}}
     ```
 
 renders as
@@ -82,7 +84,7 @@ C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
 {{< /mermaid >}}
 
-## An example **sequence diagram**:
+## An example **sequence diagram** -- написание кода устарело:
 
     ```mermaid
     sequenceDiagram
@@ -112,9 +114,11 @@ Bob-->>John: Jolly good!
 
 
     ```mermaid
+    {{</* mermaid */>}}
     pie title NETFLIX
     "Time spent looking for movie" : 90
     "Time spent watching it" : 10
+    {{</* /mermaid */>}}
     ```
 
 {{< mermaid >}}
