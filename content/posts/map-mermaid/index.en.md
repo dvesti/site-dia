@@ -5,16 +5,16 @@ description: "desc txt url"
 draft: false
 categories: ["Markdown"]
 tags: ["code", "Hugo"]
-toc:
-  enable: true
-  auto: false
+
 code:
   copy: true
 math:
   enable: true
 mapbox:
   accessToken: ""
-share:
+share:toc:
+  enable: true
+  auto: false
   enable: true
 comment:
   enable: true

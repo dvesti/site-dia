@@ -11,6 +11,18 @@ diagram: true
 description: "Шахматная диаграмма"
 featuredImage: ""
 featuredImagePreview: "featured.jpg"
+code:
+  copy: true
+math:
+  enable: true
+mapbox:
+  accessToken: ""
+share:toc:
+  enable: true
+  auto: false
+  enable: true
+comment:
+  enable: true
 ---
 
 Проверка Шахматных Диаграмм
@@ -28,7 +40,7 @@ featuredImagePreview: "featured.jpg"
 
 <center>Centered text</center>
 
-An example **flowchart**:
+## An example **flowchart**:
 
     ```mermaid
     graph TD
@@ -40,19 +52,19 @@ An example **flowchart**:
 
 renders as
 
-```mermaid
+{{< mermaid >}}
 graph TD
 A[Толик] -->|Плюс| B(Вовик)
 B --> C{Родные Братья}
 C -->|Один| D[Стрёмберг]
 C -->|Другой| E[Дмитриев]
-```
+{{< /mermaid >}}
 
 ### Diagrams
 
 Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter.
 
-An example **flowchart**:
+## An example **flowchart**:
 
     ```mermaid
     graph TD
@@ -64,15 +76,15 @@ An example **flowchart**:
 
 renders as
 
-```mermaid
+{{< mermaid >}}
 graph TD
 A[Hard] -->|Text| B(Round)
 B --> C{Decision}
 C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
-```
+{{< /mermaid >}}
 
-An example **sequence diagram**:
+## An example **sequence diagram**:
 
     ```mermaid
     sequenceDiagram
@@ -88,7 +100,7 @@ An example **sequence diagram**:
 
 renders as
 
-```mermaid
+{{< mermaid >}}
 sequenceDiagram
 Alice->>John: Hello John, how are you?
 loop Healthcheck
@@ -98,7 +110,8 @@ Note right of John: Rational thoughts!
 John-->>Alice: Great!
 John->>Bob: How about you?
 Bob-->>John: Jolly good!
-```
+{{< /mermaid >}}  
+
 
     ```mermaid
     pie title NETFLIX
@@ -106,8 +119,8 @@ Bob-->>John: Jolly good!
     "Time spent watching it" : 10
     ```
 
-```mermaid
+{{< mermaid >}}
 pie title NETFLIX
 "Time spent looking for movie" : 90
 "Time spent watching it" : 10
-```
+{{< /mermaid >}}
