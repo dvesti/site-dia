@@ -6,7 +6,7 @@ tags: ["Blog"]
 date: 2020-05-19T16:31:46+03:00
 lastmod: 2020-05-19T16:31:46+03:00
 draft: false
-math: true
+#math: true
 diagram: true
 math:
   enable: true
@@ -51,7 +51,7 @@ featuredImagePreview: "featured.jpg"
 renders as
 
 {{< mermaid >}}
-graph LR
+graph TD
 A[Толик] -->|Плюс| B(Вовик)
 B --> C{Родные Братья}
 C -->|Один| D[Стрёмберг]
@@ -121,4 +121,24 @@ Bob-->>John: Jolly good!
 pie title NETFLIX
 "Time spent looking for movie" : 90
 "Time spent watching it" : 10
+{{< /mermaid >}}  
+
+## base
+
+```
+{{</* mermaid */>}}
+graph LR;
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+{{</* /mermaid */>}}
+```
+
+{{< mermaid >}}
+graph LR;
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
 {{< /mermaid >}}
