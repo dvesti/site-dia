@@ -11,18 +11,6 @@ diagram: true
 description: "Шахматная диаграмма"
 featuredImage: ""
 featuredImagePreview: "featured.jpg"
-code:
-  copy: true
-math:
-  enable: true
-mapbox:
-  accessToken: ""
-share:toc:
-  enable: true
-  auto: false
-  enable: true
-comment:
-  enable: true
 ---
 
 Проверка Шахматных Диаграмм
