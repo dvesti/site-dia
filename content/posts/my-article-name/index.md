@@ -8,6 +8,16 @@ lastmod: 2020-05-19T16:31:46+03:00
 draft: false
 math: true
 diagram: true
+math:
+  enable: true
+mapbox:
+  accessToken: ""
+share:toc:
+  enable: true
+  auto: false
+  enable: true
+comment:
+  enable: true
 description: "Шахматная диаграмма"
 featuredImage: ""
 featuredImagePreview: "featured.jpg"
@@ -41,7 +51,7 @@ featuredImagePreview: "featured.jpg"
 renders as
 
 {{< mermaid >}}
-graph TD
+graph LR
 A[Толик] -->|Плюс| B(Вовик)
 B --> C{Родные Братья}
 C -->|Один| D[Стрёмберг]
