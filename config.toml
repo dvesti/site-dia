@@ -2,11 +2,11 @@ baseURL = "https://diagonaal.ru/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "ru"
 # language code
-languageCode = "en"
+# languageCode = "en"
 title = "Diagonaal"
 
 # whether to use robots.txt
-enableRobotsTXT = true
+enableRobotsTXT = false #true
 # whether to use git commit log
 enableGitInfo = true
 # whether to use emoji code
@@ -75,6 +75,15 @@ theme = "CodeIT"
 	#  url = "https://rudimentarylathe.wiki"
 	#  title = ""
 	#  weight = 6
+   #
+   #      [[languages.ro.menu.main]]
+   #     identifier = "github"
+   #     pre = "<i class='fab fa-github fa-fw'></i>"
+   #     post = ""
+   #     name = ""
+   #     url = "https://github.com/sunt-programator/sunt-programator-site"
+   #     title = "GitHub"
+   #     weight = 4
 
 [params]
   #  LoveIt theme version
@@ -121,7 +130,7 @@ theme = "CodeIT"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 12
+    paginate = 10
     # [UA-XXXXXXXX-X] google analytics code
     googleAnalytics = ""
     # copyright description used only for seo schema
@@ -136,7 +145,7 @@ theme = "CodeIT"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 12
+    paginate = 10
     # [UA-XXXXXXXX-X] google analytics code
     googleAnalytics = ""
     # copyright description used only for seo schema
@@ -270,7 +279,7 @@ theme = "CodeIT"
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
-      paginate = 20
+      paginate = 6
       #  replaced with hiddenFromHomePage in params.page
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
