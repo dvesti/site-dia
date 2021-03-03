@@ -19,7 +19,7 @@
 <meta name="application-name" content="Diagonaal.ru">
 <meta name="apple-mobile-web-app-title" content="Diagonaal.ru"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://diagonaal.ru/2020/my-article-name/" /><link rel="next" href="https://diagonaal.ru/2020/priehala-pojarka/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://diagonaal.ru/2020/my-article-name/" /><link rel="prev" href="https://diagonaal.ru/2014/creating-a-new-theme/" /><link rel="next" href="https://diagonaal.ru/2020/priehala-pojarka/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/diagonaal.ru\/2020\/my-article-name\/"
-        },"genre": "posts","keywords": "Blog","wordcount":  242 ,
+        },"genre": "posts","keywords": "Blog","wordcount":  221 ,
         "url": "https:\/\/diagonaal.ru\/2020\/my-article-name\/","datePublished": "2020-05-19T16:31:46+03:00","dateModified": "2020-05-19T16:31:46+03:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -37,7 +37,7 @@
             },"description": "Шахматная диаграмма"
     }
     </script></head>
-    <body header-desktop="normal" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
@@ -109,7 +109,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">My Article Name – Тест</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Antuan</a></span>&nbsp;<span class="post-category">Категория: <a href="/categories/test/"><i class="far fa-folder fa-fw"></i>test</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="19-05-2020">19-05-2020</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;Слов: 242&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="19-05-2020">19-05-2020</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;Слов: 1&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;2 мин. на чтение&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -118,11 +118,14 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#an-example-flowchart-линия-lr">An example <strong>flowchart</strong> линия LR:</a>
       <ul>
         <li><a href="#diagrams">Diagrams</a></li>
       </ul>
     </li>
+    <li><a href="#an-example-flowchart----в-столбец-td">An example <strong>flowchart</strong> &ndash; в столбец TD:</a></li>
+    <li><a href="#an-example-sequence-diagram">An example <strong>sequence diagram</strong>:</a></li>
+    <li><a href="#base">base</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><p>Проверка Шахматных Диаграмм</p>
@@ -163,16 +166,7 @@
         alt="https://www.dmitriev.ee/punbb/extensions/cd52/gendiag.php?size=29&amp;coord&amp;style=alfa&amp;fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1"
         title="Диаграмма3" /></p>
 <center>Centered text</center>
-<p>An example <strong>flowchart</strong>:</p>
-<pre><code>```mermaid
-graph TD
-A[Толик] --&gt;|Плюс| B(Вовик)
-B --&gt; C{Родные Братья}
-C --&gt;|Один| D[Стрёмберг]
-C --&gt;|Другой| E[Дмитриев]
-```
-</code></pre>
-<p>renders as</p>
+<h2 id="an-example-flowchart-линия-lr">An example <strong>flowchart</strong> линия LR:</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -180,27 +174,24 @@ C --&gt;|Другой| E[Дмитриев]
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">graph TD
-A[Толик] --&gt;|Плюс| B(Вовик)
-B --&gt; C{Родные Братья}
-C --&gt;|Один| D[Стрёмберг]
-C --&gt;|Другой| E[Дмитриев]
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+    graph LR
+    A[Толик] --&gt;|Плюс| B(Вовик)
+    B --&gt; C{Родные Братья}
+    C --&gt;|Один| D[Стрёмберг]
+    C --&gt;|Другой| E[Дмитриев]
+{{&lt; /mermaid &gt;}}
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="diagrams">Diagrams</h3>
+</div><p>renders as</p>
+<div class="mermaid" id="id-1"></div>
+<h3 id="diagrams">Diagrams</h3>
 <p>Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the <code>diagram</code> option in your <code>config/_default/params.toml</code> file or by adding <code>diagram: true</code> to your page front matter.</p>
-<p>An example <strong>flowchart</strong>:</p>
-<pre><code>```mermaid
-graph TD
-A[Hard] --&gt;|Text| B(Round)
-B --&gt; C{Decision}
-C --&gt;|One| D[Result 1]
-C --&gt;|Two| E[Result 2]
-```
-</code></pre>
-<p>renders as</p>
+<h2 id="an-example-flowchart----в-столбец-td">An example <strong>flowchart</strong> &ndash; в столбец TD:</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -208,29 +199,22 @@ C --&gt;|Two| E[Result 2]
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">graph TD
-A[Hard] --&gt;|Text| B(Round)
-B --&gt; C{Decision}
-C --&gt;|One| D[Result 1]
-C --&gt;|Two| E[Result 2]
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+    graph TD
+    A[Hard] --&gt;|Text| B(Round)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result 1]
+    C --&gt;|Two| E[Result 2]
+{{&lt; /mermaid &gt;}}
 </code></pre></td></tr></table>
 </div>
-</div><p>An example <strong>sequence diagram</strong>:</p>
-<pre><code>```mermaid
-sequenceDiagram
-Alice-&gt;&gt;John: Hello John, how are you?
-loop Healthcheck
-John-&gt;&gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&gt;&gt;Alice: Great!
-John-&gt;&gt;Bob: How about you?
-Bob--&gt;&gt;John: Jolly good!
-```
-</code></pre>
-<p>renders as</p>
+</div><p>renders as</p>
+<div class="mermaid" id="id-2"></div>
+<h2 id="an-example-sequence-diagram">An example <strong>sequence diagram</strong>:</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -245,35 +229,57 @@ Bob--&gt;&gt;John: Jolly good!
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">sequenceDiagram
-Alice-&gt;&gt;John: Hello John, how are you?
-loop Healthcheck
-John-&gt;&gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&gt;&gt;Alice: Great!
-John-&gt;&gt;Bob: How about you?
-Bob--&gt;&gt;John: Jolly good!
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!
 </code></pre></td></tr></table>
 </div>
-</div><pre><code>```mermaid
-pie title NETFLIX
-&quot;Time spent looking for movie&quot; : 90
-&quot;Time spent watching it&quot; : 10
-```
-</code></pre>
+</div><p>renders as</p>
+<div class="mermaid" id="id-3"></div>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">pie title NETFLIX
-&#34;Time spent looking for movie&#34; : 90
-&#34;Time spent watching it&#34; : 10
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+    pie title NETFLIX
+    &#34;Time spent looking for movie&#34; : 90
+    &#34;Time spent watching it&#34; : 10
+{{&lt; /mermaid &gt;}}
 </code></pre></td></tr></table>
 </div>
-</div></div><div class="post-footer" id="post-footer">
+</div><div class="mermaid" id="id-4"></div>
+<h2 id="base">base</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+graph LR;
+    A[Hard edge] --&gt;|Link text| B(Round edge)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result one]
+    C --&gt;|Two| E[Result two]
+{{&lt; /mermaid &gt;}}
+</code></pre></td></tr></table>
+</div>
+</div><div class="mermaid" id="id-5"></div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -296,7 +302,7 @@ pie title NETFLIX
         </section>
     </div>
 
-    <div class="post-nav">
+    <div class="post-nav"><a href="/2014/creating-a-new-theme/" class="prev" rel="prev" title="Creating a New Theme"><i class="fas fa-angle-left fa-fw"></i>Creating a New Theme</a>
             <a href="/2020/priehala-pojarka/" class="next" rel="next" title="К нам приехала пожарка">К нам приехала пожарка<i class="fas fa-angle-right fa-fw"></i></a></div>
 </div>
 <div id="comments"><div id="utterances"></div><noscript>
@@ -313,5 +319,5 @@ pie title NETFLIX
             </a><a href="#" id="view-comments" class="fixed-button" title="Посмотреть комментарии">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.ru.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Копировать в буфер обмена","maxShownLines":25},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"💬 comments","lightTheme":"github-light","repo":"dvesti/diagonaal"}},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"ru","maxResultLength":10,"noResultsFound":"Ничего не найдено","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/mermaid/mermaid.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.ru.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/mermaid/mermaid.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Копировать в буфер обмена","maxShownLines":25},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"💬 comments","lightTheme":"github-light","repo":"dvesti/diagonaal"}},"data":{"id-1":"graph LR\nA[Толик] --\u003e|Плюс| B(Вовик)\nB --\u003e C{Родные Братья}\nC --\u003e|Один| D[Стрёмберг]\nC --\u003e|Другой| E[Дмитриев]","id-2":"graph TD\nA[Hard] --\u003e|Text| B(Round)\nB --\u003e C{Decision}\nC --\u003e|One| D[Result 1]\nC --\u003e|Two| E[Result 2]","id-3":"sequenceDiagram\nAlice-\u003e\u003eJohn: Hello John, how are you?\nloop Healthcheck\nJohn-\u003e\u003eJohn: Fight against hypochondria\nend\nNote right of John: Rational thoughts!\nJohn--\u003e\u003eAlice: Great!\nJohn-\u003e\u003eBob: How about you?\nBob--\u003e\u003eJohn: Jolly good!","id-4":"pie title NETFLIX\n\"Time spent looking for movie\" : 90\n\"Time spent watching it\" : 10","id-5":"graph LR;\n    A[Hard edge] --\u003e|Link text| B(Round edge)\n    B --\u003e C{Decision}\n    C --\u003e|One| D[Result one]\n    C --\u003e|Two| E[Result two]"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"ru","maxResultLength":10,"noResultsFound":"Ничего не найдено","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

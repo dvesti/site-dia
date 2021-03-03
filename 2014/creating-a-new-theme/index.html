@@ -1,64 +1,210 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Blog - Категория - Diagonaal</title>
-        <link>https://diagonaal.ru/categories/blog/</link>
-        <description>Blog - Категория - Diagonaal</description>
-        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
-            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 17 Feb 2021 17:58:22 &#43;0200</lastBuildDate><atom:link href="https://diagonaal.ru/categories/blog/" rel="self" type="application/rss+xml" /><item>
-    <title>Добавлено комментирование</title>
-    <link>https://diagonaal.ru/2021/add-comments/</link>
-    <pubDate>Wed, 17 Feb 2021 17:58:22 &#43;0200</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2021/add-comments/</guid>
-    <description><![CDATA[<p>Добавил возможность комментирования сообщений.<br>
-Сервис от <a href="https://utteranc.es/" target="_blank" rel="noopener noreferrer"><strong>Utterances</strong></a> позволяет всем зарегистрованным на <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><strong>GitHub</strong></a> оставлять свои комментарии</p>
-]]></description>
-</item><item>
-    <title>Приветствие!</title>
-    <link>https://diagonaal.ru/2021/privestvie/</link>
-    <pubDate>Sat, 13 Feb 2021 20:58:54 &#43;0200</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2021/privestvie/</guid>
-    <description><![CDATA[Привет всем, кто зашёл на этот сайт!]]></description>
-</item><item>
-    <title>Стили от 23-08-2020</title>
-    <link>https://diagonaal.ru/2020/style-23-08-2020/</link>
-    <pubDate>Sun, 23 Aug 2020 17:04:31 &#43;0300</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/style-23-08-2020/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/featured.jpg" referrerpolicy="no-referrer">
-            </div><p>Меняю стили каждый день, как я и писал ранее, в ущерб написанию заметок.<br>
-Сейчас всё-таки изменил размер шрифта даты, который был связан с другими стилями, поэтому пришлось выделить в отдельные строки.</p>
-<p>Использовал стили оригинала — <strong>Refined</strong>, а также <strong>Jane</strong></p>
-<p>Менять пришлось и <em>курсив</em>, так как он брался из другого шрифта получался другого размера (в частности, меньше), что было не очень красиво.</p>
-<p>Не считаю себя специалистом по дизайну или внешнему виду и стилям, но стараюсь привести сайт-блог к такому виду, чтобы нравилось самому. Например, чуть б<strong>о</strong>льший шрифт, чтоб не щуриться.</p>
-<p>Между тем, структура (скелет) сайта адаптирована для мобильных устройств: очень интересно читать сайт, имитируя СмартФон, сужая окно просмотра по горизонтали.</p>
-<blockquote>
-<p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.<br>
-Это какой-то <strong>текст для примера</strong>, чтобы показать как выглядит цитата.<br>
-Это или Источник или высказывания Великих людей. Да, и –- вообще&hellip;</p>
-</blockquote>
-<p>Изменил внешний вид цитаты, убрал отображение тэгов и категорий на странице Архива.  По секрету: на сайте есть страница и тэгов и категорий, просто не указана в меню.  При необходимых минимальных навыках, эти странички можно отыскать самому</p>]]></description>
-</item><item>
-    <title>Тест-1</title>
-    <link>https://diagonaal.ru/2020/test-1/</link>
-    <pubDate>Fri, 14 Aug 2020 17:04:31 &#43;0300</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/test-1/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/featured.jpg" referrerpolicy="no-referrer">
-            </div><p>Это <del>тест</del>овое сообщение <em>с этой</em> <strong>картинкой</strong>:</p>
-<!--![](featured.jpg) -->
-<p>которая отображается при пересылке ссылки, например, в Скайп</p>
-]]></description>
-</item><item>
-    <title>Creating a New Theme</title>
-    <link>https://diagonaal.ru/2014/creating-a-new-theme/</link>
-    <pubDate>Sun, 28 Sep 2014 00:00:00 &#43;0000</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2014/creating-a-new-theme/</guid>
-    <description><![CDATA[<h2 id="introduction">Introduction</h2>
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Creating a New Theme - Diagonaal</title><meta name="description" content="Diagonaal"><meta property="og:title" content="Creating a New Theme" />
+<meta property="og:description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://diagonaal.ru/2014/creating-a-new-theme/" />
+<meta property="article:published_time" content="2014-09-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-09-28T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Creating a New Theme"/>
+<meta name="twitter:description" content="Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template."/>
+<meta name="application-name" content="Diagonaal.ru">
+<meta name="apple-mobile-web-app-title" content="Diagonaal.ru"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://diagonaal.ru/2014/creating-a-new-theme/" /><link rel="next" href="https://diagonaal.ru/2020/my-article-name/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Creating a New Theme",
+        "inLanguage": "ru",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/diagonaal.ru\/2014\/creating-a-new-theme\/"
+        },"genre": "posts","keywords": "themes","wordcount":  7830 ,
+        "url": "https:\/\/diagonaal.ru\/2014\/creating-a-new-theme\/","datePublished": "2014-09-28T00:00:00+00:00","dateModified": "2014-09-28T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Michael Henderson"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Diagonaal"><span class="header-title-pre"><i class='fas fa-laptop-code fa-fw'></i></span>Diagonaal</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Архив </a><a class="menu-item" href="/categories/"> Категории </a><a class="menu-item" href="/tags/"> Тэги </a><a class="menu-item" href="/about/"> O нас </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="Выбор Языка">Русский<i class="fas fa-chevron-right fa-fw"></i>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/2014/creating-a-new-theme/" selected>Русский</option></select>
+                    </a><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Поиск заголовков или содержимого ..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Поиск">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Очистить">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Сменить Тему">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Diagonaal"><span class="header-title-pre"><i class='fas fa-laptop-code fa-fw'></i></span>Diagonaal</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Поиск заголовков или содержимого ..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Поиск">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Очистить">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Отменить
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Архив</a><a class="menu-item" href="/categories/" title="">Категории</a><a class="menu-item" href="/tags/" title="">Тэги</a><a class="menu-item" href="/about/" title="">O нас</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Сменить Тему">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Выбор Языка">Русский<i class="fas fa-chevron-right fa-fw"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/2014/creating-a-new-theme/" selected>Русский</option></select>
+                </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Содержание</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Creating a New Theme</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Michael Henderson</a></span>&nbsp;<span class="post-category">Категория: <a href="/categories/blog/"><i class="far fa-folder fa-fw"></i>Blog</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="28-09-2014">28-09-2014</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;Слов: 7830&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;37 мин. на чтение&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>Содержание</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#some-definitions">Some Definitions</a>
+      <ul>
+        <li><a href="#skins">Skins</a></li>
+        <li><a href="#the-home-page">The Home Page</a></li>
+        <li><a href="#site-configuration-file">Site Configuration File</a></li>
+        <li><a href="#content">Content</a>
+          <ul>
+            <li><a href="#front-matter">Front Matter</a></li>
+            <li><a href="#markdown">Markdown</a></li>
+          </ul>
+        </li>
+        <li><a href="#template-files">Template Files</a>
+          <ul>
+            <li><a href="#single-template">Single Template</a></li>
+            <li><a href="#list-template">List Template</a></li>
+            <li><a href="#partial-template">Partial Template</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#create-a-new-site">Create a New Site</a>
+      <ul>
+        <li><a href="#generate-the-html-for-the-new-site">Generate the HTML For the New Site</a></li>
+        <li><a href="#test-the-new-site">Test the New Site</a></li>
+      </ul>
+    </li>
+    <li><a href="#create-a-new-theme">Create a New Theme</a>
+      <ul>
+        <li><a href="#create-a-skeleton">Create a Skeleton</a></li>
+        <li><a href="#update-the-configuration-file-to-use-the-theme">Update the Configuration File to Use the Theme</a></li>
+        <li><a href="#generate-the-site">Generate the Site</a>
+          <ul>
+            <li><a href="#the-home-page-1">The Home Page</a></li>
+            <li><a href="#the-magic-of-static">The Magic of Static</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#the-theme-development-cycle">The Theme Development Cycle</a>
+      <ul>
+        <li><a href="#purge-the-public-directory">Purge the public/ Directory</a></li>
+        <li><a href="#hugos-watch-option">Hugo&rsquo;s Watch Option</a></li>
+        <li><a href="#live-reload">Live Reload</a></li>
+        <li><a href="#development-commands">Development Commands</a></li>
+      </ul>
+    </li>
+    <li><a href="#update-the-home-page-template">Update the Home Page Template</a>
+      <ul>
+        <li><a href="#make-a-static-home-page">Make a Static Home Page</a>
+          <ul>
+            <li><a href="#live-reload-1">Live Reload</a></li>
+          </ul>
+        </li>
+        <li><a href="#build-a-dynamic-home-page">Build a &ldquo;Dynamic&rdquo; Home Page</a>
+          <ul>
+            <li><a href="#create-new-posts">Create New Posts</a></li>
+          </ul>
+        </li>
+        <li><a href="#list-and-single-templates">List and Single Templates</a></li>
+        <li><a href="#add-content-to-the-homepage">Add Content to the Homepage</a></li>
+        <li><a href="#add-content-to-the-posts">Add Content to the Posts</a>
+          <ul>
+            <li><a href="#update-the-template-file">Update the Template File</a></li>
+          </ul>
+        </li>
+        <li><a href="#linking-to-content">Linking to Content</a></li>
+        <li><a href="#create-a-post-listing">Create a Post Listing</a></li>
+      </ul>
+    </li>
+    <li><a href="#creating-top-level-pages">Creating Top Level Pages</a></li>
+    <li><a href="#sharing-templates">Sharing Templates</a>
+      <ul>
+        <li><a href="#create-the-header-and-footer-partials">Create the Header and Footer Partials</a></li>
+        <li><a href="#update-the-home-page-template-to-use-the-partials">Update the Home Page Template to Use the Partials</a></li>
+        <li><a href="#update-the-default-single-template-to-use-the-partials">Update the Default Single Template to Use the Partials</a></li>
+      </ul>
+    </li>
+    <li><a href="#add-date-published-to-posts">Add “Date Published” to Posts</a>
+      <ul>
+        <li><a href="#add-date-published-to-the-template">Add “Date Published” to the Template</a></li>
+        <li><a href="#dont-repeat-yourself">Don&rsquo;t Repeat Yourself</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="introduction">Introduction</h2>
 <p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
 <p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>
 <p>In this tutorial, commands that you enter will start with the &ldquo;$&rdquo; prompt. The output will follow. Lines that start with &ldquo;#&rdquo; are comments that I&rsquo;ve added to explain a point. When I show updates to a file, the &ldquo;:wq&rdquo; on the last line means to save the file.</p>
@@ -1340,9 +1486,9 @@ $ cat public/index.html
 &lt;html&gt;
 &lt;body&gt;
 
-    &lt;h1&gt;&lt;a href=&#34;https://diagonaal.ru/post/second/&#34;&gt;second&lt;/a&gt;&lt;/h1&gt;
+    &lt;h1&gt;&lt;a href=&#34;/post/second/&#34;&gt;second&lt;/a&gt;&lt;/h1&gt;
 
-    &lt;h1&gt;&lt;a href=&#34;https://diagonaal.ru/post/first/&#34;&gt;first&lt;/a&gt;&lt;/h1&gt;
+    &lt;h1&gt;&lt;a href=&#34;/post/first/&#34;&gt;first&lt;/a&gt;&lt;/h1&gt;
 
 &lt;/body&gt;
 &lt;/html&gt;
@@ -1756,6 +1902,45 @@ $ vi themes/zafta/layouts/_default/single.html
 </div><p>Note that we removed the date logic from the default template and put it in the post template. Generate the web site and verify the results. Posts have dates and the about page doesn&rsquo;t.</p>
 <h3 id="dont-repeat-yourself">Don&rsquo;t Repeat Yourself</h3>
 <p>DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&rsquo;re figuring that out, accept that you&rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&rsquo;s okay to delay splitting up a template.</p>
-]]></description>
-</item></channel>
-</rss>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Oбновлена 28-09-2014</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Поделиться в Twitter" data-sharer="twitter" data-url="https://diagonaal.ru/2014/creating-a-new-theme/" data-title="Creating a New Theme" data-via="Prorab" data-hashtags="themes"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Поделиться в Facebook" data-sharer="facebook" data-url="https://diagonaal.ru/2014/creating-a-new-theme/" data-hashtag="themes"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Поделиться в VK" data-sharer="vk" data-url="https://diagonaal.ru/2014/creating-a-new-theme/" data-title="Creating a New Theme"><i class="fab fa-vk fa-fw"></i></a><a href="javascript:void(0);" title="Поделиться в OK.RU" data-sharer="okru" data-url="https://diagonaal.ru/2014/creating-a-new-theme/" data-title="Creating a New Theme"><i class="fab fa-odnoklassniki fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/themes/">themes</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Назад</a></span>&nbsp;|&nbsp;<span><a href="/">Домой</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+            <a href="/2020/my-article-name/" class="next" rel="next" title="My Article Name – Тест">My Article Name – Тест<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="utterances"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">Utterances</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Создано на <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo 0.80.0">Hugo</a> | Тема - <a href="https://github.com/sunt-programator/CodeIT" target="_blank" rel="noopener noreferrer" title="CodeIT 0.2.10"><i class="fas fa-laptop-code fa-fw"></i> CodeIT</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Наверх">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Посмотреть комментарии">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.ru.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Копировать в буфер обмена","maxShownLines":25},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"💬 comments","lightTheme":"github-light","repo":"dvesti/diagonaal"}},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"ru","maxResultLength":10,"noResultsFound":"Ничего не найдено","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

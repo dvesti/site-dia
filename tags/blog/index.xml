@@ -20,16 +20,7 @@
 <strong>FEN</strong>: <code>r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1</code>
 </p>
 <center>Centered text</center>
-<p>An example <strong>flowchart</strong>:</p>
-<pre><code>```mermaid
-graph TD
-A[Толик] --&gt;|Плюс| B(Вовик)
-B --&gt; C{Родные Братья}
-C --&gt;|Один| D[Стрёмберг]
-C --&gt;|Другой| E[Дмитриев]
-```
-</code></pre>
-<p>renders as</p>
+<h2 id="an-example-flowchart-линия-lr">An example <strong>flowchart</strong> линия LR:</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -37,27 +28,24 @@ C --&gt;|Другой| E[Дмитриев]
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">graph TD
-A[Толик] --&gt;|Плюс| B(Вовик)
-B --&gt; C{Родные Братья}
-C --&gt;|Один| D[Стрёмберг]
-C --&gt;|Другой| E[Дмитриев]
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+    graph LR
+    A[Толик] --&gt;|Плюс| B(Вовик)
+    B --&gt; C{Родные Братья}
+    C --&gt;|Один| D[Стрёмберг]
+    C --&gt;|Другой| E[Дмитриев]
+{{&lt; /mermaid &gt;}}
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="diagrams">Diagrams</h3>
+</div><p>renders as</p>
+<div class="mermaid" id="id-1"></div>
+<h3 id="diagrams">Diagrams</h3>
 <p>Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the <code>diagram</code> option in your <code>config/_default/params.toml</code> file or by adding <code>diagram: true</code> to your page front matter.</p>
-<p>An example <strong>flowchart</strong>:</p>
-<pre><code>```mermaid
-graph TD
-A[Hard] --&gt;|Text| B(Round)
-B --&gt; C{Decision}
-C --&gt;|One| D[Result 1]
-C --&gt;|Two| E[Result 2]
-```
-</code></pre>
-<p>renders as</p>
+<h2 id="an-example-flowchart----в-столбец-td">An example <strong>flowchart</strong> &ndash; в столбец TD:</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -65,29 +53,22 @@ C --&gt;|Two| E[Result 2]
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">graph TD
-A[Hard] --&gt;|Text| B(Round)
-B --&gt; C{Decision}
-C --&gt;|One| D[Result 1]
-C --&gt;|Two| E[Result 2]
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+    graph TD
+    A[Hard] --&gt;|Text| B(Round)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result 1]
+    C --&gt;|Two| E[Result 2]
+{{&lt; /mermaid &gt;}}
 </code></pre></td></tr></table>
 </div>
-</div><p>An example <strong>sequence diagram</strong>:</p>
-<pre><code>```mermaid
-sequenceDiagram
-Alice-&gt;&gt;John: Hello John, how are you?
-loop Healthcheck
-John-&gt;&gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&gt;&gt;Alice: Great!
-John-&gt;&gt;Bob: How about you?
-Bob--&gt;&gt;John: Jolly good!
-```
-</code></pre>
-<p>renders as</p>
+</div><p>renders as</p>
+<div class="mermaid" id="id-2"></div>
+<h2 id="an-example-sequence-diagram">An example <strong>sequence diagram</strong>:</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -102,34 +83,56 @@ Bob--&gt;&gt;John: Jolly good!
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">sequenceDiagram
-Alice-&gt;&gt;John: Hello John, how are you?
-loop Healthcheck
-John-&gt;&gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&gt;&gt;Alice: Great!
-John-&gt;&gt;Bob: How about you?
-Bob--&gt;&gt;John: Jolly good!
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!
 </code></pre></td></tr></table>
 </div>
-</div><pre><code>```mermaid
-pie title NETFLIX
-&quot;Time spent looking for movie&quot; : 90
-&quot;Time spent watching it&quot; : 10
-```
-</code></pre>
+</div><p>renders as</p>
+<div class="mermaid" id="id-3"></div>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">pie title NETFLIX
-&#34;Time spent looking for movie&#34; : 90
-&#34;Time spent watching it&#34; : 10
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+    pie title NETFLIX
+    &#34;Time spent looking for movie&#34; : 90
+    &#34;Time spent watching it&#34; : 10
+{{&lt; /mermaid &gt;}}
 </code></pre></td></tr></table>
 </div>
-</div>]]></description>
+</div><div class="mermaid" id="id-4"></div>
+<h2 id="base">base</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+graph LR;
+    A[Hard edge] --&gt;|Link text| B(Round edge)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result one]
+    C --&gt;|Two| E[Result two]
+{{&lt; /mermaid &gt;}}
+</code></pre></td></tr></table>
+</div>
+</div><div class="mermaid" id="id-5"></div>]]></description>
 </item></channel>
 </rss>
