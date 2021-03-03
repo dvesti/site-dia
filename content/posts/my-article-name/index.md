@@ -6,7 +6,7 @@ tags: ["Blog"]
 date: 2020-05-19T16:31:46+03:00
 lastmod: 2020-05-19T16:31:46+03:00
 draft: false
-#math: true
+math: true
 diagram: true
 math:
   enable: true

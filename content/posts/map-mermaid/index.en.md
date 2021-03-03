@@ -1,4 +1,4 @@
----
+---  
 title: "Map mermaid"
 date: 2020-11-18T22:38:00+08:00
 description: "desc txt url"
@@ -7,8 +7,7 @@ categories: ["Markdown"]
 tags: ["code", "Hugo"]
 code:
   copy: true
-math:
-  enable: true
+math: true
 mapbox:
   accessToken: ""
 share:toc:
@@ -23,11 +22,12 @@ comment:
 
 [mermaid](https://mermaidjs.github.io/) 是一个可以帮助你在文章中生成图表和流程图的库, 类似 Markdown 的语法.
 
-> tips: must open `math: true`
+> tips: must open `math: true`  
 
-## base
+## base 
 
-```
+
+```  
 {{</* mermaid */>}}
 graph LR;
     A[Hard edge] -->|Link text| B(Round edge)
