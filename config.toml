@@ -5,7 +5,16 @@ defaultContentLanguage = "ru"
 languageCode = "en"
 title = "Diagonaal"
 
+# whether to use robots.txt
+enableRobotsTXT = true
+# whether to use git commit log
+enableGitInfo = true
+# whether to use emoji code
+enableEmoji = true
+
+# Ignore get JSON errors.
 ignoreErrors = ["error-remote-getjson"]
+
 
 # Change the default theme to be use when building the site with Hugo
 theme = "CodeIT"
@@ -275,7 +284,7 @@ theme = "CodeIT"
     Facebook = "vladimir.dmitrijev.9"
     Telegram = ""
     Medium = ""
-    Gitlab = ""
+    Gitlab = "dvesti"
     Youtubelegacy = ""
     Youtubecustom = ""
     Youtubechannel = ""
