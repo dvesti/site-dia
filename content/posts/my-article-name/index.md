@@ -40,13 +40,15 @@ featuredImagePreview: "featured.jpg"
 
 ## An example **flowchart** линия LR:
 
-    ```mermaid
+```
+{{</* mermaid */>}}
     graph LR
     A[Толик] -->|Плюс| B(Вовик)
     B --> C{Родные Братья}
     C -->|Один| D[Стрёмберг]
     C -->|Другой| E[Дмитриев]
-    ```
+{{</* /mermaid */>}}
+```
 
 renders as
 
@@ -64,15 +66,15 @@ Academic supports a Markdown extension for diagrams. You can enable this feature
 
 ## An example **flowchart** -- в столбец TD:
 
-    ```mermaid
-    {{</* mermaid */>}}
+```
+{{</* mermaid */>}}
     graph TD
     A[Hard] -->|Text| B(Round)
     B --> C{Decision}
     C -->|One| D[Result 1]
     C -->|Two| E[Result 2]
-    {{</* /mermaid */>}}
-    ```
+{{</* /mermaid */>}}
+```
 
 renders as
 
@@ -84,10 +86,10 @@ C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
 {{< /mermaid >}}
 
-## An example **sequence diagram** -- написание кода устарело:
+## An example **sequence diagram**:
 
-    ```mermaid
-    sequenceDiagram
+```
+sequenceDiagram
     Alice->>John: Hello John, how are you?
     loop Healthcheck
     John->>John: Fight against hypochondria
@@ -96,7 +98,7 @@ C -->|Two| E[Result 2]
     John-->>Alice: Great!
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
-    ```
+```
 
 renders as
 
@@ -113,13 +115,13 @@ Bob-->>John: Jolly good!
 {{< /mermaid >}}  
 
 
-    ```mermaid
-    {{</* mermaid */>}}
+```mermaid
+{{</* mermaid */>}}
     pie title NETFLIX
     "Time spent looking for movie" : 90
     "Time spent watching it" : 10
-    {{</* /mermaid */>}}
-    ```
+{{</* /mermaid */>}}
+```
 
 {{< mermaid >}}
 pie title NETFLIX
