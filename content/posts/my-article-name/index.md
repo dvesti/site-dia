@@ -129,7 +129,7 @@ pie title NETFLIX
 "Time spent watching it" : 10
 {{< /mermaid >}}  
 
-## base
+## base  
 
 ```
 {{</* mermaid */>}}
