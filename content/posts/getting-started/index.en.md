@@ -4,7 +4,7 @@ subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
 summary: Create a beautifully simple website in under 10 minutes.
 date: 2016-04-20T17:30:13+03:00  
 lastmod: ""
-tags: ["Academic"]
+tags: ["academic", "themes"]
 categories: ["Demo"]
 draft: false
 description: ""
