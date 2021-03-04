@@ -17,7 +17,6 @@ ignoreErrors = ["error-remote-getjson"]
 
 removePathAccents=true
 
-
 # Change the default theme to be use when building the site with Hugo
 theme = "CodeIT"
 
@@ -673,7 +672,7 @@ theme = "CodeIT"
 [outputs]
   # 
   home = ["HTML", "RSS", "JSON"]
-  page = ["HTML"]
+  page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
