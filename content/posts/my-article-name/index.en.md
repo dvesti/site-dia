@@ -60,7 +60,8 @@ C -->|Один| D[Стрёмберг]
 C -->|Другой| E[Дмитриев]
 {{< /mermaid >}}
 
-### Diagrams
+### Diagrams 
+{{< link-heading "Some Interesting Title - диаграмма" >}}
 
 Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter.
 
