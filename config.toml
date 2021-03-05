@@ -157,7 +157,7 @@ theme = "CodeIT"
   [languages.ru.params.search]
     enable = true
     # type of search engine ("lunr", "algolia")
-    type = "algolia"  # "lunr"  
+    type = "lunr" #   "algolia" 
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
@@ -175,10 +175,10 @@ theme = "CodeIT"
     #  appID = ""
     #  searchKey = ""
 
-  [params.search.algolia]
-    index = "index"
-    appID = "PASDMWALPK"
-    searchKey = "b42948e51daaa93df92381c8e2ac0f93"  
+  # [params.search.algolia]
+  #  index = "index"
+  #  appID = "PASDMWALPK"
+  #  searchKey = "b42948e51daaa93df92381c8e2ac0f93"  
 
   [languages.en.params.search]
     enable = true
