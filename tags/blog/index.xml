@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Blog - Тэг - Diagonaal</title>
+        <title>blog - Тэг - Diagonaal</title>
         <link>https://diagonaal.ru/tags/blog/</link>
-        <description>Blog - Тэг - Diagonaal</description>
+        <description>blog - Тэг - Diagonaal</description>
         <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
             <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 19 May 2020 16:31:46 &#43;0300</lastBuildDate><atom:link href="https://diagonaal.ru/tags/blog/" rel="self" type="application/rss+xml" /><item>
     <title>My Article Name – Тест</title>
@@ -43,7 +43,11 @@
 </div>
 </div><p>renders as</p>
 <div class="mermaid" id="id-1"></div>
-<h3 id="diagrams">Diagrams</h3>
+<h3 id="диаграмма">Диаграмма</h3>
+<a href="#some-interesting-title-">
+  <h2 id="some-interesting-title-">Some Interesting Title - диаграмма</h2>
+</a>  
+
 <p>Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the <code>diagram</code> option in your <code>config/_default/params.toml</code> file or by adding <code>diagram: true</code> to your page front matter.</p>
 <h2 id="an-example-flowchart----в-столбец-td">An example <strong>flowchart</strong> &ndash; в столбец TD:</h2>
 <div class="highlight"><div class="chroma">

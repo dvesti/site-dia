@@ -11,7 +11,7 @@
                     hreflang="ru"
                     href="https://diagonaal.ru/categories/blog/"
                     /></url><url>
-            <loc>https://diagonaal.ru/categories/</loc><lastmod>2021-03-03T15:26:41&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://diagonaal.ru/categories/</loc><lastmod>2021-03-05T02:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://diagonaal.ru/en/categories/"
@@ -21,7 +21,7 @@
                     href="https://diagonaal.ru/categories/"
                     /></url><url>
             <loc>https://diagonaal.ru/tags/comments/</loc><lastmod>2021-02-18T01:06:46&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://diagonaal.ru/</loc><lastmod>2021-03-03T15:26:41&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://diagonaal.ru/</loc><lastmod>2021-03-05T02:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://diagonaal.ru/en/"
@@ -30,7 +30,7 @@
                     hreflang="ru"
                     href="https://diagonaal.ru/"
                     /></url><url>
-            <loc>https://diagonaal.ru/posts/</loc><lastmod>2021-03-03T15:26:41&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://diagonaal.ru/posts/</loc><lastmod>2021-03-05T02:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://diagonaal.ru/en/posts/"
@@ -39,7 +39,7 @@
                     hreflang="ru"
                     href="https://diagonaal.ru/posts/"
                     /></url><url>
-            <loc>https://diagonaal.ru/tags/</loc><lastmod>2021-03-03T15:26:41&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://diagonaal.ru/tags/</loc><lastmod>2021-03-05T02:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://diagonaal.ru/en/tags/"
@@ -85,6 +85,33 @@
             <loc>https://diagonaal.ru/tags/fire/</loc><lastmod>2021-02-17T20:04:30&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://diagonaal.ru/tags/house/</loc><lastmod>2021-02-17T20:04:30&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://diagonaal.ru/2020/priehala-pojarka/</loc><lastmod>2021-02-17T20:04:30&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://diagonaal.ru/tags/blog/</loc><lastmod>2021-03-05T02:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://diagonaal.ru/en/tags/blog/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ru"
+                    href="https://diagonaal.ru/tags/blog/"
+                    /></url><url>
+            <loc>https://diagonaal.ru/categories/demo/</loc><lastmod>2021-03-05T02:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://diagonaal.ru/en/categories/demo/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ru"
+                    href="https://diagonaal.ru/categories/demo/"
+                    /></url><url>
+            <loc>https://diagonaal.ru/2020/my-article-name/</loc><lastmod>2021-03-05T02:41:00&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://diagonaal.ru/en/2020/my-article-name/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ru"
+                    href="https://diagonaal.ru/2020/my-article-name/"
+                    /></url><url>
             <loc>https://diagonaal.ru/about/</loc><lastmod>2021-03-04T22:40:45&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -93,4 +120,5 @@
                     rel="alternate"
                     hreflang="ru"
                     href="https://diagonaal.ru/about/"
-                    /></url></urlset>
+                    /></url><url>
+            <loc>https://diagonaal.ru/search/</loc><lastmod>2021-03-05T23:26:15&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>
