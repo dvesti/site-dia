@@ -183,7 +183,7 @@ theme = "CodeIT"
   [languages.en.params.search]
     enable = true
     # type of search engine ("lunr", "algolia")
-    type = "algolia" #"lunr"
+    type = "lunr"  #"algolia"
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
@@ -196,10 +196,11 @@ theme = "CodeIT"
     highlightTag = "em"
     # whether to use the absolute URL based on the baseURL in search index
     absoluteURL = false
-    [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+    #[languages.en.params.search.algolia]
+    #      index = "index.en"
+    #      appID = "PASDMWALPK"
+    #      searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+  
   # Header config
   [params.header]
     # desktop header mode ("fixed", "normal", "auto")
