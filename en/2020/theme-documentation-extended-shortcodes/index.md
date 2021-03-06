@@ -31,7 +31,7 @@ This is a **right-aligned** paragraph.
 
 The rendered output looks like this:
 
-{{< style "text-align:right; strong{color:#00b1ff;}" >}}
+{{< style "text-align:right; " >}}
 This is a **right-aligned** paragraph.
 {{< /style >}}
 
