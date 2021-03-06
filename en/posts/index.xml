@@ -2363,7 +2363,7 @@ your content will conflict with basic or extended Markdown syntax, and it is ine
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">{?} -&gt; X
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{/* ?? */}} -&gt; X
 </code></pre></td></tr></table>
 </div>
 </div><p>For example, two <code>:</code> will enable emoji syntax, which is not the behavior you want. The escape character syntax is like this:</p>
@@ -2372,7 +2372,7 @@ your content will conflict with basic or extended Markdown syntax, and it is ine
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">{?}😂
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">{{/* ?? */}}😂
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
@@ -2391,7 +2391,7 @@ your content will conflict with basic or extended Markdown syntax, and it is ine
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-markdown" data-lang="markdown">[link{?]}(#escape-character)
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">[<span class="nt">link{{/* ?? */}}</span>](<span class="na">#escape-character</span>)
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
