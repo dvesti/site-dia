@@ -324,7 +324,7 @@ The rendered output looks like this:
 ### Font Awesome {#fontawesome}
 
 **CodeIT** theme uses [Font Awesome](https://fontawesome.com/) as the icon library.
-You can easily use these icons in your articles.
+You can easily use these icons in your articles. 
 
 Get the `class` of icons you wanted from the [Font Awesome website](https://fontawesome.com/icons?d=gallery).
 
