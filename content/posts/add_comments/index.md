@@ -15,4 +15,5 @@ lightgallery: true
 ---
 
 Добавил возможность комментирования сообщений.  
-Сервис от [**Utterances**](https://utteranc.es/) позволяет всем зарегистрованным на [**GitHub**](https://github.com/) оставлять свои комментарии
+Сервис от [**Utterances**](https://utteranc.es/) позволяет всем зарегистрованным на [**GitHub**](https://github.com/) оставлять свои комментарии  
+<!--more-->  

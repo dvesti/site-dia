@@ -9,7 +9,7 @@ author: ""
 authorLink: ""
 description: ""
 license: ""
-images: []
+images: [""]
 
 tags: ["test"]
 categories: ["Blog"]
