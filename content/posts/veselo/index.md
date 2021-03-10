@@ -1,6 +1,6 @@
 ---
-title: "Veselo"
-slug: ""
+title: "Веселье и похмелье"
+slug: "veselo"
 date: 2021-03-10T15:08:07+02:00
 lastmod: 2021-03-10T15:08:07+02:00
 draft: true
