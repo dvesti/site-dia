@@ -12,6 +12,7 @@ tags: ["comments"]
 categories: ["Blog"]
 
 lightgallery: true
+toc: false
 ---
 
 Добавил возможность комментирования сообщений.  

@@ -5,6 +5,7 @@ description: "desc txt url"
 draft: false
 categories: ["Markdown"]
 tags: ["code", "Hugo"]
+toc: false
 code:
   copy: true
 math: true

@@ -18,7 +18,7 @@ featuredImage: ""
 featuredImagePreview: ""
 
 toc:
-  enable: true
+  enable: false #true
 math:
   enable: false
 lightgallery: false

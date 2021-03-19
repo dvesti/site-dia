@@ -6,6 +6,7 @@ date: 2020-07-07T13:00:13+03:00
 lastmod: ""
 tags: ["music", "date"]
 categories: ["Life"]
+toc: false
 description: "Ringo Starr"
 featuredImage: ""
 featuredImagePreview: ""

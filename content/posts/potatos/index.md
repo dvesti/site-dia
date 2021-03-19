@@ -5,6 +5,7 @@ draft: false
 date: 2020-07-05T13:42:13+03:00  
 tags: ["food"]
 categories: ["Life"]
+toc: false
 featuredImage: ""
 featuredImagePreview: ""
 featured: false

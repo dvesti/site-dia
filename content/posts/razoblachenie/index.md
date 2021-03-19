@@ -7,6 +7,7 @@ draft: false
 description: "Котик"
 tags: ["cat", "image"]
 categories: ["Poetry"]
+toc: false
 featuredImage: "featured.jpg"
 featuredImagePreview: "featured.jpg"
 ---

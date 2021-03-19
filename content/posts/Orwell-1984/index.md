@@ -6,6 +6,7 @@ date: 2020-07-05T21:30:13+03:00
 lastmod: ""
 tags: ["books"]
 categories: ["Writer"]
+toc: false
 featuredImage: ""
 featuredImagePreview: ""
 ---

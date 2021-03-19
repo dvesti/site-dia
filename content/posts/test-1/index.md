@@ -10,6 +10,7 @@ image:
   preview_only: true
 tags: ["test"]
 categories: ["Blog"]
+toc: false
 featuredImage: "featured.jpg"
 featuredImagePreview: "featured.jpg"  
 ---

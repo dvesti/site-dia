@@ -7,6 +7,7 @@ date: 2020-07-10T16:25:13+03:00
 lastmod: ""
 tags: ["football"]
 categories: ["Sport"]
+toc: false
 featured: false
 image:
   placement: 2

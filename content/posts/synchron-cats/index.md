@@ -6,6 +6,7 @@ lastmod:
 draft: false
 tags: ["cat", "image"]
 categories: ["Poetry"]
+toc: false
 description: Синхронные Котики
 resources:
   - name: "featured-image"

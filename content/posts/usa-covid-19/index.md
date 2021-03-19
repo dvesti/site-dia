@@ -6,6 +6,7 @@ date: "2020-07-04 21:30:13+0300"
 lastmod: ""
 tags: ["USA"]
 categories: ["COVID-19"]
+toc: false
 featuredImage: "featured.jpg"
 featuredImagePreview: "" 
 ---

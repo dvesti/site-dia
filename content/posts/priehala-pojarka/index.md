@@ -6,6 +6,7 @@ date: "2020-07-03 12:42:13"
 lastmod: ""
 tags: ["Tallinn", "fire", "house"]
 categories: ["Life"]
+toc: false
 featured: false
 resources:
   - name: "featured-image"

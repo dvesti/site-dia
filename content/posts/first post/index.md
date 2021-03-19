@@ -25,7 +25,7 @@ fraction: true
 fontawesome: true
 linkToMarkdown: false #true
 rssFullText: false
-
+toc: false
 # toc:
 #  enable: true
 #  auto: true

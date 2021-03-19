@@ -6,6 +6,7 @@ date: "2020-08-23T17:04:31+03:00"
 lastmod: ""
 tags: ["font", "style", "quote"]
 categories: ["Blog"]
+toc: false
 featured: false
 description: "Code"
 images: [(https://unsplash.com/photos/OqtafYT5kTw)]

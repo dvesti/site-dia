@@ -6,6 +6,7 @@ lastmod:
 draft: false
 tags: ["cat", "image"]
 categories: ["Poetry"]
+toc: false
 description: Взляд из коробки
 images: []
 featuredImage: "featured.jpg"

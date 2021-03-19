@@ -6,6 +6,7 @@ date: 2016-04-20T17:30:13+03:00
 lastmod: ""
 tags: ["academic", "themes"]
 categories: ["Demo"]
+toc: false
 draft: false
 description: ""
 featuredImage: #"featured.jpg"

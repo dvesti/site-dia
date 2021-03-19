@@ -8,6 +8,8 @@ lastmod: 2020-05-19T16:31:46+03:00
 draft: false
 math: true
 diagram: true
+toc:
+  enable: true
 math:
   enable: true
 mapbox:
@@ -22,6 +24,8 @@ description: "Шахматная диаграмма"
 featuredImage: ""
 featuredImagePreview: "featured.jpg"
 ---
+
+[TOC]
 
 Проверка Шахматных Диаграмм
 <!--more-->

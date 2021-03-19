@@ -6,6 +6,7 @@ lastmod: ""
 draft: false
 tags: ["USA"]
 categories: ["COVID-19"]
+toc: false
 featuredImage: ""
 featuredImagePreview: ""
 ---
