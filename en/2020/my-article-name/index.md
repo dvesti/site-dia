@@ -1,6 +1,8 @@
 # My Article Name – Тест
 
 
+[TOC]
+
 Проверка Шахматных Диаграмм
 <!--more-->
 ![Диаграмма](https://www.dmitriev.ee/punbb/extensions/chess_diagram/gendiag-jane.php?coord&size=29&style=merida&fen=r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1+w+-+-+0+15)
