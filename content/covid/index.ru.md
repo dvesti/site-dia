@@ -1,6 +1,6 @@
 ---
-title: "О сайте"
-date: 2019-08-02T11:04:49+08:00
+title: "Covid-19"
+date: 2021-03-21T11:04:49+02:00
 draft: false
 
 lightgallery: true
@@ -15,7 +15,7 @@ math:
 {{< echarts >}}
 {
 "title": {
-"text": "Summary Line Chart",
+"text": "Ситуация по короновирусу в Эстонии в 2021 году",
 "top": "2%",
 "left": "center"
 },
@@ -23,7 +23,7 @@ math:
 "trigger": "axis"
 },
 "legend": {
-"data": ["Email Marketing", "Affiliate Advertising", "Video Advertising", "Direct View", "Search Engine"],
+"data": ["Положительный тест"],
 "top": "10%"
 },
 "grid": {
@@ -43,41 +43,17 @@ math:
 "xAxis": {
 "type": "category",
 "boundaryGap": false,
-"data": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+"data": ["11-03", "12-03", "13-03", "14-03", "15-03", "16-03", "17-03", "18-03", "19-03", "20-03", "21-03"]
 },
 "yAxis": {
 "type": "value"
 },
 "series": [
 {
-"name": "Email Marketing",
+"name": "Положительный тест на короновирус",
 "type": "line",
 "stack": "Total",
-"data": [120, 132, 101, 134, 90, 230, 210]
-},
-{
-"name": "Affiliate Advertising",
-"type": "line",
-"stack": "Total",
-"data": [220, 182, 191, 234, 290, 330, 310]
-},
-{
-"name": "Video Advertising",
-"type": "line",
-"stack": "Total",
-"data": [150, 232, 201, 154, 190, 330, 410]
-},
-{
-"name": "Direct View",
-"type": "line",
-"stack": "Total",
-"data": [320, 332, 301, 334, 390, 330, 320]
-},
-{
-"name": "Search Engine",
-"type": "line",
-"stack": "Total",
-"data": [820, 932, 901, 934, 1290, 1330, 1320]
+"data": [1956, 1357, 1586, 935, 1279, 1462, 1783, 1700, 1749, 1248, 1373]
 }
 ]
 }
