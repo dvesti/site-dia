@@ -58,6 +58,15 @@ theme = "CodeIT"
 	  url = "/about/"
 	  title = ""
 	  weight = 4
+
+ 	[[menu.main]]
+	  identifier = "covid"
+	  pre = ""
+	  post = ""
+	  name = "Корона"
+	  url = "/covid/"
+	  title = ""
+	  weight = 5    
     
   #  [[menu.main]]
   #  identifier = "stuff"
