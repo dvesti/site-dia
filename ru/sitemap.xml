@@ -2,6 +2,15 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://diagonaal.ru/covid/</loc><lastmod>2021-03-21T15:58:51&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://diagonaal.ru/en/covid/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ru"
+                    href="https://diagonaal.ru/covid/"
+                    /></url><url>
             <loc>https://diagonaal.ru/categories/blog/</loc><lastmod>2021-03-19T22:51:41&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -112,7 +121,7 @@
                     hreflang="ru"
                     href="https://diagonaal.ru/2020/my-article-name/"
                     /></url><url>
-            <loc>https://diagonaal.ru/about/</loc><lastmod>2021-03-04T22:40:45&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
+            <loc>https://diagonaal.ru/about/</loc><lastmod>2021-03-21T14:27:34&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://diagonaal.ru/en/about/"
