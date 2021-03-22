@@ -8,7 +8,7 @@ image:
   preview_only: true
 math:
   enable: true
-featuredImagePreview: "featured.jpg"   
+featuredImagePreview: "featured.jpg"  
 ---
 
 **Статистика по Короновирусу**
@@ -17,7 +17,7 @@ featuredImagePreview: "featured.jpg"
 {{< echarts >}}
 {
 "title": {
-"text": "Ситуация по короновирусу в Эстонии в 2021 году",
+"text": "Ситуация по короновирусу в Эстонии за 2021 год",
 "top": "2%",
 "left": "center"
 },
