@@ -1,6 +1,6 @@
 ---
 title: "Статистика по Covid-19 в Эстонии"
-slug: ""
+slug: "covid-chart"
 date: 2021-03-22T02:53:07+02:00
 lastmod: 2021-03-22T02:53:07+02:00
 draft: false
