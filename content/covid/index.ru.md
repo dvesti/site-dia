@@ -2,11 +2,13 @@
 title: "Covid-19"
 date: 2021-03-21T11:04:49+02:00
 draft: false
-
-lightgallery: true
-
+image: 
+  placement: 2
+  caption: 'Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND5EUc)'
+  preview_only: true
 math:
   enable: true
+featuredImagePreview: "featured.jpg"    
 ---
 
 **Статистика по Короновирусу**
