@@ -8,7 +8,7 @@ image:
   preview_only: true
 math:
   enable: true
-featuredImagePreview: "featured.jpg"    
+featuredImagePreview: "featured.jpg"   
 ---
 
 **Статистика по Короновирусу**
