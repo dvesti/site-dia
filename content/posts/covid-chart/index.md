@@ -20,10 +20,12 @@ math:
 lightgallery: false
 license: ""
 
-image: 
-  placement: 2
-  caption: 'Image credit: [**Dan Counsell**](https://unsplash.com/photos/zIwAchjDirM)'
-  preview_only: true
+#image: 
+#  placement: 2
+#  caption: 'Image credit: [**Dan Counsell**](https://unsplash.com/photos/zIwAchjDirM)'
+#  preview_only: false
+featured_image_caption: "Image: ImageSource" # quotation marks to allow colon
+featured_image_alt: Alt tag for the featured image
 featuredImage: "featured.jpg"
 featuredImagePreview: "featured.jpg"
 ---
