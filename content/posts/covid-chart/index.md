@@ -28,6 +28,8 @@ featured_image_caption: "Image: ImageSource" # quotation marks to allow colon
 featured_image_alt: Alt tag for the featured image
 featuredImage: "featured.jpg"
 featuredImagePreview: "featured.jpg"
+caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND5EUc)"
+# preview_only: true
 ---
 
 Создали [**страницу**](/covid/) со статистикой по короновирусу в Эстонии

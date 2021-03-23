@@ -9,6 +9,12 @@ categories: ["COVID-19"]
 toc: false
 featuredImage: ""
 featuredImagePreview: ""
+featured: false
+image:
+  placement: 2
+  caption: 'Image credit: [**Rus.Delfi.ee**](https://rus.delfi.ee/)'
+  focal_point: ""
+  preview_only: false
 ---
 
 Президент США **Дональд Трамп** при посещении Национального военно-медицинского центра в пригороде Вашингтона впервые после начала пандемии коронавируса надел защитную медицинскую маску, обратили внимание мировые СМИ.  
