@@ -4,9 +4,28 @@
         <link>https://diagonaal.ru/</link>
         <description>Diagonaal</description>
         <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
-            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 17 Feb 2021 17:58:22 &#43;0200</lastBuildDate>
+            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 22 Mar 2021 02:53:07 &#43;0200</lastBuildDate>
             <atom:link href="https://diagonaal.ru/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Статистика по Covid-19 в Эстонии</title>
+    <link>https://diagonaal.ru/2021/covid-chart/</link>
+    <pubDate>Mon, 22 Mar 2021 02:53:07 &#43;0200</pubDate>
+    <author>Автор</author>
+    <guid>https://diagonaal.ru/2021/covid-chart/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div><p>Создали <a href="/2021/covid/" rel=""><strong>страницу</strong></a> со статистикой по короновирусу в Эстонии.</p>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>Инфо<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">График <span style="color:#B03A5B"><strong>обновляется</strong></span></div>
+        </div>
+    </div>
+<p><strong>Статистика по Короновирусу</strong></p>
+<div class="echarts" id="id-1" style="width: 100%; height: 30rem;"></div>]]></description>
+</item><item>
     <title>Добавлено комментирование</title>
     <link>https://diagonaal.ru/2021/add-comments/</link>
     <pubDate>Wed, 17 Feb 2021 17:58:22 &#43;0200</pubDate>
@@ -120,14 +139,5 @@
 Сборная СССР еще дважды выигрывала Олимпийские игры (1956, 1988), но на этих турнирах действовали ряд ограничений.</p>
 <p>В первом финальном турнире чемпионата Европы принимали участие четыре команды. В полуфинале СССР победил Чехословакию - 3:0</p>
 <p><a href="https://rus.delfi.ee/sport/jalgpall/video-60-let-nazad-sbornaya-sssr-vyigrala-pervyj-chempionat-evropy-po-futbolu?id=90415071" target="_blank" rel="noopener noreferrer">Источник</a></p>]]></description>
-</item><item>
-    <title>Ринго – 80!</title>
-    <link>https://diagonaal.ru/2020/ringo-80/</link>
-    <pubDate>Tue, 07 Jul 2020 13:00:13 &#43;0300</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/ringo-80/</guid>
-    <description><![CDATA[<p><br>
-Барабанщику группы «Битлз» Ринго Старру – 80!</p>
-]]></description>
 </item></channel>
 </rss>
