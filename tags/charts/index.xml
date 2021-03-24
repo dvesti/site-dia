@@ -12,6 +12,8 @@
     <guid>https://diagonaal.ru/2021/covid-chart/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/featured.jpg" referrerpolicy="no-referrer">
-            </div><p>Создали <a href="/covid/" rel=""><strong>страницу</strong></a> со статистикой по короновирусу в Эстонии</p>]]></description>
+            </div><p>Создали <a href="/covid/" rel=""><strong>страницу</strong></a> со статистикой по короновирусу в Эстонии</p>
+<p><strong>Статистика по Короновирусу</strong></p>
+<div class="echarts" id="id-1" style="width: 100%; height: 30rem;"></div>]]></description>
 </item></channel>
 </rss>

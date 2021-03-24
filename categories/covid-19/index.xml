@@ -1,19 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Covid-19 - Категория - Diagonaal</title>
+        <title>COVID-19 - Категория - Diagonaal</title>
         <link>https://diagonaal.ru/categories/covid-19/</link>
-        <description>Covid-19 - Категория - Diagonaal</description>
+        <description>COVID-19 - Категория - Diagonaal</description>
         <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
-            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 22 Mar 2021 02:53:07 &#43;0200</lastBuildDate><atom:link href="https://diagonaal.ru/categories/covid-19/" rel="self" type="application/rss+xml" /><item>
-    <title>Статистика по Covid-19 в Эстонии</title>
-    <link>https://diagonaal.ru/2021/covid-chart/</link>
-    <pubDate>Mon, 22 Mar 2021 02:53:07 &#43;0200</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2021/covid-chart/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/featured.jpg" referrerpolicy="no-referrer">
-            </div><p>Создали <a href="/covid/" rel=""><strong>страницу</strong></a> со статистикой по короновирусу в Эстонии</p>]]></description>
-</item><item>
+            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 12 Jul 2020 17:30:13 &#43;0300</lastBuildDate><atom:link href="https://diagonaal.ru/categories/covid-19/" rel="self" type="application/rss+xml" /><item>
     <title>Трамп под маской</title>
     <link>https://diagonaal.ru/2020/tramp-pod-maskoi/</link>
     <pubDate>Sun, 12 Jul 2020 17:30:13 &#43;0300</pubDate>
