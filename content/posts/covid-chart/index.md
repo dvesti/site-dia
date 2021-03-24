@@ -32,7 +32,11 @@ caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND
 # preview_only: true
 ---
 
-Создали [**страницу**](/covid/) со статистикой по короновирусу в Эстонии
+Создали [**страницу**](/2021/covid/) со статистикой по короновирусу в Эстонии.
+
+{{< admonition info >}}
+График <span style="color:#B03A5B">**обновляется**</span>
+{{< /admonition >}}
 
 <!--more-->
 
