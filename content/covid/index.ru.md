@@ -1,4 +1,5 @@
 ---
+layout:  post 
 title: "Covid-19"
 date: 2021-03-21T11:04:49+02:00
 draft: false
@@ -11,8 +12,7 @@ math:
 featuredImagePreview: "featured.jpg"  
 ---
 
-**Статистика по Короновирусу**
-
+**Статистика по Короновирусу**  
 
 {{< echarts >}}
 {
@@ -59,4 +59,4 @@ featuredImagePreview: "featured.jpg"
 }
 ]
 }
-{{< /echarts >}}
+{{< /echarts >}}  
