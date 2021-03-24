@@ -64,7 +64,7 @@ theme = "CodeIT"
 	  pre = ""
 	  post = ""
 	  name = "Корона"
-	  url = "/covid/"
+	  url = "/post/covid-chart/"
 	  title = ""
 	  weight = 5    
     
