@@ -7,7 +7,6 @@ lastmod: ""
 tags: ["font", "style", "quote"]
 categories: ["Blog"]
 toc: false
-featured: false
 description: "Code"
 images: [(https://unsplash.com/photos/OqtafYT5kTw)]
 featuredImage: "featured.jpg"
