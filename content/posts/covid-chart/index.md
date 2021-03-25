@@ -1,5 +1,6 @@
 ---
 title: "Статистика по Covid-19 в Эстонии"
+subtitle: "График обновляется"
 slug: "covid-chart"
 date: 2021-03-22T02:53:07+02:00
 lastmod: 2021-03-22T02:53:07+02:00
@@ -32,13 +33,13 @@ caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND
 # preview_only: true
 ---
 
-Создали [**страницу**](/2021/covid/) со статистикой по короновирусу в Эстонии.
+Создали [**страницу**](/2021/covid-chart/) со статистикой по короновирусу в Эстонии.
+
+<!--more-->
 
 {{< admonition info >}}
 График <span style="color:#B03A5B">**обновляется**</span>
 {{< /admonition >}}
-
-<!--more-->
 
 **Статистика по Короновирусу**
  
@@ -74,7 +75,7 @@ caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND
 "xAxis": {
 "type": "category",
 "boundaryGap": false,
-"data": ["11-03", "12-03", "13-03", "14-03", "15-03", "16-03", "17-03", "18-03", "19-03", "20-03", "21-03", "22-03", "23-03", "24-03"]
+"data": ["11-03", "12-03", "13-03", "14-03", "15-03", "16-03", "17-03", "18-03", "19-03", "20-03", "21-03", "22-03", "23-03", "24-03", "25-03"]
 },
 "yAxis": {
 "type": "value"
@@ -84,7 +85,7 @@ caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND
 "name": "Положительный тест на короновирус",
 "type": "line",
 "stack": "Total",
-"data": [1956, 1357, 1586, 935, 1279, 1462, 1783, 1700, 1749, 1248, 1373, 993, 1062, 1553]
+"data": [1956, 1357, 1586, 935, 1279, 1462, 1783, 1700, 1749, 1248, 1373, 993, 1062, 1553, 1429]
 }
 ]
 }
