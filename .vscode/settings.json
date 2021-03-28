@@ -1,3 +1,7 @@
 {
-   "git.ignoreLimitWarning": true
+   "git.ignoreLimitWarning": true,
+   "terminal.integrated.automationShell.windows": "",
+   "terminal.integrated.env.windows": {
+   
+   }
 }

@@ -9,6 +9,10 @@ categories: ["Writer"]
 toc: false
 featuredImage: ""
 featuredImagePreview: ""
+featured: false
+image:
+  placement: 1
+  caption: "Image credit: [**Pinterest.com**](https://tr.pinterest.com/pin/574279389986359085/)"
 ---
 
 За день упоминание о романе Джорджа Оруэлла **«1984»** встретил 3 раза. Редкое совпадение. Правда, иногда подразумевали и **«Скотный Двор»**
