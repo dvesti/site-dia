@@ -92,7 +92,7 @@ caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND
       "type": "line",
       "stack": "Total",
       "data": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 16]
-    },
+    }
 ]
 }
 {{< /echarts >}}  
