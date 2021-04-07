@@ -33,7 +33,7 @@ caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND
 # preview_only: true
 ---
 
-Создали [**страницу**](/2021/covid-chart/) со статистикой по короновирусу в Эстонии.
+Создали [**страницу**](/2021/covid-chart/) со статистикой по коронавирусу в Эстонии.
 
 <!--more-->
 
@@ -47,7 +47,7 @@ caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND
 {{< echarts >}}
 {
 "title": {
-"text": "Ситуация по короновирусу в Эстонии за 2021 год",
+"text": "Ситуация по коронавирусу в Эстонии за 2021 год",
 "top": "2%",
 "left": "center"
 },
@@ -82,11 +82,17 @@ caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND
 },
 "series": [
 {
-"name": "Положительный тест на короновирус",
+"name": "Положительный тест на коронавирус",
 "type": "line",
 "stack": "Total",
 "data": [1956, 1357, 1586, 935, 1279, 1462, 1783, 1700, 1749, 1248, 1373, 993, 1062, 1553, 1429, 1151, 1151, 892, 584, 1202, 1009, 832, 901, 519, 462, 383, 899, 984]
-}
+},
+{
+      "name": "% выявленных",
+      "type": "line",
+      "stack": "Total",
+      "data": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 16]
+    },
 ]
 }
 {{< /echarts >}}  
