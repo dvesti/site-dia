@@ -85,7 +85,7 @@
             <loc>https://diagonaal.ru/en/tags/html/</loc><lastmod>2021-02-17T20:04:30&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://diagonaal.ru/en/tags/emoji/</loc><lastmod>2021-02-18T20:49:31&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://diagonaal.ru/en/2019/emoji-support/</loc><lastmod>2021-02-18T20:49:31&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://diagonaal.ru/en/about/</loc><lastmod>2021-03-04T01:33:02&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>https://diagonaal.ru/en/about/</loc><lastmod>2021-03-04T01:33:02&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="ru"
                         href="https://diagonaal.ru/about/"
@@ -97,7 +97,7 @@
             <loc>https://diagonaal.ru/en/tags/academic/</loc><lastmod>2021-03-19T22:51:41&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://diagonaal.ru/en/2016/academic-the-website-builder-for-hugo/</loc><lastmod>2021-03-19T22:51:41&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://diagonaal.ru/en/tags/themes/</loc><lastmod>2021-03-19T22:51:41&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://diagonaal.ru/en/categories/blog/</loc><lastmod>2021-03-03T15:26:41&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
+            <loc>https://diagonaal.ru/en/categories/blog/</loc><lastmod>2021-03-03T15:26:41&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="ru"
                         href="https://diagonaal.ru/categories/blog/"
@@ -106,4 +106,4 @@
                     hreflang="en"
                     href="https://diagonaal.ru/en/categories/blog/"
                     /></url><url>
-            <loc>https://diagonaal.ru/en/2014/creating-a-new-theme/</loc><lastmod>2021-03-03T15:26:41&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url></urlset>
+            <loc>https://diagonaal.ru/en/2014/creating-a-new-theme/</loc><lastmod>2021-03-03T15:26:41&#43;02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
