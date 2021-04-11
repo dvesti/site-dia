@@ -90,7 +90,7 @@ caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND
 {
 "name": "Процент выявленных",
 "type": "line",
-"stack": "Total",
+"stack": "tal",
 "data": [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 17.1, 16.1, 17.8, 13.3, 12.3, 16.6, 16.1, 15.8, 12.3, 12.0, 12.4]
 },
 {
