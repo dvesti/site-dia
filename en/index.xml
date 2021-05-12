@@ -2965,7 +2965,7 @@ C --&gt;|Two| E[Result two]
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="mermaid" id="id-1"></div>
+<div class="mermaid" id="id-2"></div>
 <h3 id="sequence-diagram">5.2 Sequence Diagram</h3>
 <p>Example <strong>sequence diagram</strong> <code>mermaid</code> input:</p>
 <div class="highlight"><div class="chroma">
@@ -3001,7 +3001,7 @@ Bob--&gt;John: Jolly good!
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="mermaid" id="id-2"></div>
+<div class="mermaid" id="id-3"></div>
 <h3 id="gantt">5.3 GANTT</h3>
 <p>Example <strong>GANTT</strong> <code>mermaid</code> input:</p>
 <div class="highlight"><div class="chroma">
@@ -3045,7 +3045,7 @@ Add to mermaid :1d
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="mermaid" id="id-3"></div>
+<div class="mermaid" id="id-4"></div>
 <h3 id="class-diagram">5.4 Class Diagram</h3>
 <p>Example <strong>class diagram</strong> <code>mermaid</code> input:</p>
 <div class="highlight"><div class="chroma">
@@ -3087,7 +3087,7 @@ Class08 <span class="p">&lt;</span><span class="nt">--</span><span class="p">&gt
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="mermaid" id="id-4"></div>
+<div class="mermaid" id="id-5"></div>
 <h3 id="state-diagram">5.5 State Diagram</h3>
 <p>Example <strong>state diagram</strong> <code>mermaid</code> input:</p>
 <div class="highlight"><div class="chroma">
@@ -3115,7 +3115,7 @@ Crash --&gt; [*]
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="mermaid" id="id-5"></div>
+<div class="mermaid" id="id-6"></div>
 <h3 id="git-graph">5.6 Git Graph</h3>
 <p>Example <strong>git graph</strong> <code>mermaid</code> input:</p>
 <div class="highlight"><div class="chroma">
@@ -3161,7 +3161,7 @@ merge newbranch
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="mermaid" id="id-6"></div>
+<div class="mermaid" id="id-7"></div>
 <h3 id="pie">5.7 Pie</h3>
 <p>Example <strong>pie</strong> <code>mermaid</code> input:</p>
 <div class="highlight"><div class="chroma">
@@ -3183,7 +3183,7 @@ pie
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="mermaid" id="id-7"></div>
+<div class="mermaid" id="id-8"></div>
 <h2 id="6-echarts">6 echarts</h2>
 <p><a href="https://echarts.apache.org/" target="_blank" rel="noopener noreferrer">ECharts</a> is a library helping you to generate interactive data visualization.</p>
 <p>The basic chart types ECharts supports include <a href="https://echarts.apache.org/en/option.html#series-line" target="_blank" rel="noopener noreferrer">line series</a>, <a href="https://echarts.apache.org/en/option.html#series-line" target="_blank" rel="noopener noreferrer">bar series</a>, <a href="https://echarts.apache.org/en/option.html#series-scatter" target="_blank" rel="noopener noreferrer">scatter series</a>, <a href="https://echarts.apache.org/en/option.html#series-pie" target="_blank" rel="noopener noreferrer">pie charts</a>, <a href="https://echarts.apache.org/en/option.html#series-candlestick" target="_blank" rel="noopener noreferrer">candle-stick series</a>, <a href="https://echarts.apache.org/en/option.html#series-boxplot" target="_blank" rel="noopener noreferrer">boxplot series</a> for statistics, <a href="https://echarts.apache.org/en/option.html#series-map" target="_blank" rel="noopener noreferrer">map series</a>, <a href="https://echarts.apache.org/en/option.html#series-heatmap" target="_blank" rel="noopener noreferrer">heatmap series</a>, <a href="https://echarts.apache.org/en/option.html#series-lines" target="_blank" rel="noopener noreferrer">lines series</a> for directional information, <a href="https://echarts.apache.org/en/option.html#series-graph" target="_blank" rel="noopener noreferrer">graph series</a> for relationships, <a href="https://echarts.apache.org/en/option.html#series-treemap" target="_blank" rel="noopener noreferrer">treemap series</a>, <a href="https://echarts.apache.org/en/option.html#series-sunburst" target="_blank" rel="noopener noreferrer">sunburst series</a>, <a href="https://echarts.apache.org/en/option.html#series-parallel" target="_blank" rel="noopener noreferrer">parallel series</a> for multi-dimensional data, <a href="https://echarts.apache.org/en/option.html#series-funnel" target="_blank" rel="noopener noreferrer">funnel series</a>, <a href="https://echarts.apache.org/en/option.html#series-gauge" target="_blank" rel="noopener noreferrer">gauge series</a>. And it&rsquo;s extremely easy to create a combinition of them with ECharts.</p>
@@ -3774,7 +3774,7 @@ pie
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="echarts" id="id-8" style="width: 100%; height: 30rem;"></div>
+<div class="echarts" id="id-9" style="width: 100%; height: 30rem;"></div>
 <p>The <code>echarts</code> shortcode has also the following named parameters:</p>
 <ul>
 <li>
@@ -3853,7 +3853,7 @@ Or
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="mapbox" id="id-9" style="width: 100%; height: 20rem;"></div>
+<div class="mapbox" id="id-10" style="width: 100%; height: 20rem;"></div>
 <p>Example <code>mapbox</code> input with the custom style:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -3868,7 +3868,7 @@ Or
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="mapbox" id="id-10" style="width: 100%; height: 20rem;"></div>
+<div class="mapbox" id="id-11" style="width: 100%; height: 20rem;"></div>
 <h2 id="8-music">8 music</h2>
 <p>The <code>music</code> shortcode embeds a responsive music player based on <a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener noreferrer">APlayer</a> and <a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener noreferrer">MetingJS</a>.</p>
 <p>There are three ways to use it the <code>music</code> shortcode.</p>
@@ -4082,7 +4082,7 @@ This is a <span class="ge">_paragraph_</span> with <span class="gs">**typing ani
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="typeit"><div id="id-11" class=""></div></div>
+<div class="typeit"><div id="id-12" class=""></div></div>
 
 <p>Alternatively, you can use custom <strong>HTML tags</strong>.</p>
 <p>Example <code>typeit</code> input with <code>h4</code> tag:</p>
@@ -4099,7 +4099,7 @@ This is a <span class="ge">_paragraph_</span> with <span class="gs">**typing ani
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="typeit"><h4 id="id-12" class=""></h4></div>
+<div class="typeit"><h4 id="id-13" class=""></h4></div>
 
 <h3 id="code-content">10.2 Code Content</h3>
 <p>Code content is allowed and will be highlighted by named parameter <code>code</code> for the type of code language.</p>
@@ -4125,7 +4125,7 @@ System.out.println(&#34;Hello World&#34;);
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="typeit"><div id="id-13" class=" highlight"></div></div>
+<div class="typeit"><div id="id-14" class=" highlight"></div></div>
 
 <h3 id="group-content">10.3 Group Content</h3>
 <p>All typing animations start at the same time by default.
@@ -4153,9 +4153,9 @@ But sometimes you may want to start a set of <code>typeit</code> contents in ord
 </code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<div class="typeit"><div id="id-14" class=""></div></div>
-
 <div class="typeit"><div id="id-15" class=""></div></div>
+
+<div class="typeit"><div id="id-16" class=""></div></div>
 
 <h2 id="11-script">11 script</h2>
 <p><code>script</code> is a shortcode to insert custom <strong><i class="fab fa-js fa-fw"></i>&nbsp;Javascript</strong> in your post.</p>
