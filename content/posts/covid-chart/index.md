@@ -101,4 +101,4 @@ caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND
 }
 ]
 }
-{{< /echarts >}}  
+{{< /echarts >}} 
