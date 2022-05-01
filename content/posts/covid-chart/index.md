@@ -38,7 +38,7 @@ caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND
 <!--more-->
 
 {{< admonition info >}}
-График <span style="color:#B03A5B">**обновляется**</span>
+График <span style="color:#B03A5B">**обновляется**</span>. <span style="color:#ff6600">**Приостановлено: 01-05-2022 г.**</span>
 {{< /admonition >}}
 
 **Статистика по Короновирусу**
