@@ -12,8 +12,7 @@ featuredImage: "featured.jpg"
 featuredImagePreview: "featured.jpg"
 ---
 
-<!--![Котик](featured.jpg)-->     
-
+<!--![Котик](featured.jpg)-->  
 **Если я разоблачён, –  
 Надо зафиксировать!  
 Если тема *ни-о-чём*:  
