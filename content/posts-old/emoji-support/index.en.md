@@ -1,5 +1,4 @@
 ---
-weight: 5
 title: "Emoji Support"
 date: 2019-10-01T17:55:28+08:00
 lastmod: 2019-10-01T17:55:28+08:00
@@ -7,9 +6,11 @@ draft: false
 author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
 description: "Guide to emoji usage in Hugo and CodeIT."
-resources:
-  - name: "featured-image"
-    src: "featured-image.jpg"
+featuredImage: "featured-image.jpg"
+featuredImagePreview: ""
+#resources:
+#  - name: "featured-image"
+#    src: "featured-image.jpg"  
 
 tags: ["emoji"]
 categories: ["Markdown"]
@@ -17,7 +18,7 @@ categories: ["Markdown"]
 lightgallery: true
 ---
 
-Вова Emoji can be enabled in a Hugo project in a number of ways.
+Emoji can be enabled in a Hugo project in a number of ways.
 
 <!--more-->
 

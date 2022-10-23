@@ -6,7 +6,7 @@ lastmod: 2019-10-01T17:55:28+08:00
 draft: false
 author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
-description: "Guide to emoji usage in Hugo and CodeIT."
+description: "Guide d'utilisation des emoji dans Hugo et CodeIT."
 resources:
   - name: "featured-image"
     src: "featured-image.jpg"
@@ -17,9 +17,14 @@ categories: ["Markdown"]
 lightgallery: true
 ---
 
-Вова Emoji can be enabled in a Hugo project in a number of ways.
+Emoji peut être activé dans un projet Hugo de plusieurs façons.
 
 <!--more-->
+
+{{< admonition warning >}}
+Sorry, this article has not been completely translated into **French**.
+Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/sunt-programator/CodeIT/pulls) to the theme!
+{{< /admonition >}}
 
 The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates#inline-shortcodes).
 

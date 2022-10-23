@@ -1,12 +1,12 @@
 ---
 weight: 2
-title: "Theme Documentation - Content"
-date: 2020-03-05T15:58:26+08:00
-lastmod: 2020-03-05T15:58:26+08:00
+title: "Thème Documentation - Contenu"
+date: 2020-03-05T16:30:05+08:00
+lastmod: 2020-03-05T16:30:05+08:00
 draft: false
 author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
-description: "Find out how to create and organize your content quickly and intuitively in CodeIT theme."
+description: "Découvrez comment créer et organiser votre contenu rapidement et intuitivement dans le thème CodeIT."
 resources:
   - name: "featured-image"
     src: "featured-image.jpg"
@@ -22,9 +22,14 @@ math:
   enable: true
 ---
 
-Find out how to create and organize your content quickly and intuitively in **CodeIT** theme.
+Découvrez comment créer et organiser votre contenu rapidement et intuitivement dans le thème **CodeIT**.
 
 <!--more-->
+
+{{< admonition warning >}}
+Sorry, this article has not been completely translated into **French**.
+Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/sunt-programator/CodeIT/pulls) to the theme!
+{{< /admonition >}}
 
 ## 1 Contents Organization {#contents-organization}
 

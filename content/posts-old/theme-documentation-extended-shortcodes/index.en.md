@@ -12,6 +12,7 @@ resources:
     src: "featured-image.jpg"
   - name: "featured-image-preview"
     src: "featured-image-preview.jpg"
+
 tags: ["shortcodes"]
 categories: ["documentation"]
 
@@ -40,15 +41,15 @@ And the **second** one is the tag name of the HTML element wrapping the content 
 
 Example `style` input:
 
-```markdown
-{{</* style "text-align:right; strong{color:#00b1ff;}" */>}}
+```
+{{</* style "text-align:right;" */>}}
 This is a **right-aligned** paragraph.
 {{</* /style */>}}
 ```
 
 The rendered output looks like this:
 
-{{< style "text-align:right; strong{color:#00b1ff;}" >}}
+{{< style "text-align:right; " >}}
 This is a **right-aligned** paragraph.
 {{< /style >}}
 
@@ -820,7 +821,6 @@ data = [
 ]
 {{</* /echarts */>}}
 ```
-
 The rendered output looks like this:
 
 {{< echarts >}}
@@ -892,7 +892,7 @@ The rendered output looks like this:
 }
 ]
 }
-{{< /echarts >}}
+{{< /echarts >}}  
 
 The `echarts` shortcode has also the following named parameters:
 

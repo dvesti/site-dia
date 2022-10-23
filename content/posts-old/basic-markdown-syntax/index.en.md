@@ -1,7 +1,7 @@
 ---
 weight: 4
 title: "Basic Markdown Syntax"
-date: 2019-12-01T21:57:40+08:00
+date: 2020-01-01T16:45:40+08:00 #2019-12-01T21:57:40+08:00
 lastmod: 2020-01-01T16:45:40+08:00
 draft: false
 author: "Sunt Programator!"
@@ -11,7 +11,7 @@ resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-tags: ["Markdown", "HTML"]
+tags: ["HTML"]
 categories: ["Markdown"]
 
 lightgallery: true
@@ -53,7 +53,8 @@ John Gruber, the author of Markdown, puts it like this:
 Without further delay, let us go over the main elements of Markdown and what the resulting HTML looks like!
 
 {{< admonition tip >}}
-:(far fa-bookmark fa-fw): Bookmark this page for easy future reference!
+:(far fa-bookmark fa-fw): Добавьте эту страницу в закладки, чтобы легко было пользоваться разметкой Markdown в будущем  
+Bookmark this page for easy future reference!
 {{< /admonition >}}
 
 ## 1 Headings
