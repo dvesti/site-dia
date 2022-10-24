@@ -686,3 +686,5 @@ theme = "CodeIT"
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
+
+  ignoreErrors = ["error-missing-instagram-accesstoken"]
