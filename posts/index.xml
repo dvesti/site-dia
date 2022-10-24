@@ -5,23 +5,6 @@
         <description>Статьи | Diagonaal</description>
         <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
             <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 22 Mar 2021 02:53:07 &#43;0200</lastBuildDate><atom:link href="https://diagonaal.ru/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Статистика по Covid-19 в Эстонии</title>
-    <link>https://diagonaal.ru/2021/covid-chart/</link>
-    <pubDate>Mon, 22 Mar 2021 02:53:07 &#43;0200</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2021/covid-chart/</guid>
-    <description><![CDATA[<p>Создали <a href="/2021/covid-chart/" rel=""><strong>страницу</strong></a> со статистикой по коронавирусу в Эстонии.</p>
-<div class="details admonition info open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-info-circle fa-fw"></i>Инфо<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">График <span style="color:#B03A5B"><strong>обновляется</strong></span>. <span style="color:#ff6600"><strong>Приостановлено: 01-05-2022 г.</strong></span></div>
-        </div>
-    </div>
-<p><strong>Статистика по Короновирусу</strong></p>
-<div class="echarts" id="id-1" style="width: 100%; height: 30rem;"></div>]]></description>
-</item><item>
     <title>Thème Documentation - Concepts de Base</title>
     <link>https://diagonaal.ru/2020/theme-documentation-concepts-de-base/</link>
     <pubDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</pubDate>
@@ -11135,6 +11118,23 @@ Welcome to take the time to propose a translation by <a href="https://github.com
 </tr>
 </tbody>
 </table>]]></description>
+</item><item>
+    <title>Статистика по Covid-19 в Эстонии</title>
+    <link>https://diagonaal.ru/2021/covid-chart/</link>
+    <pubDate>Mon, 22 Mar 2021 02:53:07 &#43;0200</pubDate>
+    <author>Автор</author>
+    <guid>https://diagonaal.ru/2021/covid-chart/</guid>
+    <description><![CDATA[<p>Создали <a href="/2021/covid-chart/" rel=""><strong>страницу</strong></a> со статистикой по коронавирусу в Эстонии.</p>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>Инфо<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">График <span style="color:#B03A5B"><strong>обновляется</strong></span>. <span style="color:#ff6600"><strong>Приостановлено: 01-05-2022 г.</strong></span></div>
+        </div>
+    </div>
+<p><strong>Статистика по Короновирусу</strong></p>
+<div class="echarts" id="id-1" style="width: 100%; height: 30rem;"></div>]]></description>
 </item><item>
     <title>Статьи можно комментировать</title>
     <link>https://diagonaal.ru/2020/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8-%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C/</link>
