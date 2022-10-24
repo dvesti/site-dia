@@ -1,5 +1,4 @@
 ---
-authors: []
 title: "Статьи можно комментировать"
 slug: "add-comments"
 draft: false
