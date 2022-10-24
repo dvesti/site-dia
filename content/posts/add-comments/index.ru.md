@@ -1,21 +1,22 @@
 ---
-type: "post"
-subtitle: ""
-summary: ""
-authors: []
 title: "Статьи можно комментировать"
-slug: "add-comments"
-draft: false
-date: "2020-07-05 17:30:13+0300"  
+date: "2020-07-05 17:30:13+0300"
 lastmod: ""
+draft: false
+author: "Antuan"
+authorLink: ""
+description: ""
+resources:
+  - name: "featured"
+    src: "featured.jpg"
+
 tags: ["Blog", "Comments"]
 categories: ["Academic"]
-featured: false
-image:
-  placement: 1
-  caption: 'Image credit: [**Disqus.com**](https://disqus.com/)'
-  focal_point: ""
-  preview_only: true
+
+lightgallery: true
+
+toc:
+  auto: false
 ---
 
 Добавил возможность под каждой статьёй оставлять свой комментарий
