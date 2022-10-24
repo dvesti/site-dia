@@ -10,4 +10,3 @@
 
 [Источник](https://rus.delfi.ee/daily/abroad/tramp-vpervye-poyavilsya-na-publike-v-zaschitnoj-maske?id=90425915)  
 
-
