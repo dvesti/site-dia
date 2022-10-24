@@ -7,7 +7,7 @@ draft: false
 tags: ["USA"]
 categories: ["COVID-19"]
 toc: false
-featuredImage: "featured.jpg"
+featuredImage: ""
 featuredImagePreview: ""
 featured: true
 image:
@@ -25,4 +25,3 @@ image:
 Ранее президент отказывался носить маску на публике, не принуждая к этому других. По его словам, это — личный выбор каждого человека. В то же время, он говорил, что будет пользоваться маской в условиях, когда вокруг будет много людей и соблюдать определенную дистанцию будет невозможно.  
 
 [Источник](https://rus.delfi.ee/daily/abroad/tramp-vpervye-poyavilsya-na-publike-v-zaschitnoj-maske?id=90425915)  
-

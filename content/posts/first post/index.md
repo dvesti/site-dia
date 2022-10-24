@@ -13,8 +13,8 @@ images: [""]
 
 tags: ["test"]
 categories: ["Blog"]
-featuredImage: "featured.jpg"
-featuredImagePreview: ""
+featuredImage: ""
+featuredImagePreview: "featured.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -58,11 +58,7 @@ library:
 seo:
   images: []
   # ...
-resources:
-  - name: "featured-image"
-    src: "featured.jpg"   
 ---
 
 **Привет** _всем_, кто зашёл на этот сайт!  
 тест 22-30 -- 23-10-2022  
-
