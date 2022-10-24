@@ -56,6 +56,15 @@
                     hreflang="ru"
                     href="https://diagonaal.ru/2019/emoji-support/"
                     /></url><url>
+            <loc>https://diagonaal.ru/2021/bookmarks/</loc><lastmod>2022-10-24T23:24:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://diagonaal.ru/en/2021/bookmarks/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ru"
+                    href="https://diagonaal.ru/2021/bookmarks/"
+                    /></url><url>
             <loc>https://diagonaal.ru/categories/</loc><lastmod>2022-10-24T23:06:52&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -67,7 +76,7 @@
                     /></url><url>
             <loc>https://diagonaal.ru/tags/charts/</loc><lastmod>2022-10-24T22:43:40&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://diagonaal.ru/categories/covid-19/</loc><lastmod>2022-10-24T22:43:40&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://diagonaal.ru/</loc><lastmod>2022-10-24T23:06:52&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://diagonaal.ru/</loc><lastmod>2022-10-24T23:24:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://diagonaal.ru/en/"
@@ -76,7 +85,7 @@
                     hreflang="ru"
                     href="https://diagonaal.ru/"
                     /></url><url>
-            <loc>https://diagonaal.ru/posts/</loc><lastmod>2022-10-24T23:06:52&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://diagonaal.ru/posts/</loc><lastmod>2022-10-24T23:24:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://diagonaal.ru/en/posts/"
@@ -85,7 +94,7 @@
                     hreflang="ru"
                     href="https://diagonaal.ru/posts/"
                     /></url><url>
-            <loc>https://diagonaal.ru/tags/</loc><lastmod>2022-10-24T23:06:52&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://diagonaal.ru/tags/</loc><lastmod>2022-10-24T23:24:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://diagonaal.ru/en/tags/"
@@ -95,6 +104,15 @@
                     href="https://diagonaal.ru/tags/"
                     /></url><url>
             <loc>https://diagonaal.ru/2021/covid-chart/</loc><lastmod>2022-10-24T22:43:40&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://diagonaal.ru/tags/bookmark/</loc><lastmod>2022-10-24T23:24:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://diagonaal.ru/en/tags/bookmark/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="ru"
+                    href="https://diagonaal.ru/tags/bookmark/"
+                    /></url><url>
             <loc>https://diagonaal.ru/categories/blog/</loc><lastmod>2022-10-24T23:06:52&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://diagonaal.ru/tags/font/</loc><lastmod>2022-10-24T23:06:52&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://diagonaal.ru/tags/quote/</loc><lastmod>2022-10-24T23:06:52&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
