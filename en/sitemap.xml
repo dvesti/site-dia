@@ -46,10 +46,42 @@
                     hreflang="en"
                     href="https://diagonaal.ru/en/categories/"
                     /></url><url>
-            <loc>https://diagonaal.ru/en/tags/code/</loc><lastmod>2022-10-24T02:34:43&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://diagonaal.ru/en/tags/hugo/</loc><lastmod>2022-10-24T02:34:43&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://diagonaal.ru/en/2020/map-mermaid/</loc><lastmod>2022-10-24T02:34:43&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://diagonaal.ru/en/categories/markdown/</loc><lastmod>2022-10-24T02:34:43&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://diagonaal.ru/en/tags/code/</loc><lastmod>2022-10-24T02:34:43&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="ru"
+                        href="https://diagonaal.ru/tags/code/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://diagonaal.ru/en/tags/code/"
+                    /></url><url>
+            <loc>https://diagonaal.ru/en/tags/hugo/</loc><lastmod>2022-10-24T02:34:43&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="ru"
+                        href="https://diagonaal.ru/tags/hugo/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://diagonaal.ru/en/tags/hugo/"
+                    /></url><url>
+            <loc>https://diagonaal.ru/en/2020/map-mermaid/</loc><lastmod>2022-10-24T02:34:43&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="ru"
+                        href="https://diagonaal.ru/2020/map-mermaid/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://diagonaal.ru/en/2020/map-mermaid/"
+                    /></url><url>
+            <loc>https://diagonaal.ru/en/categories/markdown/</loc><lastmod>2022-10-24T02:34:43&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="ru"
+                        href="https://diagonaal.ru/categories/markdown/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://diagonaal.ru/en/categories/markdown/"
+                    /></url><url>
             <loc>https://diagonaal.ru/en/tags/blog/</loc><lastmod>2022-10-24T02:34:43&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="ru"

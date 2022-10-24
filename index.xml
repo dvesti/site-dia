@@ -41,6 +41,74 @@
 тест 22-30 &ndash; 23-10-2022
 тест 14-30 &ndash; 24-10-2022]]></description>
 </item><item>
+    <title>Map mermaid</title>
+    <link>https://diagonaal.ru/2020/map-mermaid/</link>
+    <pubDate>Wed, 18 Nov 2020 22:38:00 &#43;0800</pubDate>
+    <author>Автор</author>
+    <guid>https://diagonaal.ru/2020/map-mermaid/</guid>
+    <description><![CDATA[<h2 id="documentation">documentation</h2>
+<p><a href="https://mermaidjs.github.io/" target="_blank" rel="noopener noreferrer">mermaid</a> 是一个可以帮助你在文章中生成图表和流程图的库, 类似 Markdown 的语法.</p>
+<blockquote>
+<p>tips: must open <code>math: true</code></p>
+</blockquote>
+<h2 id="base">base</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
+</span></span><span class="line"><span class="cl">graph LR;
+</span></span><span class="line"><span class="cl">    A[Hard edge] --&gt;|Link text| B(Round edge)
+</span></span><span class="line"><span class="cl">    B --&gt; C{Decision}
+</span></span><span class="line"><span class="cl">    C --&gt;|One| D[Result one]
+</span></span><span class="line"><span class="cl">    C --&gt;|Two| E[Result two]
+</span></span><span class="line"><span class="cl">{{&lt; /mermaid &gt;}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="mermaid" id="id-1"></div>
+<h3 id="lines">lines</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
+</span></span><span class="line"><span class="cl">graph LR
+</span></span><span class="line"><span class="cl">   Начало-Стрелки-Start--&gt;Остриё-Стрелки;
+</span></span><span class="line"><span class="cl">   Beta:Multi-Start &lt;--&gt; Beta:Multi-End;
+</span></span><span class="line"><span class="cl">   open-link---next-link;
+</span></span><span class="line"><span class="cl">   text-on---|line txt|link;
+</span></span><span class="line"><span class="cl">   other-text-on-- line txt !--- other-link;
+</span></span><span class="line"><span class="cl">   arrow-text-Start--&gt;|line txt|arrow-text-End;
+</span></span><span class="line"><span class="cl">   Dotted-link-Start-.-&gt;Dotted-link-End;
+</span></span><span class="line"><span class="cl">   Dotted-link-text-Start-.-&gt;|line txt|Dotted-link-text-End;
+</span></span><span class="line"><span class="cl">   Thick-link-Start==&gt;Thick-link-End;
+</span></span><span class="line"><span class="cl">   Thick-link-text-Start== line txt ==&gt;Thick-link-text-End;
+</span></span><span class="line"><span class="cl">{{&lt; /mermaid &gt;}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="mermaid" id="id-2"></div>
+]]></description>
+</item><item>
     <title>Стили от 23-08-2020</title>
     <link>https://diagonaal.ru/2020/style-23-08-2020/</link>
     <pubDate>Sun, 23 Aug 2020 17:04:31 &#43;0300</pubDate>
@@ -117,14 +185,5 @@
 &ldquo;<em>Я думаю, что когда вы находитесь в больнице, особенно в этой конкретной обстановке, когда вы разговариваете с большим количеством солдат, людей, которые в некоторых случаях только что были на операционном столе, считаю, что это отличная вещь — надевать маску</em>&rdquo;, — сказал Трамп журналистам.</p>
 <p>Ранее президент отказывался носить маску на публике, не принуждая к этому других. По его словам, это — личный выбор каждого человека. В то же время, он говорил, что будет пользоваться маской в условиях, когда вокруг будет много людей и соблюдать определенную дистанцию будет невозможно.</p>
 <p><a href="https://rus.delfi.ee/daily/abroad/tramp-vpervye-poyavilsya-na-publike-v-zaschitnoj-maske?id=90425915" target="_blank" rel="noopener noreferrer">Источник</a></p>]]></description>
-</item><item>
-    <title>Ринго – 80!</title>
-    <link>https://diagonaal.ru/2020/ringo-80/</link>
-    <pubDate>Tue, 07 Jul 2020 13:00:13 &#43;0300</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/ringo-80/</guid>
-    <description><![CDATA[<p><br>
-Барабанщику группы «Битлз» Ринго Старру – 80!</p>
-]]></description>
 </item></channel>
 </rss>
