@@ -2445,17 +2445,10 @@ A shortcode is a simple snippet that can generate reasonable HTML code and confo
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-
-
-
-<figure>
-    
-         <figcaption>
-                
-                    <h4>Lighthouse (figure)</h4>
-                
-                
-            </figcaption></figure>
+<figure><figcaption>
+            <h4>Lighthouse (figure)</h4>
+        </figcaption>
+</figure>
 
 <p>The HTML looks like this:</p>
 <div class="highlight"><div class="chroma">
@@ -2599,8 +2592,7 @@ Hugo fournit plusieurs shortcodes intégrés pour la commodité de l&#39;auteur 
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + <a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify</a> _redirects etc. file support<a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ</a> <a href="https://twitter.com/hashtag/gohugo?src=hash&amp;ref_src=twsrc%5Etfw">#gohugo</a> <a href="https://twitter.com/hashtag/golang?src=hash&amp;ref_src=twsrc%5Etfw">#golang</a> <a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13</a> <a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays</a></p>&mdash; GoHugo.io (@GoHugoIO) <a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + <a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify</a> _redirects etc. file support<a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ</a> <a href="https://twitter.com/hashtag/gohugo?src=hash&amp;ref_src=twsrc%5Etfw">#gohugo</a> <a href="https://twitter.com/hashtag/golang?src=hash&amp;ref_src=twsrc%5Etfw">#golang</a> <a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13</a> <a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays</a></p>&mdash; GoHugo.io (@GoHugoIO) <a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h2 id="8-vimeo">8 vimeo</h2>
@@ -2862,7 +2854,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition success open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-check-circle fa-fw"></i>Удачно<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-check-circle fa-fw"></i>Удачто<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>success</strong> banner</div>
