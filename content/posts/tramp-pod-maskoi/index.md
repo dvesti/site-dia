@@ -7,9 +7,9 @@ draft: false
 tags: ["USA"]
 categories: ["COVID-19"]
 toc: false
-featuredImage: ""
+featuredImage: "featured.jpg"
 featuredImagePreview: ""
-featured: false
+featured: true
 image:
   placement: 2
   caption: 'Image credit: [**Rus.Delfi.ee**](https://rus.delfi.ee/)'

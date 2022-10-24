@@ -7,9 +7,9 @@ lastmod: ""
 tags: ["books"]
 categories: ["Writer"]
 toc: false
-featuredImage: ""
+featuredImage: "featured.jpg"
 featuredImagePreview: ""
-featured: false
+featured: true
 image:
   placement: 1
   caption: "Image credit: [**Pinterest.com**](https://tr.pinterest.com/pin/574279389986359085/)"

@@ -4,7 +4,7 @@ slug: "privestvie"
 subtitle: ""
 date: 2021-02-13T20:58:54+02:00
 lastmod: 
-draft: true
+draft: false
 author: ""
 authorLink: ""
 description: ""
@@ -13,7 +13,7 @@ images: [""]
 
 tags: ["test"]
 categories: ["Blog"]
-featuredImage: ""
+featuredImage: "featured.jpg"
 featuredImagePreview: ""
 
 hiddenFromHomePage: false

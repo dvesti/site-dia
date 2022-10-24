@@ -6,9 +6,9 @@ date: 2020-07-05T13:42:13+03:00
 tags: ["food"]
 categories: ["Life"]
 toc: false
-featuredImage: ""
+featuredImage: "featured.jpg"
 featuredImagePreview: ""
-featured: false
+featured: true
 ---
 
 Купленная картошка и оставленная на полу в пакете сгнила через 3 дня. И не жарко было. Клубни превратились в кисель на радость мушкам.
