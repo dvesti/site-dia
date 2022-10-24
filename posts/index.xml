@@ -39,13 +39,13 @@
 тест 22-30 &ndash; 23-10-2022
 тест 14-30 &ndash; 24-10-2022]]></description>
 </item><item>
-    <title>Map mermaid</title>
-    <link>https://diagonaal.ru/2020/map-mermaid/</link>
+    <title>Map mermaid -- russian</title>
+    <link>https://diagonaal.ru/2020/map-mermaid--russian/</link>
     <pubDate>Wed, 18 Nov 2020 22:38:00 &#43;0800</pubDate>
     <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/map-mermaid/</guid>
+    <guid>https://diagonaal.ru/2020/map-mermaid--russian/</guid>
     <description><![CDATA[<h2 id="documentation">documentation</h2>
-<p><a href="https://mermaidjs.github.io/" target="_blank" rel="noopener noreferrer">mermaid</a> 是一个可以帮助你在文章中生成图表和流程图的库, 类似 Markdown 的语法.</p>
+<p><a href="https://mermaidjs.github.io/" target="_blank" rel="noopener noreferrer">mermaid</a> 是一个可以帮助你在文章中生成图表和流程图的库, 类似 Markdown 的语法. Здесь у нас свои тяфы&hellip;</p>
 <blockquote>
 <p>tips: must open <code>math: true</code></p>
 </blockquote>
@@ -91,7 +91,7 @@
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
 </span></span><span class="line"><span class="cl">graph LR
-</span></span><span class="line"><span class="cl">   Начало-Стрелки-Start--&gt;Остриё-Стрелки;
+</span></span><span class="line"><span class="cl">   Arrow-Start--&gt;Arrow-End;
 </span></span><span class="line"><span class="cl">   Beta:Multi-Start &lt;--&gt; Beta:Multi-End;
 </span></span><span class="line"><span class="cl">   open-link---next-link;
 </span></span><span class="line"><span class="cl">   text-on---|line txt|link;
