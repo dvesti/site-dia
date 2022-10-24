@@ -14,7 +14,7 @@ enableEmoji = true
 
 # Ignore get JSON errors.
 ignoreErrors = ["error-remote-getjson"]
-
+ignoreErrors = ["error-missing-instagram-accesstoken"]
 removePathAccents=true
 
 # Change the default theme to be use when building the site with Hugo
@@ -685,6 +685,5 @@ theme = "CodeIT"
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
-
-  ignoreErrors = ["error-missing-instagram-accesstoken"]
+  taxonomyTerm = ["HTML"]  
+  
