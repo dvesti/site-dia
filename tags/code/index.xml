@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
             <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Nov 2020 22:38:00 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/tags/code/" rel="self" type="application/rss+xml" /><item>
     <title>Map mermaid -- russian</title>
-    <link>https://diagonaal.ru/2020/map-mermaid--russian/</link>
+    <link>https://diagonaal.ru/posts-do-23-10-2022/map-mermaid/</link>
     <pubDate>Wed, 18 Nov 2020 22:38:00 &#43;0800</pubDate>
     <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/map-mermaid--russian/</guid>
+    <guid>https://diagonaal.ru/posts-do-23-10-2022/map-mermaid/</guid>
     <description><![CDATA[<h2 id="documentation">documentation</h2>
 <p><a href="https://mermaidjs.github.io/" target="_blank" rel="noopener noreferrer">mermaid</a> 是一个可以帮助你在文章中生成图表和流程图的库, 类似 Markdown 的语法. Здесь у нас свои тяфы&hellip;</p>
 <blockquote>

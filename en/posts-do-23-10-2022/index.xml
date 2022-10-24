@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts-do-23-10-2022s on Diagonaal</title>
+    <link>https://diagonaal.ru/en/posts-do-23-10-2022/</link>
+    <description>Recent content in Posts-do-23-10-2022s on Diagonaal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>one2one@hot.ee (Antuan)</managingEditor>
+    <webMaster>one2one@hot.ee (Antuan)</webMaster>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 04 Feb 2021 15:37:34 +0800</lastBuildDate><atom:link href="https://diagonaal.ru/en/posts-do-23-10-2022/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theme Documentation - Basics</title>
+      <link>https://diagonaal.ru/en/posts-do-23-10-2022/theme-documentation-basics/</link>
+      <pubDate>Fri, 06 Mar 2020 21:29:01 +0800</pubDate>
+      <author>one2one@hot.ee (Antuan)</author>
+      <guid>https://diagonaal.ru/en/posts-do-23-10-2022/theme-documentation-basics/</guid>
+      <description>&lt;p&gt;Discover what the Hugo - &lt;strong&gt;CodeIT&lt;/strong&gt; theme is all about and the core-concepts behind it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Theme Documentation - Content</title>
+      <link>https://diagonaal.ru/en/posts-do-23-10-2022/theme-documentation-content/</link>
+      <pubDate>Thu, 05 Mar 2020 15:58:26 +0800</pubDate>
+      <author>one2one@hot.ee (Antuan)</author>
+      <guid>https://diagonaal.ru/en/posts-do-23-10-2022/theme-documentation-content/</guid>
+      <description>&lt;p&gt;Find out how to create and organize your content quickly and intuitively in &lt;strong&gt;CodeIT&lt;/strong&gt; theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Theme Documentation - Built-in Shortcodes</title>
+      <link>https://diagonaal.ru/en/posts-do-23-10-2022/theme-documentation-built-in-shortcodes/</link>
+      <pubDate>Wed, 04 Mar 2020 16:29:41 +0800</pubDate>
+      <author>one2one@hot.ee (Antuan)</author>
+      <guid>https://diagonaal.ru/en/posts-do-23-10-2022/theme-documentation-built-in-shortcodes/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Hugo&lt;/strong&gt; provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Theme Documentation - Extended Shortcodes</title>
+      <link>https://diagonaal.ru/en/posts-do-23-10-2022/theme-documentation-extended-shortcodes/</link>
+      <pubDate>Tue, 03 Mar 2020 16:29:41 +0800</pubDate>
+      <author>one2one@hot.ee (Antuan)</author>
+      <guid>https://diagonaal.ru/en/posts-do-23-10-2022/theme-documentation-extended-shortcodes/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;CodeIT&lt;/strong&gt; theme provides multiple shortcodes on top of built-in ones in Hugo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Basic Markdown Syntax</title>
+      <link>https://diagonaal.ru/en/posts-do-23-10-2022/basic-markdown-syntax/</link>
+      <pubDate>Sun, 01 Dec 2019 21:57:40 +0800</pubDate>
+      <author>one2one@hot.ee (Antuan)</author>
+      <guid>https://diagonaal.ru/en/posts-do-23-10-2022/basic-markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://diagonaal.ru/en/posts-do-23-10-2022/emoji-support/</link>
+      <pubDate>Tue, 01 Oct 2019 17:55:28 +0800</pubDate>
+      <author>one2one@hot.ee (Antuan)</author>
+      <guid>https://diagonaal.ru/en/posts-do-23-10-2022/emoji-support/</guid>
+      <description>&lt;p&gt;Вова Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bookmarks</title>
+      <link>https://diagonaal.ru/en/posts-do-23-10-2022/bookmarks/</link>
+      <pubDate>Thu, 04 Feb 2021 15:37:34 +0800</pubDate>
+      <author>one2one@hot.ee (Antuan)</author>
+      <guid>https://diagonaal.ru/en/posts-do-23-10-2022/bookmarks/</guid>
+      <description>&lt;p&gt;All my &lt;a href=&#34;tags/bookmark&#34; rel=&#34;&#34;&gt;bookmarks&lt;/a&gt;. Also see &lt;a href=&#34;https://awesome.re/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;awesome list&lt;/a&gt; for all kinds of stuff.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Map mermaid</title>
+      <link>https://diagonaal.ru/en/posts-do-23-10-2022/map-mermaid/</link>
+      <pubDate>Wed, 18 Nov 2020 22:38:00 +0800</pubDate>
+      <author>one2one@hot.ee (Antuan)</author>
+      <guid>https://diagonaal.ru/en/posts-do-23-10-2022/map-mermaid/</guid>
+      <description>documentation mermaid 是一个可以帮助你在文章中生成图表和流程图的库, 类似 Markdown 的语法.
+tips: must open math: true
+base 1 2 3 4 5 6 7 {{&amp;lt; mermaid &amp;gt;}} graph LR; A[Hard edge] --&amp;gt;|Link text| B(Round edge) B --&amp;gt; C{Decision} C --&amp;gt;|One| D[Result one] C --&amp;gt;|Two| E[Result two] {{&amp;lt; /mermaid &amp;gt;}} lines 1 2 3 4 5 6 7 8 9 10 11 12 13 {{&amp;lt; mermaid &amp;gt;}} graph LR Arrow-Start--&amp;gt;Arrow-End; Beta:Multi-Start &amp;lt;--&amp;gt; Beta:Multi-End; open-link---next-link; text-on---|line txt|link; other-text-on-- line txt !</description>
+    </item>
+    
+    <item>
+      <title>My Article Name – Тест</title>
+      <link>https://diagonaal.ru/en/posts-do-23-10-2022/my-article-name/</link>
+      <pubDate>Tue, 19 May 2020 16:31:46 +0300</pubDate>
+      <author>one2one@hot.ee (Antuan)</author>
+      <guid>https://diagonaal.ru/en/posts-do-23-10-2022/my-article-name/</guid>
+      <description>&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;Проверка Шахматных Диаграмм&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Academic: the website builder for Hugo</title>
+      <link>https://diagonaal.ru/en/posts-do-23-10-2022/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 17:30:13 +0300</pubDate>
+      <author>one2one@hot.ee (Antuan)</author>
+      <guid>https://diagonaal.ru/en/posts-do-23-10-2022/getting-started/</guid>
+      <description>Create a beautifully simple website in under 10 minutes.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>https://diagonaal.ru/en/posts-do-23-10-2022/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <author>one2one@hot.ee (Antuan)</author>
+      <guid>https://diagonaal.ru/en/posts-do-23-10-2022/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+  </channel>
+</rss>

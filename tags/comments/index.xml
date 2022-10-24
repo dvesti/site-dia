@@ -6,11 +6,21 @@
         <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
             <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 17 Feb 2021 17:58:22 &#43;0200</lastBuildDate><atom:link href="https://diagonaal.ru/tags/comments/" rel="self" type="application/rss+xml" /><item>
     <title>Добавлено комментирование</title>
-    <link>https://diagonaal.ru/2021/add-comments/</link>
+    <link>https://diagonaal.ru/posts-do-23-10-2022/add-comments/</link>
     <pubDate>Wed, 17 Feb 2021 17:58:22 &#43;0200</pubDate>
     <author>Автор</author>
-    <guid>https://diagonaal.ru/2021/add-comments/</guid>
+    <guid>https://diagonaal.ru/posts-do-23-10-2022/add-comments/</guid>
     <description><![CDATA[<p>Добавил возможность комментирования сообщений.<br>
 Сервис от <a href="https://utteranc.es/" target="_blank" rel="noopener noreferrer"><strong>Utterances</strong></a> позволяет всем зарегистрованным на <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><strong>GitHub</strong></a> оставлять свои комментарии</p>]]></description>
+</item><item>
+    <title>Статьи можно комментировать</title>
+    <link>https://diagonaal.ru/2020/add-comments/</link>
+    <pubDate>Sun, 05 Jul 2020 17:30:13 &#43;0300</pubDate>
+    <author>Автор</author>
+    <guid>https://diagonaal.ru/2020/add-comments/</guid>
+    <description><![CDATA[<p>Добавил возможность под каждой статьёй оставлять свой комментарий</p>
+<p>Для этого использовал <a href="https://sourcethemes.com/academic/docs/customization/#comments" target="_blank" rel="noopener noreferrer"><strong>это</strong></a> руководство.<br>
+В частности, в файле <code>config/_default/params.toml</code> установил <code>engine = 1</code> и в графе <code>shortname = &quot;&quot;</code> поставил <em>короткое имя</em>, созданное на <strong>Disqus</strong>-e для этого сайта.<br>
+В этой теме – <strong><code>Academic</code></strong> – ничего больше добавлять не надо: всё уже сделано до нас. Единственное то, что локально (<em>localhost:1313</em>) установка комментариев не видна. Она появляется только после деплоя на сервер: это надо иметь ввиду</p>]]></description>
 </item></channel>
 </rss>
