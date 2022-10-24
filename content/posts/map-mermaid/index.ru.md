@@ -51,7 +51,7 @@ graph LR;
 ```
 {{</* mermaid */>}}
 graph LR
-   Начало-Стрелки-Start-->Остриё-Стрелки;
+   Arrow-Start-->Arrow-End;
    Beta:Multi-Start <--> Beta:Multi-End;
    open-link---next-link;
    text-on---|line txt|link;
