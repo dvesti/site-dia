@@ -14,7 +14,7 @@ images: [""]
 tags: ["test"]
 categories: ["Blog"]
 featuredImage: ""
-featuredImagePreview: "featured.jpg"
+featuredImagePreview: ""
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
