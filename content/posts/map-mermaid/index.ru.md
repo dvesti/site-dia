@@ -1,5 +1,5 @@
 ---  
-title: "Map mermaid"
+title: "Map mermaid -- russian"
 date: 2020-11-18T22:38:00+08:00
 description: "desc txt url"
 draft: false
@@ -21,7 +21,7 @@ comment:
 
 ## documentation
 
-[mermaid](https://mermaidjs.github.io/) 是一个可以帮助你在文章中生成图表和流程图的库, 类似 Markdown 的语法.
+[mermaid](https://mermaidjs.github.io/) 是一个可以帮助你在文章中生成图表和流程图的库, 类似 Markdown 的语法. Здесь у нас свои тяфы...  
 
 > tips: must open `math: true`  
 
