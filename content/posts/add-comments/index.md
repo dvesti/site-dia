@@ -1,7 +1,4 @@
 ---
-type: "post"
-subtitle: ""
-summary: ""
 authors: []
 title: "Статьи можно комментировать"
 slug: "add-comments"

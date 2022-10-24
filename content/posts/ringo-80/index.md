@@ -8,7 +8,7 @@ tags: ["music", "date"]
 categories: ["Life"]
 toc: false
 description: "Ringo Starr"
-featuredImage: "featured.jpg"
+featuredImage: ""
 featuredImagePreview: ""
 ---
 
