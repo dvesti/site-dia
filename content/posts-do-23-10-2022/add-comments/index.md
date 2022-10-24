@@ -1,11 +1,7 @@
 ---
-type: "post"
-subtitle: ""
-summary: ""
-authors: []
 title: "Статьи можно комментировать"
 slug: "add-comments"
-draft: false
+draft: true
 date: "2020-07-05 17:30:13+0300"  
 lastmod: ""
 tags: ["Blog", "Comments"]
