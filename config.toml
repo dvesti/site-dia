@@ -13,7 +13,8 @@ enableGitInfo = true
 enableEmoji = true
 
 # Ignore get JSON errors.
-# ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+# ignoreErrors = ["error-remote-getjson","error-missing-instagram-accesstoken"]
+ignoreErrors = ["error-missing-instagram-accesstoken"]
 
 removePathAccents=true
 

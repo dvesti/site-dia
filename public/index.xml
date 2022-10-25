@@ -3,26 +3,25 @@
         <title>Diagonaal</title>
         <link>https://diagonaal.ru/</link>
         <description>Diagonaal</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
-            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 04 Feb 2021 15:37:34 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
+            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 22 Mar 2021 02:53:07 &#43;0200</lastBuildDate>
             <atom:link href="https://diagonaal.ru/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Статьи можно комментировать-English</title>
-    <link>https://diagonaal.ru/2020/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8-%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-english/</link>
-    <pubDate>Sun, 05 Jul 2020 17:30:13 &#43;0300</pubDate>
-    <author>Author</author>
-    <guid>https://diagonaal.ru/2020/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8-%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-english/</guid>
-    <description><![CDATA[<p>Добавил возможность под каждой статьёй оставлять свой комментарий</p>
-<p>Для этого использовал <a href="https://sourcethemes.com/academic/docs/customization/#comments" target="_blank" rel="noopener noreferrer"><strong>это</strong></a> руководство.<br>
-В частности, в файле <code>config/_default/params.toml</code> установил <code>engine = 1</code> и в графе <code>shortname = &quot;&quot;</code> поставил <em>короткое имя</em>, созданное на <strong>Disqus</strong>-e для этого сайта.<br>
-В этой теме – <strong><code>Academic</code></strong> – ничего больше добавлять не надо: всё уже сделано до нас. Единственное то, что локально (<em>localhost:1313</em>) установка комментариев не видна. Она появляется только после деплоя на сервер: это надо иметь ввиду</p>]]></description>
-</item><item>
-    <title>Theme Documentation - Basics</title>
-    <link>https://diagonaal.ru/2020/theme-documentation-basics/</link>
-    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://diagonaal.ru/2020/theme-documentation-basics/</guid>
-    <description><![CDATA[<p>Discover what the Hugo - <strong>CodeIT</strong> theme is all about and the core-concepts behind it.</p>
+    <title>Thème Documentation - Concepts de Base</title>
+    <link>https://diagonaal.ru/2020/theme-documentation-concepts-de-base/</link>
+    <pubDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</pubDate>
+    <author>Автор</author>
+    <guid>https://diagonaal.ru/2020/theme-documentation-concepts-de-base/</guid>
+    <description><![CDATA[<p>Découvrez en quoi consiste le thème Hugo - <strong>CodeIT</strong> et les concepts fondamentaux qui le sous-tendent.</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
+Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
+        </div>
+    </div>
 <h2 id="1-requirements">1 Requirements</h2>
 <p>Thanks to the simplicity of Hugo, <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> is the only dependency of this theme.</p>
 <p>Just install latest version of <a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreferrer"><i class="far fa-file-archive fa-fw"></i>&nbsp;Hugo (&gt; 0.78.1)</a> for your OS (<strong>Windows</strong>, <strong>Linux</strong>, <strong>macOS</strong>).</p>
@@ -179,7 +178,7 @@
 </div>
 </div><div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">When building the website, you can set a theme by using <code>--theme</code> option. However, we suggest you modify the configuration file (<strong>config.toml</strong>) and set the theme as the default.</div>
@@ -198,7 +197,7 @@
 </div><p>Feel free to edit the post file by adding some sample content and replacing the title value in the beginning of the file.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">By default all posts and pages are created as a draft. If you want to render these pages, remove the property <code>draft: true</code> from the metadata, set the property <code>draft: false</code> or add <code>-D</code>/<code>--buildDrafts</code> parameter to <code>hugo</code> command.</div>
@@ -215,13 +214,13 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Go to <code>http://localhost:1313</code>.</p>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-basics/basic-configuration-preview.png" title="Basic configuration preview" data-thumbnail="/2020/theme-documentation-basics/basic-configuration-preview.png" data-sub-html="<h2>Basic configuration preview</h2><p>Basic configuration preview</p>">
+<p><figure><a class="lightgallery" href="/2020/theme-documentation-concepts-de-base/basic-configuration-preview.png" title="Basic configuration preview" data-thumbnail="/2020/theme-documentation-concepts-de-base/basic-configuration-preview.png" data-sub-html="<h2>Basic configuration preview</h2><p>Basic configuration preview</p>">
         
     </a><figcaption class="image-caption">Basic configuration preview</figcaption>
     </figure></p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">When you run <code>hugo serve</code>, when the contents of the files change, the page automatically refreshes with the changes.</div>
@@ -229,7 +228,7 @@
     </div>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><p>Since the theme use <code>.Scratch</code> in Hugo to implement some features,
@@ -258,7 +257,7 @@ it is highly recommended that you add <code>--disableFastRender</code> parameter
 </div><p>A <code>public</code> folder will be generated, containing all static content and assets for your website. It can now be deployed on any web server.</p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">The website can be automatically published and hosted with <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a> (Read more about <a href="https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/" target="_blank" rel="noopener noreferrer">Automated HUGO deployments with Netlify</a>).
@@ -1335,7 +1334,7 @@ Alternatively, you can use <a href="https://gohugo.io/hosting-and-deployment/hos
 </div>
 </div><div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Note that some of these parameters are explained in details in other sections of this documentation.</div>
@@ -1426,7 +1425,7 @@ which is you can refer to.</p>
 </div>
         </div>
     </div>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-basics/complete-configuration-preview.png" title="Complete configuration preview" data-thumbnail="/2020/theme-documentation-basics/complete-configuration-preview.png" data-sub-html="<h2>Complete configuration preview</h2><p>Complete configuration preview</p>">
+<p><figure><a class="lightgallery" href="/2020/theme-documentation-concepts-de-base/complete-configuration-preview.png" title="Complete configuration preview" data-thumbnail="/2020/theme-documentation-concepts-de-base/complete-configuration-preview.png" data-sub-html="<h2>Complete configuration preview</h2><p>Complete configuration preview</p>">
         
     </a><figcaption class="image-caption">Complete configuration preview</figcaption>
     </figure></p>
@@ -1445,7 +1444,7 @@ which is you can refer to.</p>
 <h3 id="33-style-customization">3.3 Style Customization</h3>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Hugo <strong>extended</strong> version is necessary for the style customization.</div>
@@ -1470,7 +1469,7 @@ which is you can refer to.</p>
 </div><p>In <code>assets/css/_custom.scss</code>, you can add some css style code to customize the style.</p>
 <h2 id="4-multilingual-and-i18n">4 Multilingual and i18n</h2>
 <p><strong>CodeIT</strong> theme is fully compatible with Hugo multilingual mode, which provides in-browser language switching.</p>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-basics/language-switch.gif" title="Language Switch" data-thumbnail="/2020/theme-documentation-basics/language-switch.gif" data-sub-html="<h2>Language Switch</h2><p>Language Switch</p>">
+<p><figure><a class="lightgallery" href="/2020/theme-documentation-concepts-de-base/language-switch.gif" title="Language Switch" data-thumbnail="/2020/theme-documentation-concepts-de-base/language-switch.gif" data-sub-html="<h2>Language Switch</h2><p>Language Switch</p>">
         
     </a><figcaption class="image-caption">Language Switch</figcaption>
     </figure></p>
@@ -1789,7 +1788,7 @@ which is you can refer to.</p>
 </ul>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Be aware that only translated pages are displayed in menu. It’s not replaced with default language content.</div>
@@ -1797,7 +1796,7 @@ which is you can refer to.</p>
     </div>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Use <a href="https://gohugo.io/content-management/multilingual#translate-your-content" target="_blank" rel="noopener noreferrer">Front Matter parameter</a> to translate urls too.</div>
@@ -1899,12 +1898,21 @@ you need to upload different <code>index.json</code> for each language to the di
         </div>
     </div>]]></description>
 </item><item>
-    <title>Theme Documentation - Content</title>
-    <link>https://diagonaal.ru/2020/theme-documentation-content/</link>
-    <pubDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://diagonaal.ru/2020/theme-documentation-content/</guid>
-    <description><![CDATA[<p>Find out how to create and organize your content quickly and intuitively in <strong>CodeIT</strong> theme.</p>
+    <title>Thème Documentation - Contenu</title>
+    <link>https://diagonaal.ru/2020/theme-documentation-contenu/</link>
+    <pubDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</pubDate>
+    <author>Автор</author>
+    <guid>https://diagonaal.ru/2020/theme-documentation-contenu/</guid>
+    <description><![CDATA[<p>Découvrez comment créer et organiser votre contenu rapidement et intuitivement dans le thème <strong>CodeIT</strong>.</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
+Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
+        </div>
+    </div>
 <h2 id="contents-organization">1 Contents Organization</h2>
 <p>A few suggestions to help you get a good looking site quickly:</p>
 <ul>
@@ -1939,7 +1947,7 @@ It&rsquo;s really cool! <i class="far fa-grin-squint fa-fw"></i></p>
 <p><strong>Hugo</strong> allows you to add front matter in <code>yaml</code>, <code>toml</code> or <code>json</code> to your content files.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><strong>Not all</strong> of the below front matters need to be set in each of your posts.
@@ -2170,7 +2178,7 @@ It is necessary only if the front matters and the <code>page</code> part in your
 </ul>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><p><strong>featuredImage</strong> and <strong>featuredImagePreview</strong> support the complete usage of <a href="#contents-organization" rel="">local resource references</a>.</p>
@@ -2197,7 +2205,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
     </div>
 <h2 id="3-content-summaries">3 Content Summaries</h2>
 <p><strong>CodeIT</strong> theme uses the summary of the content to display abstract information in the home page. Hugo can generate summaries of your content.</p>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-content/summary.png" title="Summary Preview" data-thumbnail="/2020/theme-documentation-content/summary.png" data-sub-html="<h2>Summary Preview</h2><p>Summary Preview</p>">
+<p><figure><a class="lightgallery" href="/2020/theme-documentation-contenu/summary.png" title="Summary Preview" data-thumbnail="/2020/theme-documentation-contenu/summary.png" data-sub-html="<h2>Summary Preview</h2><p>Summary Preview</p>">
         
     </a><figcaption class="image-caption">Summary Preview</figcaption>
     </figure></p>
@@ -2210,7 +2218,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
 <p>Content that comes before the summary divider will be used as that content’s summary.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Be careful to enter <code>&lt;!--more--&gt;</code> exactly; i.e., all lowercase and with no whitespace.</div>
@@ -2231,7 +2239,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
 </ol>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">It is not recommended to include rich text block elements in the summary, which will cause typographic errors. Such as code blocks, pictures, tables, etc.</div>
@@ -2249,7 +2257,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
 and the property <code>math: true</code> of the article front matter to enable the automatic rendering of mathematical formulas.</p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Here is a list of <a href="https://katex.org/docs/supported.html" target="_blank" rel="noopener noreferrer">$ \TeX $ functions supported by $ \KaTeX $</a>.</div>
@@ -2286,7 +2294,7 @@ and the property <code>math: true</code> of the article front matter to enable t
 <p>$ c = \pm\sqrt{a^2 + b^2} $ and \( f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \)</p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">You can add more block and inline delimiters in your <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>.</div>
@@ -2389,7 +2397,7 @@ your content will conflict with basic or extended Markdown syntax, and it is ine
 <p><strong>:joy:</strong> instead of <strong>😂</strong></p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">This is related to <strong><a href="https://github.com/gohugoio/hugo/issues/4978" target="_blank" rel="noopener noreferrer">an issue for Hugo</a></strong>, which has not been resolved.</div>
@@ -2407,12 +2415,21 @@ your content will conflict with basic or extended Markdown syntax, and it is ine
 </div><p>The rendered output looks like this:</p>
 <p><strong>[link](#escape-character)</strong> instead of <strong><a href="#escape-character" rel="">link</a></strong>.</p>]]></description>
 </item><item>
-    <title>Theme Documentation - Built-in Shortcodes</title>
+    <title>Thème Documentation - Built-in Shortcodes</title>
     <link>https://diagonaal.ru/2020/theme-documentation-built-in-shortcodes/</link>
-    <pubDate>Wed, 04 Mar 2020 16:29:41 &#43;0800</pubDate>
-    <author>Author</author>
+    <pubDate>Wed, 04 Mar 2020 16:29:59 &#43;0800</pubDate>
+    <author>Автор</author>
     <guid>https://diagonaal.ru/2020/theme-documentation-built-in-shortcodes/</guid>
-    <description><![CDATA[<p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p>
+    <description><![CDATA[<p><strong>Hugo</strong> fournit plusieurs shortcodes intégrés pour la commodité de l&rsquo;auteur et pour garder votre contenu de démarque propre.</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
+Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
+        </div>
+    </div>
 <p>Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.</p>
 <p>But this happens to be a bad idea. Everyone uses Markdown because it’s pure and simple to read even non-rendered. You should avoid HTML to keep it as simple as possible.</p>
 <p>To avoid this limitations, Hugo created <a href="https://gohugo.io/extras/shortcodes/" target="_blank" rel="noopener noreferrer">shortcodes</a>.
@@ -2569,7 +2586,7 @@ A shortcode is a simple snippet that can generate reasonable HTML code and confo
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.
+Hugo fournit plusieurs shortcodes intégrés pour la commodité de l&#39;auteur et pour garder votre contenu de démarque propre.
 <h2 id="ref-and-relref">6 ref and relref</h2>
 <p><a href="https://gohugo.io/content-management/shortcodes#ref-and-relref" target="_blank" rel="noopener noreferrer">Documentation of <code>ref</code> and <code>relref</code></a></p>
 <h2 id="7-tweet">7 tweet</h2>
@@ -2622,16 +2639,25 @@ Hugo provides multiple built-in shortcodes for author convenience and to keep yo
   <iframe src="https://www.youtube-nocookie.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>]]></description>
 </item><item>
-    <title>Theme Documentation - Extended Shortcodes</title>
+    <title>Thème Documentation - Extended Shortcodes</title>
     <link>https://diagonaal.ru/2020/theme-documentation-extended-shortcodes/</link>
-    <pubDate>Tue, 03 Mar 2020 16:29:41 &#43;0800</pubDate>
-    <author>Author</author>
+    <pubDate>Tue, 03 Mar 2020 16:29:59 &#43;0800</pubDate>
+    <author>Автор</author>
     <guid>https://diagonaal.ru/2020/theme-documentation-extended-shortcodes/</guid>
-    <description><![CDATA[<p><strong>CodeIT</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p>
+    <description><![CDATA[<p>Le thème <strong>CodeIT</strong> fournit plusieurs shortcodes en plus de ceux intégrés dans Hugo.</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
+Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
+        </div>
+    </div>
 <h2 id="1-style">1 style</h2>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Hugo <strong>extended</strong> version is necessary for <code>style</code> shortcode.</div>
@@ -2806,7 +2832,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
 <p><em>Markdown or HTML format in the content is supported.</em></p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>note</strong> banner</div>
@@ -2814,7 +2840,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition abstract open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-list-ul fa-fw"></i>Abstract<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-list-ul fa-fw"></i>Краткое описание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">An <strong>abstract</strong> banner</div>
@@ -2822,7 +2848,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition info open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-info-circle fa-fw"></i>Info<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-info-circle fa-fw"></i>Инфо<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>info</strong> banner</div>
@@ -2830,7 +2856,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>tip</strong> banner</div>
@@ -2838,7 +2864,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition success open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-check-circle fa-fw"></i>Success<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-check-circle fa-fw"></i>Удачно<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>success</strong> banner</div>
@@ -2846,7 +2872,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition question open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-question-circle fa-fw"></i>Question<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-question-circle fa-fw"></i>Вопрос<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>question</strong> banner</div>
@@ -2854,7 +2880,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition warning open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Warning<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>warning</strong> banner</div>
@@ -2862,7 +2888,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition failure open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-times-circle fa-fw"></i>Failure<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-times-circle fa-fw"></i>Отказ<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>failure</strong> banner</div>
@@ -2870,7 +2896,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition danger open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-skull-crossbones fa-fw"></i>Danger<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-skull-crossbones fa-fw"></i>Опасность<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>danger</strong> banner</div>
@@ -2878,7 +2904,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition bug open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-bug fa-fw"></i>Bug<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-bug fa-fw"></i>Ошибка<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>bug</strong> banner</div>
@@ -2886,7 +2912,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition example open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-list-ol fa-fw"></i>Example<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-list-ol fa-fw"></i>Пример<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">An <strong>example</strong> banner</div>
@@ -2894,7 +2920,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition quote open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>Quote<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-quote-right fa-fw"></i>Цитата<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>quote</strong> banner</div>
@@ -4167,7 +4193,7 @@ But sometimes you may want to start a set of <code>typeit</code> contents in ord
 <p><code>script</code> is a shortcode to insert custom <strong><i class="fab fa-js fa-fw"></i>&nbsp;Javascript</strong> in your post.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">The script content can be guaranteed to be executed in order after all third-party libraries are loaded. So you are free to use third-party libraries.</div>
@@ -4188,15 +4214,24 @@ But sometimes you may want to start a set of <code>typeit</code> contents in ord
 </div>
 </div><p>You can see the output in the console of the developer tool.</p>]]></description>
 </item><item>
-    <title>Basic Markdown Syntax</title>
-    <link>https://diagonaal.ru/2019/basic-markdown-syntax/</link>
+    <title>Syntaxe de Markdown de Base</title>
+    <link>https://diagonaal.ru/2019/syntaxe-de-markdown-de-base/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://diagonaal.ru/2019/basic-markdown-syntax/</guid>
-    <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>
+    <author>Автор</author>
+    <guid>https://diagonaal.ru/2019/syntaxe-de-markdown-de-base/</guid>
+    <description><![CDATA[<p>Cet article propose un exemple de syntaxe Markdown de base qui peut être utilisée dans les fichiers de contenu Hugo.</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
+Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
+        </div>
+    </div>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><p>This article is a shameful copy of the great <a href="http://learn.getgrav.org/content/markdown" target="_blank" rel="noopener noreferrer">Grav original page</a>.</p>
@@ -4227,7 +4262,7 @@ the single biggest source of inspiration for Markdown’s syntax is the format o
 <p>Without further delay, let us go over the main elements of Markdown and what the resulting HTML looks like!</p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><i class="far fa-bookmark fa-fw"></i>&nbsp;Bookmark this page for easy future reference!</div>
@@ -4242,13 +4277,21 @@ the single biggest source of inspiration for Markdown’s syntax is the format o
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="gu">## h2 Heading
-</span></span></span><span class="line"><span class="cl"><span class="gu">### h3 Heading
-</span></span></span><span class="line"><span class="cl"><span class="gu">#### h4 Heading
-</span></span></span><span class="line"><span class="cl"><span class="gu">##### h5 Heading
-</span></span></span><span class="line"><span class="cl"><span class="gu">###### h6 Heading
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl"><span class="gu">### h3 Heading
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl"><span class="gu">#### h4 Heading
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl"><span class="gu">##### h5 Heading
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl"><span class="gu">###### h6 Heading
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>The HTML looks like this:</p>
@@ -4343,9 +4386,19 @@ In Markdown, you can create a <code>&lt;hr&gt;</code> with any of the following:
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et
+</span></span><span class="line"><span class="cl">  legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis
+</span></span><span class="line"><span class="cl">  inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei
+</span></span><span class="line"><span class="cl">  qui, vide sensibus vim ad.
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>A <strong>line break</strong> can be done with one blank line.</p>
@@ -4358,15 +4411,11 @@ In Markdown, you can create a <code>&lt;hr&gt;</code> with any of the following:
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl">Paragraph in Markdown.
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;class&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">    This is <span class="p">&lt;</span><span class="nt">b</span><span class="p">&gt;</span>HTML<span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;class&#34;</span><span class="p">&gt;</span>This is <span class="p">&lt;</span><span class="nt">b</span><span class="p">&gt;</span>HTML<span class="p">&lt;/</span><span class="nt">b</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">Paragraph in Markdown.
 </span></span></code></pre></td></tr></table>
@@ -4382,7 +4431,7 @@ In Markdown, you can create a <code>&lt;hr&gt;</code> with any of the following:
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">**rendered as bold text**
-</span></span><span class="line"><span class="cl"><span class="gs">__rendered as bold text__</span>
+</span></span><span class="line"><span class="cl"><span class="gs">**rendered as bold text**</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The HTML looks like this:</p>
@@ -4403,7 +4452,7 @@ In Markdown, you can create a <code>&lt;hr&gt;</code> with any of the following:
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">*rendered as italicized text*
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">_rendered as italicized text_
 </span></span><span class="line"><span class="cl"><span class="ge">_rendered as italicized text_</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -4447,17 +4496,17 @@ In Markdown, you can create a <code>&lt;hr&gt;</code> with any of the following:
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">***bold and italics***
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">**_bold and italics_**
 </span></span><span class="line"><span class="cl"><span class="gd">~~**strikethrough and bold**~~</span>
-</span></span><span class="line"><span class="cl"><span class="gd">~~*strikethrough and italics*~~</span>
-</span></span><span class="line"><span class="cl"><span class="gd">~~***bold, italics and strikethrough***~~</span>
+</span></span><span class="line"><span class="cl"><span class="gd">~~_strikethrough and italics_~~</span>
+</span></span><span class="line"><span class="cl"><span class="gd">~~**_bold, italics and strikethrough_**~~</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<p><em><strong>bold and italics</strong></em></p>
+<p><strong><em>bold and italics</em></strong></p>
 <p><del><strong>strikethrough and bold</strong></del></p>
 <p><del><em>strikethrough and italics</em></del></p>
-<p><del><em><strong>bold, italics and strikethrough</strong></em></del></p>
+<p><del><strong><em>bold, italics and strikethrough</em></strong></del></p>
 <p>The HTML looks like this:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -4465,12 +4514,16 @@ In Markdown, you can create a <code>&lt;hr&gt;</code> with any of the following:
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">em</span><span class="p">&gt;&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>bold and italics<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">del</span><span class="p">&gt;&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>strikethrough and bold<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;&lt;/</span><span class="nt">del</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">del</span><span class="p">&gt;&lt;</span><span class="nt">em</span><span class="p">&gt;</span>strikethrough and italics<span class="p">&lt;/</span><span class="nt">em</span><span class="p">&gt;&lt;/</span><span class="nt">del</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">del</span><span class="p">&gt;&lt;</span><span class="nt">em</span><span class="p">&gt;&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>bold, italics and strikethrough<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;&lt;/</span><span class="nt">del</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">del</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&gt;&lt;</span><span class="nt">em</span><span class="p">&gt;&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>bold, italics and strikethrough<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;&lt;/</span><span class="nt">del</span>
+</span></span><span class="line"><span class="cl"><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="7-blockquotes">7 Blockquotes</h2>
@@ -4496,11 +4549,15 @@ In Markdown, you can create a <code>&lt;hr&gt;</code> with any of the following:
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">blockquote</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>Fusion Drive<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span> combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>Fusion Drive<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span> combines a hard drive with a flash storage
+</span></span><span class="line"><span class="cl">    (solid-state drive) and presents it as a single logical volume with the
+</span></span><span class="line"><span class="cl">    space of both drives combined.
 </span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">blockquote</span><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
@@ -4512,13 +4569,15 @@ In Markdown, you can create a <code>&lt;hr&gt;</code> with any of the following:
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="k">&gt; </span><span class="ge">Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
-</span></span></span><span class="line"><span class="cl"><span class="ge"></span>Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
-</span></span><span class="line"><span class="cl">&gt;&gt; Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
-</span></span><span class="line"><span class="cl">odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
-</span></span></code></pre></td></tr></table>
+</span></span></span><span class="line"><span class="cl"><span class="ge"></span><span class="k">&gt; </span><span class="ge">Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
+</span></span></span><span class="line"><span class="cl"><span class="ge"></span><span class="k">&gt;
+</span></span></span><span class="line"><span class="cl"><span class="k"></span><span class="ge">&gt; &gt; Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
+</span></span></span><span class="line"><span class="cl"><span class="ge"></span><span class="k">&gt; </span><span class="ge">&gt; odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
 <blockquote>
@@ -4538,11 +4597,15 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="k">*</span> valid bullet
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="k">-</span> valid bullet
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">*</span> valid bullet
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">-</span> valid bullet
-</span></span><span class="line"><span class="cl">+ valid bullet
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>For example:</p>
@@ -4562,18 +4625,18 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="k">*</span> Lorem ipsum dolor sit amet
-</span></span><span class="line"><span class="cl"><span class="k">*</span> Consectetur adipiscing elit
-</span></span><span class="line"><span class="cl"><span class="k">*</span> Integer molestie lorem at massa
-</span></span><span class="line"><span class="cl"><span class="k">*</span> Facilisis in pretium nisl aliquet
-</span></span><span class="line"><span class="cl"><span class="k">*</span> Nulla volutpat aliquam velit
-</span></span><span class="line"><span class="cl">  <span class="k">*</span> Phasellus iaculis neque
-</span></span><span class="line"><span class="cl">  <span class="k">*</span> Purus sodales ultricies
-</span></span><span class="line"><span class="cl">  <span class="k">*</span> Vestibulum laoreet porttitor sem
-</span></span><span class="line"><span class="cl">  <span class="k">*</span> Ac tristique libero volutpat at
-</span></span><span class="line"><span class="cl"><span class="k">*</span> Faucibus porta lacus fringilla vel
-</span></span><span class="line"><span class="cl"><span class="k">*</span> Aenean sit amet erat nunc
-</span></span><span class="line"><span class="cl"><span class="k">*</span> Eget porttitor lorem
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="k">-</span> Lorem ipsum dolor sit amet
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Consectetur adipiscing elit
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Integer molestie lorem at massa
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Facilisis in pretium nisl aliquet
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Nulla volutpat aliquam velit
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> Phasellus iaculis neque
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> Purus sodales ultricies
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> Vestibulum laoreet porttitor sem
+</span></span><span class="line"><span class="cl">  <span class="k">-</span> Ac tristique libero volutpat at
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Faucibus porta lacus fringilla vel
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Aenean sit amet erat nunc
+</span></span><span class="line"><span class="cl"><span class="k">-</span> Eget porttitor lorem
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
@@ -4614,6 +4677,7 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 </span><span class="lnt">15
 </span><span class="lnt">16
 </span><span class="lnt">17
+</span><span class="lnt">18
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
@@ -4621,7 +4685,8 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 </span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Consectetur adipiscing elit<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Integer molestie lorem at massa<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Facilisis in pretium nisl aliquet<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Nulla volutpat aliquam velit
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    Nulla volutpat aliquam velit
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Phasellus iaculis neque<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>Purus sodales ultricies<span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
@@ -4699,7 +4764,7 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 </div>
 </div><div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><p>If you just use <code>1.</code> for each number, Markdown will automatically number each item. For example:</p>
@@ -4778,10 +4843,12 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
+</span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  In this example, <span class="p">&lt;</span><span class="nt">code</span><span class="p">&gt;</span><span class="ni">&amp;lt;</span>section<span class="ni">&amp;gt;&amp;lt;</span>/section<span class="ni">&amp;gt;</span><span class="p">&lt;/</span><span class="nt">code</span><span class="p">&gt;</span> should be wrapped with <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>code<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span>.
+</span></span><span class="line"><span class="cl">  In this example, <span class="p">&lt;</span><span class="nt">code</span><span class="p">&gt;</span><span class="ni">&amp;lt;</span>section<span class="ni">&amp;gt;&amp;lt;</span>/section<span class="ni">&amp;gt;</span><span class="p">&lt;/</span><span class="nt">code</span><span class="p">&gt;</span> should be
+</span></span><span class="line"><span class="cl">  wrapped with <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>code<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span>.
 </span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -4953,7 +5020,7 @@ line 3 of code
 </div>
 </div><div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><a href="https://gohugo.io/content-management/syntax-highlighting/" target="_blank" rel="noopener noreferrer">Syntax highlighting page</a> in <strong>Hugo</strong> Docs introduces more about syntax highlighting, including highlight shortcode.</div>
@@ -4970,11 +5037,11 @@ line 3 of code
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">| Option | Description |
-</span></span><span class="line"><span class="cl">| ------ | ----------- |
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">| Option | Description                                                               |
+</span></span><span class="line"><span class="cl">| ------ | ------------------------------------------------------------------------- |
 </span></span><span class="line"><span class="cl">| data   | path to data files to supply the data that will be passed into templates. |
-</span></span><span class="line"><span class="cl">| engine | engine to be used for processing templates. Handlebars is the default. |
-</span></span><span class="line"><span class="cl">| ext    | extension to be used for dest files. |
+</span></span><span class="line"><span class="cl">| engine | engine to be used for processing templates. Handlebars is the default.    |
+</span></span><span class="line"><span class="cl">| ext    | extension to be used for dest files.                                      |
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
@@ -5025,6 +5092,11 @@ line 3 of code
 </span><span class="lnt">20
 </span><span class="lnt">21
 </span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
@@ -5037,11 +5109,16 @@ line 3 of code
 </span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">tbody</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>data<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>path to data files to supply the data that will be passed into templates.<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        path to data files to supply the data that will be passed into
+</span></span><span class="line"><span class="cl">        templates.
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>engine<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>engine to be used for processing templates. Handlebars is the default.<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        engine to be used for processing templates. Handlebars is the default.
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>ext<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
@@ -5067,11 +5144,11 @@ line 3 of code
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">| Option | Description |
-</span></span><span class="line"><span class="cl">|:------:| -----------:|
-</span></span><span class="line"><span class="cl">| data   | path to data files to supply the data that will be passed into templates. |
-</span></span><span class="line"><span class="cl">| engine | engine to be used for processing templates. Handlebars is the default. |
-</span></span><span class="line"><span class="cl">| ext    | extension to be used for dest files. |
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">| Option |                                                               Description |
+</span></span><span class="line"><span class="cl">| :----: | ------------------------------------------------------------------------: |
+</span></span><span class="line"><span class="cl">|  data  | path to data files to supply the data that will be passed into templates. |
+</span></span><span class="line"><span class="cl">| engine |    engine to be used for processing templates. Handlebars is the default. |
+</span></span><span class="line"><span class="cl">|  ext   |                                      extension to be used for dest files. |
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
@@ -5100,8 +5177,8 @@ line 3 of code
 </div>
         </div>
     </div>
-<h2 id="links">11 Links</h2>
-<h3 id="basic-link">Basic Link</h3>
+<h2 id="11-links">11 Links</h2>
+<h3 id="links">Basic Link</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -5159,40 +5236,48 @@ line 3 of code
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="gu">## Table of Contents
-</span></span></span><span class="line"><span class="cl"><span class="gu"></span>  <span class="k">*</span> [<span class="nt">Chapter 1</span>](<span class="na">#chapter-1</span>)
-</span></span><span class="line"><span class="cl">  <span class="k">*</span> [<span class="nt">Chapter 2</span>](<span class="na">#chapter-2</span>)
-</span></span><span class="line"><span class="cl">  <span class="k">*</span> [<span class="nt">Chapter 3</span>](<span class="na">#chapter-3</span>)
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl"><span class="k">-</span> [<span class="nt">Chapter 1</span>](<span class="na">#chapter-1</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> [<span class="nt">Chapter 2</span>](<span class="na">#chapter-2</span>)
+</span></span><span class="line"><span class="cl"><span class="k">-</span> [<span class="nt">Chapter 3</span>](<span class="na">#chapter-3</span>)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>will jump to these sections:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="gu">## Chapter 1 &lt;a id=&#34;chapter-1&#34;&gt;&lt;/a&gt;
-</span></span></span><span class="line"><span class="cl"><span class="gu"></span>Content for chapter one.
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl">Content for chapter one.
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="gu">## Chapter 2 &lt;a id=&#34;chapter-2&#34;&gt;&lt;/a&gt;
-</span></span></span><span class="line"><span class="cl"><span class="gu"></span>Content for chapter one.
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl">Content for chapter one.
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="gu">## Chapter 3 &lt;a id=&#34;chapter-3&#34;&gt;&lt;/a&gt;
-</span></span></span><span class="line"><span class="cl"><span class="gu"></span>Content for chapter one.
+</span></span></span><span class="line"><span class="cl"><span class="gu"></span>
+</span></span><span class="line"><span class="cl">Content for chapter one.
 </span></span></code></pre></td></tr></table>
 </div>
 </div><div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">The specific placement of the anchor tag seems to be arbitrary. They are placed inline here since it seems to be unobtrusive, and it works.</div>
@@ -5263,12 +5348,12 @@ line 3 of code
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">[id]: https://octodex.github.com/images/dojocat.jpg  &#34;The Dojocat&#34;
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">[id]: https://octodex.github.com/images/dojocat.jpg &#34;The Dojocat&#34;
 </span></span></code></pre></td></tr></table>
 </div>
 </div><div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><strong>CodeIT</strong> theme has <a href="../theme-documentation-extended-shortcodes#image" rel="">special shortcode for image</a>, which provides more features.</div>
@@ -5289,9 +5374,18 @@ line 3 of code
     <title>Emoji Support</title>
     <link>https://diagonaal.ru/2019/emoji-support/</link>
     <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>Автор</author>
     <guid>https://diagonaal.ru/2019/emoji-support/</guid>
-    <description><![CDATA[<p>Вова Emoji can be enabled in a Hugo project in a number of ways.</p>
+    <description><![CDATA[<p>Emoji peut être activé dans un projet Hugo de plusieurs façons.</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
+Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
+        </div>
+    </div>
 <p>The <a href="https://gohugo.io/functions/emojify/" target="_blank" rel="noopener noreferrer"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates#inline-shortcodes" target="_blank" rel="noopener noreferrer">Inline Shortcodes</a>.</p>
 <p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your <a href="https://gohugo.io/getting-started/configuration/" target="_blank" rel="noopener noreferrer">site configuration</a> and then you can type emoji shorthand codes directly in content files.</p>
 <p>These begin and end with a <strong>colon</strong> and include the <strong>code</strong> of an emoji:</p>
@@ -11030,7 +11124,7 @@ line 3 of code
     <title>Bookmarks</title>
     <link>https://diagonaal.ru/2021/bookmarks/</link>
     <pubDate>Thu, 04 Feb 2021 15:37:34 &#43;0800</pubDate>
-    <author>Author</author>
+    <author>Автор</author>
     <guid>https://diagonaal.ru/2021/bookmarks/</guid>
     <description><![CDATA[<p>All my <a href="tags/bookmark" rel="">bookmarks</a>. Also see <a href="https://awesome.re/" target="_blank" rel="noopener noreferrer">awesome list</a> for all kinds of stuff.</p>
 <h2 id="general-free-stuff">General Free stuff</h2>
@@ -11397,92 +11491,39 @@ line 3 of code
 <li><a href="https://steamworkshopdownloader.io/" target="_blank" rel="noopener noreferrer">Steam workshop downloader</a> and another similar project: <a href="http://steamworkshop.download/" target="_blank" rel="noopener noreferrer">Steam workshop download</a></li>
 </ul>]]></description>
 </item><item>
-    <title>Map mermaid</title>
-    <link>https://diagonaal.ru/2020/map-mermaid/</link>
-    <pubDate>Wed, 18 Nov 2020 22:38:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://diagonaal.ru/2020/map-mermaid/</guid>
-    <description><![CDATA[<h2 id="documentation">documentation</h2>
-<p><a href="https://mermaidjs.github.io/" target="_blank" rel="noopener noreferrer">mermaid</a> 是一个可以帮助你在文章中生成图表和流程图的库, 类似 Markdown 的语法.</p>
-<blockquote>
-<p>tips: must open <code>math: true</code></p>
-</blockquote>
-<h2 id="base">base</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
-</span></span><span class="line"><span class="cl">graph LR;
-</span></span><span class="line"><span class="cl">    A[Hard edge] --&gt;|Link text| B(Round edge)
-</span></span><span class="line"><span class="cl">    B --&gt; C{Decision}
-</span></span><span class="line"><span class="cl">    C --&gt;|One| D[Result one]
-</span></span><span class="line"><span class="cl">    C --&gt;|Two| E[Result two]
-</span></span><span class="line"><span class="cl">{{&lt; /mermaid &gt;}}
-</span></span></code></pre></td></tr></table>
-</div>
-</div><div class="mermaid" id="id-1"></div>
-<h3 id="lines">lines</h3>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
-</span></span><span class="line"><span class="cl">graph LR
-</span></span><span class="line"><span class="cl">   Arrow-Start--&gt;Arrow-End;
-</span></span><span class="line"><span class="cl">   Beta:Multi-Start &lt;--&gt; Beta:Multi-End;
-</span></span><span class="line"><span class="cl">   open-link---next-link;
-</span></span><span class="line"><span class="cl">   text-on---|line txt|link;
-</span></span><span class="line"><span class="cl">   other-text-on-- line txt !--- other-link;
-</span></span><span class="line"><span class="cl">   arrow-text-Start--&gt;|line txt|arrow-text-End;
-</span></span><span class="line"><span class="cl">   Dotted-link-Start-.-&gt;Dotted-link-End;
-</span></span><span class="line"><span class="cl">   Dotted-link-text-Start-.-&gt;|line txt|Dotted-link-text-End;
-</span></span><span class="line"><span class="cl">   Thick-link-Start==&gt;Thick-link-End;
-</span></span><span class="line"><span class="cl">   Thick-link-text-Start== line txt ==&gt;Thick-link-text-End;
-</span></span><span class="line"><span class="cl">{{&lt; /mermaid &gt;}}
-</span></span></code></pre></td></tr></table>
-</div>
-</div><div class="mermaid" id="id-2"></div>
+    <title>Статистика по Covid-19 в Эстонии</title>
+    <link>https://diagonaal.ru/2021/covid-chart/</link>
+    <pubDate>Mon, 22 Mar 2021 02:53:07 &#43;0200</pubDate>
+    <author>Автор</author>
+    <guid>https://diagonaal.ru/2021/covid-chart/</guid>
+    <description><![CDATA[<p>Создали <a href="/2021/covid-chart/" rel=""><strong>страницу</strong></a> со статистикой по коронавирусу в Эстонии.</p>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>Инфо<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">График <span style="color:#B03A5B"><strong>обновляется</strong></span>. <span style="color:#ff6600"><strong>Приостановлено: 01-05-2022 г.</strong></span></div>
+        </div>
+    </div>
+<p><strong>Статистика по Короновирусу</strong></p>
+<div class="echarts" id="id-1" style="width: 100%; height: 30rem;"></div>]]></description>
+</item><item>
+    <title>First post</title>
+    <link>https://diagonaal.ru/2021/first-post/</link>
+    <pubDate>Sat, 13 Feb 2021 20:58:54 &#43;0200</pubDate>
+    <author>Автор</author>
+    <guid>https://diagonaal.ru/2021/first-post/</guid>
+    <description><![CDATA[<p><strong>Привет</strong> <em>всем</em>!<br>
+Тест<br>
+Testing</p>
 ]]></description>
 </item><item>
-    <title>Стили от 23-08-2020</title>
-    <link>https://diagonaal.ru/2020/style-23-08-2020/</link>
-    <pubDate>Sun, 23 Aug 2020 17:04:31 &#43;0300</pubDate>
-    <author>Author</author>
-    <guid>https://diagonaal.ru/2020/style-23-08-2020/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/featured.jpg" referrerpolicy="no-referrer">
-            </div><p>Меняю стили каждый день, как я и писал ранее, в ущерб написанию заметок.<br>
-Сейчас всё-таки изменил размер шрифта даты, который был связан с другими стилями, поэтому пришлось выделить в отдельные строки.</p>
-<p>Использовал стили оригинала — <strong>Refined</strong>, а также <strong>Jane</strong></p>
-<p>Менять пришлось и <em>курсив</em>, так как он брался из другого шрифта получался другого размера (в частности, меньше), что было не очень красиво.</p>
-<p>Не считаю себя специалистом по дизайну или внешнему виду и стилям, но стараюсь привести сайт-блог к такому виду, чтобы нравилось самому. Например, чуть б<strong>о</strong>льший шрифт, чтоб не щуриться.</p>
-<p>Между тем, структура (скелет) сайта адаптирована для мобильных устройств: очень интересно читать сайт, имитируя СмартФон, сужая окно просмотра по горизонтали.</p>
-<blockquote>
-<p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.<br>
-Это какой-то <strong>текст для примера</strong>, чтобы показать как выглядит цитата.<br>
-Это или Источник или высказывания Великих людей. Да, и –- вообще&hellip;</p>
-</blockquote>
-<p>Изменил внешний вид цитаты, убрал отображение тэгов и категорий на странице Архива.  По секрету: на сайте есть страница и тэгов и категорий, просто не указана в меню.  При необходимых минимальных навыках, эти странички можно отыскать самому</p>]]></description>
+    <title>Приветствие!</title>
+    <link>https://diagonaal.ru/2021/privestvie/</link>
+    <pubDate>Sat, 13 Feb 2021 20:58:54 &#43;0200</pubDate>
+    <author>Автор</author>
+    <guid>https://diagonaal.ru/2021/privestvie/</guid>
+    <description><![CDATA[Привет всем, кто зашёл на этот сайт!
+тест 22-30 &ndash; 23-10-2022]]></description>
 </item></channel>
 </rss>

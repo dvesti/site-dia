@@ -1,9 +1,14 @@
-# Theme Documentation - Built-in Shortcodes
+# Thème Documentation - Built-in Shortcodes
 
 
-**Hugo** provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.
+**Hugo** fournit plusieurs shortcodes intégrés pour la commodité de l'auteur et pour garder votre contenu de démarque propre.
 
 <!--more-->
+
+{{< admonition warning >}}
+Sorry, this article has not been completely translated into **French**.
+Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/sunt-programator/CodeIT/pulls) to the theme!
+{{< /admonition >}}
 
 Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.
 
