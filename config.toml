@@ -2,7 +2,7 @@ baseURL = "https://diagonaal.ru/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "ru"
 # language code
-languageCode = "en"
+# languageCode = "en"
 title = "Diagonaal"
 
 # whether to use robots.txt
