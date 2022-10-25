@@ -2,15 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://diagonaal.ru/2020/theme-documentation-basics/</loc><lastmod>2022-10-25T02:09:44&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="ru"
-                        href="https://diagonaal.ru/ru/2020/theme-documentation-concepts-de-base/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://diagonaal.ru/2020/theme-documentation-basics/"
-                    /></url><url>
+            <loc>https://diagonaal.ru/2020/theme-documentation-basics/</loc><lastmod>2022-10-25T02:09:44&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://diagonaal.ru/2020/theme-documentation-content/</loc><lastmod>2022-10-25T02:09:44&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="ru"
@@ -101,15 +93,7 @@
             <loc>https://diagonaal.ru/2020/add-comments/</loc><lastmod>2022-10-25T02:45:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://diagonaal.ru/categories/demo/</loc><lastmod>2022-10-25T03:44:34&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://diagonaal.ru/2020/my-article-name/</loc><lastmod>2022-10-25T03:44:34&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://diagonaal.ru/tags/configuration/</loc><lastmod>2022-10-25T02:09:44&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="ru"
-                        href="https://diagonaal.ru/ru/tags/configuration/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://diagonaal.ru/tags/configuration/"
-                    /></url><url>
+            <loc>https://diagonaal.ru/tags/configuration/</loc><lastmod>2022-10-25T02:09:44&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://diagonaal.ru/categories/documentation/</loc><lastmod>2022-10-25T02:09:44&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="ru"
@@ -119,15 +103,7 @@
                     hreflang="en"
                     href="https://diagonaal.ru/categories/documentation/"
                     /></url><url>
-            <loc>https://diagonaal.ru/tags/installation/</loc><lastmod>2022-10-25T02:09:44&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="ru"
-                        href="https://diagonaal.ru/ru/tags/installation/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://diagonaal.ru/tags/installation/"
-                    /></url><url>
+            <loc>https://diagonaal.ru/tags/installation/</loc><lastmod>2022-10-25T02:09:44&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://diagonaal.ru/tags/content/</loc><lastmod>2022-10-25T02:09:44&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="ru"
