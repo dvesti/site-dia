@@ -1,25 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>installation - Тэг - Diagonaal</title>
+        <title>installation - Tag - Diagonaal</title>
         <link>https://diagonaal.ru/tags/installation/</link>
-        <description>installation - Тэг - Diagonaal</description>
-        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
-            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/tags/installation/" rel="self" type="application/rss+xml" /><item>
-    <title>Thème Documentation - Concepts de Base</title>
-    <link>https://diagonaal.ru/2020/theme-documentation-concepts-de-base/</link>
-    <pubDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/theme-documentation-concepts-de-base/</guid>
-    <description><![CDATA[<p>Découvrez en quoi consiste le thème Hugo - <strong>CodeIT</strong> et les concepts fondamentaux qui le sous-tendent.</p>
-<div class="details admonition warning open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
-Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
-        </div>
-    </div>
+        <description>installation - Tag - Diagonaal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
+            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/tags/installation/" rel="self" type="application/rss+xml" /><item>
+    <title>Theme Documentation - Basics</title>
+    <link>https://diagonaal.ru/2020/theme-documentation-basics/</link>
+    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://diagonaal.ru/2020/theme-documentation-basics/</guid>
+    <description><![CDATA[<p>Discover what the Hugo - <strong>CodeIT</strong> theme is all about and the core-concepts behind it.</p>
 <h2 id="1-requirements">1 Requirements</h2>
 <p>Thanks to the simplicity of Hugo, <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> is the only dependency of this theme.</p>
 <p>Just install latest version of <a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreferrer"><i class="far fa-file-archive fa-fw"></i>&nbsp;Hugo (&gt; 0.78.1)</a> for your OS (<strong>Windows</strong>, <strong>Linux</strong>, <strong>macOS</strong>).</p>
@@ -176,7 +167,7 @@ Welcome to take the time to propose a translation by <a href="https://github.com
 </div>
 </div><div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">When building the website, you can set a theme by using <code>--theme</code> option. However, we suggest you modify the configuration file (<strong>config.toml</strong>) and set the theme as the default.</div>
@@ -195,7 +186,7 @@ Welcome to take the time to propose a translation by <a href="https://github.com
 </div><p>Feel free to edit the post file by adding some sample content and replacing the title value in the beginning of the file.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">By default all posts and pages are created as a draft. If you want to render these pages, remove the property <code>draft: true</code> from the metadata, set the property <code>draft: false</code> or add <code>-D</code>/<code>--buildDrafts</code> parameter to <code>hugo</code> command.</div>
@@ -212,13 +203,13 @@ Welcome to take the time to propose a translation by <a href="https://github.com
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Go to <code>http://localhost:1313</code>.</p>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-concepts-de-base/basic-configuration-preview.png" title="Basic configuration preview" data-thumbnail="/2020/theme-documentation-concepts-de-base/basic-configuration-preview.png" data-sub-html="<h2>Basic configuration preview</h2><p>Basic configuration preview</p>">
+<p><figure><a class="lightgallery" href="/2020/theme-documentation-basics/basic-configuration-preview.png" title="Basic configuration preview" data-thumbnail="/2020/theme-documentation-basics/basic-configuration-preview.png" data-sub-html="<h2>Basic configuration preview</h2><p>Basic configuration preview</p>">
         
     </a><figcaption class="image-caption">Basic configuration preview</figcaption>
     </figure></p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">When you run <code>hugo serve</code>, when the contents of the files change, the page automatically refreshes with the changes.</div>
@@ -226,7 +217,7 @@ Welcome to take the time to propose a translation by <a href="https://github.com
     </div>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><p>Since the theme use <code>.Scratch</code> in Hugo to implement some features,
@@ -255,7 +246,7 @@ it is highly recommended that you add <code>--disableFastRender</code> parameter
 </div><p>A <code>public</code> folder will be generated, containing all static content and assets for your website. It can now be deployed on any web server.</p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">The website can be automatically published and hosted with <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a> (Read more about <a href="https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/" target="_blank" rel="noopener noreferrer">Automated HUGO deployments with Netlify</a>).
@@ -1332,7 +1323,7 @@ Alternatively, you can use <a href="https://gohugo.io/hosting-and-deployment/hos
 </div>
 </div><div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Note that some of these parameters are explained in details in other sections of this documentation.</div>
@@ -1423,7 +1414,7 @@ which is you can refer to.</p>
 </div>
         </div>
     </div>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-concepts-de-base/complete-configuration-preview.png" title="Complete configuration preview" data-thumbnail="/2020/theme-documentation-concepts-de-base/complete-configuration-preview.png" data-sub-html="<h2>Complete configuration preview</h2><p>Complete configuration preview</p>">
+<p><figure><a class="lightgallery" href="/2020/theme-documentation-basics/complete-configuration-preview.png" title="Complete configuration preview" data-thumbnail="/2020/theme-documentation-basics/complete-configuration-preview.png" data-sub-html="<h2>Complete configuration preview</h2><p>Complete configuration preview</p>">
         
     </a><figcaption class="image-caption">Complete configuration preview</figcaption>
     </figure></p>
@@ -1442,7 +1433,7 @@ which is you can refer to.</p>
 <h3 id="33-style-customization">3.3 Style Customization</h3>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Hugo <strong>extended</strong> version is necessary for the style customization.</div>
@@ -1467,7 +1458,7 @@ which is you can refer to.</p>
 </div><p>In <code>assets/css/_custom.scss</code>, you can add some css style code to customize the style.</p>
 <h2 id="4-multilingual-and-i18n">4 Multilingual and i18n</h2>
 <p><strong>CodeIT</strong> theme is fully compatible with Hugo multilingual mode, which provides in-browser language switching.</p>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-concepts-de-base/language-switch.gif" title="Language Switch" data-thumbnail="/2020/theme-documentation-concepts-de-base/language-switch.gif" data-sub-html="<h2>Language Switch</h2><p>Language Switch</p>">
+<p><figure><a class="lightgallery" href="/2020/theme-documentation-basics/language-switch.gif" title="Language Switch" data-thumbnail="/2020/theme-documentation-basics/language-switch.gif" data-sub-html="<h2>Language Switch</h2><p>Language Switch</p>">
         
     </a><figcaption class="image-caption">Language Switch</figcaption>
     </figure></p>
@@ -1786,7 +1777,7 @@ which is you can refer to.</p>
 </ul>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Be aware that only translated pages are displayed in menu. It’s not replaced with default language content.</div>
@@ -1794,7 +1785,7 @@ which is you can refer to.</p>
     </div>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Use <a href="https://gohugo.io/content-management/multilingual#translate-your-content" target="_blank" rel="noopener noreferrer">Front Matter parameter</a> to translate urls too.</div>

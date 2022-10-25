@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Blog - Тэг - Diagonaal</title>
+        <title>Blog - Tag - Diagonaal</title>
         <link>https://diagonaal.ru/tags/blog/</link>
-        <description>Blog - Тэг - Diagonaal</description>
-        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
+        <description>Blog - Tag - Diagonaal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
             <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 05 Jul 2020 17:30:13 &#43;0300</lastBuildDate><atom:link href="https://diagonaal.ru/tags/blog/" rel="self" type="application/rss+xml" /><item>
     <title>Статьи можно комментировать</title>
     <link>https://diagonaal.ru/2020/add-comments/</link>
     <pubDate>Sun, 05 Jul 2020 17:30:13 &#43;0300</pubDate>
-    <author>Автор</author>
+    <author>Author</author>
     <guid>https://diagonaal.ru/2020/add-comments/</guid>
     <description><![CDATA[<p>Добавил возможность под каждой статьёй оставлять свой комментарий</p>
 <p>Для этого использовал <a href="https://sourcethemes.com/academic/docs/customization/#comments" target="_blank" rel="noopener noreferrer"><strong>это</strong></a> руководство.<br>

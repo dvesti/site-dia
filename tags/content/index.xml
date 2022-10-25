@@ -1,25 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>content - Тэг - Diagonaal</title>
+        <title>content - Tag - Diagonaal</title>
         <link>https://diagonaal.ru/tags/content/</link>
-        <description>content - Тэг - Diagonaal</description>
-        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
-            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/tags/content/" rel="self" type="application/rss+xml" /><item>
-    <title>Thème Documentation - Contenu</title>
-    <link>https://diagonaal.ru/2020/theme-documentation-contenu/</link>
-    <pubDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/theme-documentation-contenu/</guid>
-    <description><![CDATA[<p>Découvrez comment créer et organiser votre contenu rapidement et intuitivement dans le thème <strong>CodeIT</strong>.</p>
-<div class="details admonition warning open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
-Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
-        </div>
-    </div>
+        <description>content - Tag - Diagonaal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
+            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/tags/content/" rel="self" type="application/rss+xml" /><item>
+    <title>Theme Documentation - Content</title>
+    <link>https://diagonaal.ru/2020/theme-documentation-content/</link>
+    <pubDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://diagonaal.ru/2020/theme-documentation-content/</guid>
+    <description><![CDATA[<p>Find out how to create and organize your content quickly and intuitively in <strong>CodeIT</strong> theme.</p>
 <h2 id="contents-organization">1 Contents Organization</h2>
 <p>A few suggestions to help you get a good looking site quickly:</p>
 <ul>
@@ -54,7 +45,7 @@ It&rsquo;s really cool! <i class="far fa-grin-squint fa-fw"></i></p>
 <p><strong>Hugo</strong> allows you to add front matter in <code>yaml</code>, <code>toml</code> or <code>json</code> to your content files.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><strong>Not all</strong> of the below front matters need to be set in each of your posts.
@@ -285,7 +276,7 @@ It is necessary only if the front matters and the <code>page</code> part in your
 </ul>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><p><strong>featuredImage</strong> and <strong>featuredImagePreview</strong> support the complete usage of <a href="#contents-organization" rel="">local resource references</a>.</p>
@@ -312,7 +303,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
     </div>
 <h2 id="3-content-summaries">3 Content Summaries</h2>
 <p><strong>CodeIT</strong> theme uses the summary of the content to display abstract information in the home page. Hugo can generate summaries of your content.</p>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-contenu/summary.png" title="Summary Preview" data-thumbnail="/2020/theme-documentation-contenu/summary.png" data-sub-html="<h2>Summary Preview</h2><p>Summary Preview</p>">
+<p><figure><a class="lightgallery" href="/2020/theme-documentation-content/summary.png" title="Summary Preview" data-thumbnail="/2020/theme-documentation-content/summary.png" data-sub-html="<h2>Summary Preview</h2><p>Summary Preview</p>">
         
     </a><figcaption class="image-caption">Summary Preview</figcaption>
     </figure></p>
@@ -325,7 +316,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
 <p>Content that comes before the summary divider will be used as that content’s summary.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Be careful to enter <code>&lt;!--more--&gt;</code> exactly; i.e., all lowercase and with no whitespace.</div>
@@ -346,7 +337,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
 </ol>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">It is not recommended to include rich text block elements in the summary, which will cause typographic errors. Such as code blocks, pictures, tables, etc.</div>
@@ -364,7 +355,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
 and the property <code>math: true</code> of the article front matter to enable the automatic rendering of mathematical formulas.</p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Here is a list of <a href="https://katex.org/docs/supported.html" target="_blank" rel="noopener noreferrer">$ \TeX $ functions supported by $ \KaTeX $</a>.</div>
@@ -401,7 +392,7 @@ and the property <code>math: true</code> of the article front matter to enable t
 <p>$ c = \pm\sqrt{a^2 + b^2} $ and \( f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \)</p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">You can add more block and inline delimiters in your <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>.</div>
@@ -504,7 +495,7 @@ your content will conflict with basic or extended Markdown syntax, and it is ine
 <p><strong>:joy:</strong> instead of <strong>😂</strong></p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">This is related to <strong><a href="https://github.com/gohugoio/hugo/issues/4978" target="_blank" rel="noopener noreferrer">an issue for Hugo</a></strong>, which has not been resolved.</div>

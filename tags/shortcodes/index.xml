@@ -1,25 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>shortcodes - Тэг - Diagonaal</title>
+        <title>shortcodes - Tag - Diagonaal</title>
         <link>https://diagonaal.ru/tags/shortcodes/</link>
-        <description>shortcodes - Тэг - Diagonaal</description>
-        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
-            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 04 Mar 2020 16:29:59 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/tags/shortcodes/" rel="self" type="application/rss+xml" /><item>
-    <title>Thème Documentation - Built-in Shortcodes</title>
+        <description>shortcodes - Tag - Diagonaal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
+            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 04 Mar 2020 16:29:41 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/tags/shortcodes/" rel="self" type="application/rss+xml" /><item>
+    <title>Theme Documentation - Built-in Shortcodes</title>
     <link>https://diagonaal.ru/2020/theme-documentation-built-in-shortcodes/</link>
-    <pubDate>Wed, 04 Mar 2020 16:29:59 &#43;0800</pubDate>
-    <author>Автор</author>
+    <pubDate>Wed, 04 Mar 2020 16:29:41 &#43;0800</pubDate>
+    <author>Author</author>
     <guid>https://diagonaal.ru/2020/theme-documentation-built-in-shortcodes/</guid>
-    <description><![CDATA[<p><strong>Hugo</strong> fournit plusieurs shortcodes intégrés pour la commodité de l&rsquo;auteur et pour garder votre contenu de démarque propre.</p>
-<div class="details admonition warning open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
-Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
-        </div>
-    </div>
+    <description><![CDATA[<p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p>
 <p>Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.</p>
 <p>But this happens to be a bad idea. Everyone uses Markdown because it’s pure and simple to read even non-rendered. You should avoid HTML to keep it as simple as possible.</p>
 <p>To avoid this limitations, Hugo created <a href="https://gohugo.io/extras/shortcodes/" target="_blank" rel="noopener noreferrer">shortcodes</a>.
@@ -37,10 +28,17 @@ A shortcode is a simple snippet that can generate reasonable HTML code and confo
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<figure><figcaption>
-            <h4>Lighthouse (figure)</h4>
-        </figcaption>
-</figure>
+
+
+
+<figure>
+    
+         <figcaption>
+                
+                    <h4>Lighthouse (figure)</h4>
+                
+                
+            </figcaption></figure>
 
 <p>The HTML looks like this:</p>
 <div class="highlight"><div class="chroma">
@@ -169,7 +167,7 @@ A shortcode is a simple snippet that can generate reasonable HTML code and confo
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-Hugo fournit plusieurs shortcodes intégrés pour la commodité de l&#39;auteur et pour garder votre contenu de démarque propre.
+Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.
 <h2 id="ref-and-relref">6 ref and relref</h2>
 <p><a href="https://gohugo.io/content-management/shortcodes#ref-and-relref" target="_blank" rel="noopener noreferrer">Documentation of <code>ref</code> and <code>relref</code></a></p>
 <h2 id="7-tweet">7 tweet</h2>
@@ -184,7 +182,8 @@ Hugo fournit plusieurs shortcodes intégrés pour la commodité de l&#39;auteur 
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + <a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify</a> _redirects etc. file support<a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ</a> <a href="https://twitter.com/hashtag/gohugo?src=hash&amp;ref_src=twsrc%5Etfw">#gohugo</a> <a href="https://twitter.com/hashtag/golang?src=hash&amp;ref_src=twsrc%5Etfw">#golang</a> <a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13</a> <a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays</a></p>&mdash; GoHugo.io (@GoHugoIO) <a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + <a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify</a> _redirects etc. file support<a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ</a> <a href="https://twitter.com/hashtag/gohugo?src=hash&amp;ref_src=twsrc%5Etfw">#gohugo</a> <a href="https://twitter.com/hashtag/golang?src=hash&amp;ref_src=twsrc%5Etfw">#golang</a> <a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13</a> <a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays</a></p>&mdash; GoHugo.io (@GoHugoIO) <a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h2 id="8-vimeo">8 vimeo</h2>
@@ -221,25 +220,16 @@ Hugo fournit plusieurs shortcodes intégrés pour la commodité de l&#39;auteur 
   <iframe src="https://www.youtube-nocookie.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>]]></description>
 </item><item>
-    <title>Thème Documentation - Extended Shortcodes</title>
+    <title>Theme Documentation - Extended Shortcodes</title>
     <link>https://diagonaal.ru/2020/theme-documentation-extended-shortcodes/</link>
-    <pubDate>Tue, 03 Mar 2020 16:29:59 &#43;0800</pubDate>
-    <author>Автор</author>
+    <pubDate>Tue, 03 Mar 2020 16:29:41 &#43;0800</pubDate>
+    <author>Author</author>
     <guid>https://diagonaal.ru/2020/theme-documentation-extended-shortcodes/</guid>
-    <description><![CDATA[<p>Le thème <strong>CodeIT</strong> fournit plusieurs shortcodes en plus de ceux intégrés dans Hugo.</p>
-<div class="details admonition warning open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
-Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
-        </div>
-    </div>
+    <description><![CDATA[<p><strong>CodeIT</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p>
 <h2 id="1-style">1 style</h2>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Hugo <strong>extended</strong> version is necessary for <code>style</code> shortcode.</div>
@@ -414,7 +404,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
 <p><em>Markdown or HTML format in the content is supported.</em></p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>note</strong> banner</div>
@@ -422,7 +412,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition abstract open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-list-ul fa-fw"></i>Краткое описание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-list-ul fa-fw"></i>Abstract<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">An <strong>abstract</strong> banner</div>
@@ -430,7 +420,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition info open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-info-circle fa-fw"></i>Инфо<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-info-circle fa-fw"></i>Info<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>info</strong> banner</div>
@@ -438,7 +428,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>tip</strong> banner</div>
@@ -446,7 +436,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition success open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-check-circle fa-fw"></i>Удачто<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-check-circle fa-fw"></i>Success<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>success</strong> banner</div>
@@ -454,7 +444,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition question open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-question-circle fa-fw"></i>Вопрос<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-question-circle fa-fw"></i>Question<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>question</strong> banner</div>
@@ -462,7 +452,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition warning open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Warning<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>warning</strong> banner</div>
@@ -470,7 +460,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition failure open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-times-circle fa-fw"></i>Отказ<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-times-circle fa-fw"></i>Failure<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>failure</strong> banner</div>
@@ -478,7 +468,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition danger open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-skull-crossbones fa-fw"></i>Опасность<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-skull-crossbones fa-fw"></i>Danger<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>danger</strong> banner</div>
@@ -486,7 +476,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition bug open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-bug fa-fw"></i>Ошибка<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-bug fa-fw"></i>Bug<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>bug</strong> banner</div>
@@ -494,7 +484,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition example open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-list-ol fa-fw"></i>Пример<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-list-ol fa-fw"></i>Example<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">An <strong>example</strong> banner</div>
@@ -502,7 +492,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition quote open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>Цитата<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-quote-right fa-fw"></i>Quote<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>quote</strong> banner</div>
@@ -1775,7 +1765,7 @@ But sometimes you may want to start a set of <code>typeit</code> contents in ord
 <p><code>script</code> is a shortcode to insert custom <strong><i class="fab fa-js fa-fw"></i>&nbsp;Javascript</strong> in your post.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">The script content can be guaranteed to be executed in order after all third-party libraries are loaded. So you are free to use third-party libraries.</div>

@@ -1,25 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>documentation - Категория - Diagonaal</title>
+        <title>documentation - Category - Diagonaal</title>
         <link>https://diagonaal.ru/categories/documentation/</link>
-        <description>documentation - Категория - Diagonaal</description>
-        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
-            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/categories/documentation/" rel="self" type="application/rss+xml" /><item>
-    <title>Thème Documentation - Concepts de Base</title>
-    <link>https://diagonaal.ru/2020/theme-documentation-concepts-de-base/</link>
-    <pubDate>Fri, 06 Mar 2020 21:40:32 &#43;0800</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/theme-documentation-concepts-de-base/</guid>
-    <description><![CDATA[<p>Découvrez en quoi consiste le thème Hugo - <strong>CodeIT</strong> et les concepts fondamentaux qui le sous-tendent.</p>
-<div class="details admonition warning open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
-Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
-        </div>
-    </div>
+        <description>documentation - Category - Diagonaal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
+            <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/categories/documentation/" rel="self" type="application/rss+xml" /><item>
+    <title>Theme Documentation - Basics</title>
+    <link>https://diagonaal.ru/2020/theme-documentation-basics/</link>
+    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://diagonaal.ru/2020/theme-documentation-basics/</guid>
+    <description><![CDATA[<p>Discover what the Hugo - <strong>CodeIT</strong> theme is all about and the core-concepts behind it.</p>
 <h2 id="1-requirements">1 Requirements</h2>
 <p>Thanks to the simplicity of Hugo, <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> is the only dependency of this theme.</p>
 <p>Just install latest version of <a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreferrer"><i class="far fa-file-archive fa-fw"></i>&nbsp;Hugo (&gt; 0.78.1)</a> for your OS (<strong>Windows</strong>, <strong>Linux</strong>, <strong>macOS</strong>).</p>
@@ -176,7 +167,7 @@ Welcome to take the time to propose a translation by <a href="https://github.com
 </div>
 </div><div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">When building the website, you can set a theme by using <code>--theme</code> option. However, we suggest you modify the configuration file (<strong>config.toml</strong>) and set the theme as the default.</div>
@@ -195,7 +186,7 @@ Welcome to take the time to propose a translation by <a href="https://github.com
 </div><p>Feel free to edit the post file by adding some sample content and replacing the title value in the beginning of the file.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">By default all posts and pages are created as a draft. If you want to render these pages, remove the property <code>draft: true</code> from the metadata, set the property <code>draft: false</code> or add <code>-D</code>/<code>--buildDrafts</code> parameter to <code>hugo</code> command.</div>
@@ -212,13 +203,13 @@ Welcome to take the time to propose a translation by <a href="https://github.com
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Go to <code>http://localhost:1313</code>.</p>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-concepts-de-base/basic-configuration-preview.png" title="Basic configuration preview" data-thumbnail="/2020/theme-documentation-concepts-de-base/basic-configuration-preview.png" data-sub-html="<h2>Basic configuration preview</h2><p>Basic configuration preview</p>">
+<p><figure><a class="lightgallery" href="/2020/theme-documentation-basics/basic-configuration-preview.png" title="Basic configuration preview" data-thumbnail="/2020/theme-documentation-basics/basic-configuration-preview.png" data-sub-html="<h2>Basic configuration preview</h2><p>Basic configuration preview</p>">
         
     </a><figcaption class="image-caption">Basic configuration preview</figcaption>
     </figure></p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">When you run <code>hugo serve</code>, when the contents of the files change, the page automatically refreshes with the changes.</div>
@@ -226,7 +217,7 @@ Welcome to take the time to propose a translation by <a href="https://github.com
     </div>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><p>Since the theme use <code>.Scratch</code> in Hugo to implement some features,
@@ -255,7 +246,7 @@ it is highly recommended that you add <code>--disableFastRender</code> parameter
 </div><p>A <code>public</code> folder will be generated, containing all static content and assets for your website. It can now be deployed on any web server.</p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">The website can be automatically published and hosted with <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a> (Read more about <a href="https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/" target="_blank" rel="noopener noreferrer">Automated HUGO deployments with Netlify</a>).
@@ -1332,7 +1323,7 @@ Alternatively, you can use <a href="https://gohugo.io/hosting-and-deployment/hos
 </div>
 </div><div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Note that some of these parameters are explained in details in other sections of this documentation.</div>
@@ -1423,7 +1414,7 @@ which is you can refer to.</p>
 </div>
         </div>
     </div>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-concepts-de-base/complete-configuration-preview.png" title="Complete configuration preview" data-thumbnail="/2020/theme-documentation-concepts-de-base/complete-configuration-preview.png" data-sub-html="<h2>Complete configuration preview</h2><p>Complete configuration preview</p>">
+<p><figure><a class="lightgallery" href="/2020/theme-documentation-basics/complete-configuration-preview.png" title="Complete configuration preview" data-thumbnail="/2020/theme-documentation-basics/complete-configuration-preview.png" data-sub-html="<h2>Complete configuration preview</h2><p>Complete configuration preview</p>">
         
     </a><figcaption class="image-caption">Complete configuration preview</figcaption>
     </figure></p>
@@ -1442,7 +1433,7 @@ which is you can refer to.</p>
 <h3 id="33-style-customization">3.3 Style Customization</h3>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Hugo <strong>extended</strong> version is necessary for the style customization.</div>
@@ -1467,7 +1458,7 @@ which is you can refer to.</p>
 </div><p>In <code>assets/css/_custom.scss</code>, you can add some css style code to customize the style.</p>
 <h2 id="4-multilingual-and-i18n">4 Multilingual and i18n</h2>
 <p><strong>CodeIT</strong> theme is fully compatible with Hugo multilingual mode, which provides in-browser language switching.</p>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-concepts-de-base/language-switch.gif" title="Language Switch" data-thumbnail="/2020/theme-documentation-concepts-de-base/language-switch.gif" data-sub-html="<h2>Language Switch</h2><p>Language Switch</p>">
+<p><figure><a class="lightgallery" href="/2020/theme-documentation-basics/language-switch.gif" title="Language Switch" data-thumbnail="/2020/theme-documentation-basics/language-switch.gif" data-sub-html="<h2>Language Switch</h2><p>Language Switch</p>">
         
     </a><figcaption class="image-caption">Language Switch</figcaption>
     </figure></p>
@@ -1786,7 +1777,7 @@ which is you can refer to.</p>
 </ul>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Be aware that only translated pages are displayed in menu. It’s not replaced with default language content.</div>
@@ -1794,7 +1785,7 @@ which is you can refer to.</p>
     </div>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Use <a href="https://gohugo.io/content-management/multilingual#translate-your-content" target="_blank" rel="noopener noreferrer">Front Matter parameter</a> to translate urls too.</div>
@@ -1896,21 +1887,12 @@ you need to upload different <code>index.json</code> for each language to the di
         </div>
     </div>]]></description>
 </item><item>
-    <title>Thème Documentation - Contenu</title>
-    <link>https://diagonaal.ru/2020/theme-documentation-contenu/</link>
-    <pubDate>Thu, 05 Mar 2020 16:30:05 &#43;0800</pubDate>
-    <author>Автор</author>
-    <guid>https://diagonaal.ru/2020/theme-documentation-contenu/</guid>
-    <description><![CDATA[<p>Découvrez comment créer et organiser votre contenu rapidement et intuitivement dans le thème <strong>CodeIT</strong>.</p>
-<div class="details admonition warning open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
-Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
-        </div>
-    </div>
+    <title>Theme Documentation - Content</title>
+    <link>https://diagonaal.ru/2020/theme-documentation-content/</link>
+    <pubDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://diagonaal.ru/2020/theme-documentation-content/</guid>
+    <description><![CDATA[<p>Find out how to create and organize your content quickly and intuitively in <strong>CodeIT</strong> theme.</p>
 <h2 id="contents-organization">1 Contents Organization</h2>
 <p>A few suggestions to help you get a good looking site quickly:</p>
 <ul>
@@ -1945,7 +1927,7 @@ It&rsquo;s really cool! <i class="far fa-grin-squint fa-fw"></i></p>
 <p><strong>Hugo</strong> allows you to add front matter in <code>yaml</code>, <code>toml</code> or <code>json</code> to your content files.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><strong>Not all</strong> of the below front matters need to be set in each of your posts.
@@ -2176,7 +2158,7 @@ It is necessary only if the front matters and the <code>page</code> part in your
 </ul>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><p><strong>featuredImage</strong> and <strong>featuredImagePreview</strong> support the complete usage of <a href="#contents-organization" rel="">local resource references</a>.</p>
@@ -2203,7 +2185,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
     </div>
 <h2 id="3-content-summaries">3 Content Summaries</h2>
 <p><strong>CodeIT</strong> theme uses the summary of the content to display abstract information in the home page. Hugo can generate summaries of your content.</p>
-<p><figure><a class="lightgallery" href="/2020/theme-documentation-contenu/summary.png" title="Summary Preview" data-thumbnail="/2020/theme-documentation-contenu/summary.png" data-sub-html="<h2>Summary Preview</h2><p>Summary Preview</p>">
+<p><figure><a class="lightgallery" href="/2020/theme-documentation-content/summary.png" title="Summary Preview" data-thumbnail="/2020/theme-documentation-content/summary.png" data-sub-html="<h2>Summary Preview</h2><p>Summary Preview</p>">
         
     </a><figcaption class="image-caption">Summary Preview</figcaption>
     </figure></p>
@@ -2216,7 +2198,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
 <p>Content that comes before the summary divider will be used as that content’s summary.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Be careful to enter <code>&lt;!--more--&gt;</code> exactly; i.e., all lowercase and with no whitespace.</div>
@@ -2237,7 +2219,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
 </ol>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">It is not recommended to include rich text block elements in the summary, which will cause typographic errors. Such as code blocks, pictures, tables, etc.</div>
@@ -2255,7 +2237,7 @@ it is not necessary to set the parameter <code>featuredImage</code> or <code>fea
 and the property <code>math: true</code> of the article front matter to enable the automatic rendering of mathematical formulas.</p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Here is a list of <a href="https://katex.org/docs/supported.html" target="_blank" rel="noopener noreferrer">$ \TeX $ functions supported by $ \KaTeX $</a>.</div>
@@ -2292,7 +2274,7 @@ and the property <code>math: true</code> of the article front matter to enable t
 <p>$ c = \pm\sqrt{a^2 + b^2} $ and \( f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \)</p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">You can add more block and inline delimiters in your <a href="../theme-documentation-basics#site-configuration" rel="">site configuration</a>.</div>
@@ -2395,7 +2377,7 @@ your content will conflict with basic or extended Markdown syntax, and it is ine
 <p><strong>:joy:</strong> instead of <strong>😂</strong></p>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">This is related to <strong><a href="https://github.com/gohugoio/hugo/issues/4978" target="_blank" rel="noopener noreferrer">an issue for Hugo</a></strong>, which has not been resolved.</div>
@@ -2413,21 +2395,12 @@ your content will conflict with basic or extended Markdown syntax, and it is ine
 </div><p>The rendered output looks like this:</p>
 <p><strong>[link](#escape-character)</strong> instead of <strong><a href="#escape-character" rel="">link</a></strong>.</p>]]></description>
 </item><item>
-    <title>Thème Documentation - Built-in Shortcodes</title>
+    <title>Theme Documentation - Built-in Shortcodes</title>
     <link>https://diagonaal.ru/2020/theme-documentation-built-in-shortcodes/</link>
-    <pubDate>Wed, 04 Mar 2020 16:29:59 &#43;0800</pubDate>
-    <author>Автор</author>
+    <pubDate>Wed, 04 Mar 2020 16:29:41 &#43;0800</pubDate>
+    <author>Author</author>
     <guid>https://diagonaal.ru/2020/theme-documentation-built-in-shortcodes/</guid>
-    <description><![CDATA[<p><strong>Hugo</strong> fournit plusieurs shortcodes intégrés pour la commodité de l&rsquo;auteur et pour garder votre contenu de démarque propre.</p>
-<div class="details admonition warning open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
-Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
-        </div>
-    </div>
+    <description><![CDATA[<p><strong>Hugo</strong> provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.</p>
 <p>Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.</p>
 <p>But this happens to be a bad idea. Everyone uses Markdown because it’s pure and simple to read even non-rendered. You should avoid HTML to keep it as simple as possible.</p>
 <p>To avoid this limitations, Hugo created <a href="https://gohugo.io/extras/shortcodes/" target="_blank" rel="noopener noreferrer">shortcodes</a>.
@@ -2445,10 +2418,17 @@ A shortcode is a simple snippet that can generate reasonable HTML code and confo
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<figure><figcaption>
-            <h4>Lighthouse (figure)</h4>
-        </figcaption>
-</figure>
+
+
+
+<figure>
+    
+         <figcaption>
+                
+                    <h4>Lighthouse (figure)</h4>
+                
+                
+            </figcaption></figure>
 
 <p>The HTML looks like this:</p>
 <div class="highlight"><div class="chroma">
@@ -2577,7 +2557,7 @@ A shortcode is a simple snippet that can generate reasonable HTML code and confo
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-Hugo fournit plusieurs shortcodes intégrés pour la commodité de l&#39;auteur et pour garder votre contenu de démarque propre.
+Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.
 <h2 id="ref-and-relref">6 ref and relref</h2>
 <p><a href="https://gohugo.io/content-management/shortcodes#ref-and-relref" target="_blank" rel="noopener noreferrer">Documentation of <code>ref</code> and <code>relref</code></a></p>
 <h2 id="7-tweet">7 tweet</h2>
@@ -2592,7 +2572,8 @@ Hugo fournit plusieurs shortcodes intégrés pour la commodité de l&#39;auteur 
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + <a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify</a> _redirects etc. file support<a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ</a> <a href="https://twitter.com/hashtag/gohugo?src=hash&amp;ref_src=twsrc%5Etfw">#gohugo</a> <a href="https://twitter.com/hashtag/golang?src=hash&amp;ref_src=twsrc%5Etfw">#golang</a> <a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13</a> <a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays</a></p>&mdash; GoHugo.io (@GoHugoIO) <a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + <a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify</a> _redirects etc. file support<a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ</a> <a href="https://twitter.com/hashtag/gohugo?src=hash&amp;ref_src=twsrc%5Etfw">#gohugo</a> <a href="https://twitter.com/hashtag/golang?src=hash&amp;ref_src=twsrc%5Etfw">#golang</a> <a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13</a> <a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays</a></p>&mdash; GoHugo.io (@GoHugoIO) <a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h2 id="8-vimeo">8 vimeo</h2>
@@ -2629,25 +2610,16 @@ Hugo fournit plusieurs shortcodes intégrés pour la commodité de l&#39;auteur 
   <iframe src="https://www.youtube-nocookie.com/embed/w7Ft2ymGmfc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>]]></description>
 </item><item>
-    <title>Thème Documentation - Extended Shortcodes</title>
+    <title>Theme Documentation - Extended Shortcodes</title>
     <link>https://diagonaal.ru/2020/theme-documentation-extended-shortcodes/</link>
-    <pubDate>Tue, 03 Mar 2020 16:29:59 &#43;0800</pubDate>
-    <author>Автор</author>
+    <pubDate>Tue, 03 Mar 2020 16:29:41 &#43;0800</pubDate>
+    <author>Author</author>
     <guid>https://diagonaal.ru/2020/theme-documentation-extended-shortcodes/</guid>
-    <description><![CDATA[<p>Le thème <strong>CodeIT</strong> fournit plusieurs shortcodes en plus de ceux intégrés dans Hugo.</p>
-<div class="details admonition warning open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
-Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
-        </div>
-    </div>
+    <description><![CDATA[<p><strong>CodeIT</strong> theme provides multiple shortcodes on top of built-in ones in Hugo.</p>
 <h2 id="1-style">1 style</h2>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">Hugo <strong>extended</strong> version is necessary for <code>style</code> shortcode.</div>
@@ -2822,7 +2794,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
 <p><em>Markdown or HTML format in the content is supported.</em></p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>note</strong> banner</div>
@@ -2830,7 +2802,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition abstract open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-list-ul fa-fw"></i>Краткое описание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-list-ul fa-fw"></i>Abstract<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">An <strong>abstract</strong> banner</div>
@@ -2838,7 +2810,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition info open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-info-circle fa-fw"></i>Инфо<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-info-circle fa-fw"></i>Info<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>info</strong> banner</div>
@@ -2846,7 +2818,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition tip open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw"></i>Совет<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-lightbulb fa-fw"></i>Tip<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>tip</strong> banner</div>
@@ -2854,7 +2826,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition success open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-check-circle fa-fw"></i>Удачто<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-check-circle fa-fw"></i>Success<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>success</strong> banner</div>
@@ -2862,7 +2834,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition question open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-question-circle fa-fw"></i>Вопрос<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-question-circle fa-fw"></i>Question<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>question</strong> banner</div>
@@ -2870,7 +2842,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition warning open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Warning<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>warning</strong> banner</div>
@@ -2878,7 +2850,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition failure open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-times-circle fa-fw"></i>Отказ<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-times-circle fa-fw"></i>Failure<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>failure</strong> banner</div>
@@ -2886,7 +2858,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition danger open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-skull-crossbones fa-fw"></i>Опасность<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-skull-crossbones fa-fw"></i>Danger<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>danger</strong> banner</div>
@@ -2894,7 +2866,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition bug open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-bug fa-fw"></i>Ошибка<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-bug fa-fw"></i>Bug<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>bug</strong> banner</div>
@@ -2902,7 +2874,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition example open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-list-ol fa-fw"></i>Пример<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-list-ol fa-fw"></i>Example<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">An <strong>example</strong> banner</div>
@@ -2910,7 +2882,7 @@ and <code>&amp;</code> referring to this parent HTML element.</p>
     </div>
 <div class="details admonition quote open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-quote-right fa-fw"></i>Цитата<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-quote-right fa-fw"></i>Quote<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">A <strong>quote</strong> banner</div>
@@ -4183,7 +4155,7 @@ But sometimes you may want to start a set of <code>typeit</code> contents in ord
 <p><code>script</code> is a shortcode to insert custom <strong><i class="fab fa-js fa-fw"></i>&nbsp;Javascript</strong> in your post.</p>
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw"></i>Замечание<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-pencil-alt fa-fw"></i>Note<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">The script content can be guaranteed to be executed in order after all third-party libraries are loaded. So you are free to use third-party libraries.</div>

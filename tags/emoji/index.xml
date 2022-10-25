@@ -1,25 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>emoji - Тэг - Diagonaal</title>
+        <title>emoji - Tag - Diagonaal</title>
         <link>https://diagonaal.ru/tags/emoji/</link>
-        <description>emoji - Тэг - Diagonaal</description>
-        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
+        <description>emoji - Tag - Diagonaal</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>one2one@hot.ee (Antuan)</managingEditor>
             <webMaster>one2one@hot.ee (Antuan)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</lastBuildDate><atom:link href="https://diagonaal.ru/tags/emoji/" rel="self" type="application/rss+xml" /><item>
     <title>Emoji Support</title>
     <link>https://diagonaal.ru/2019/emoji-support/</link>
     <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
-    <author>Автор</author>
+    <author>Author</author>
     <guid>https://diagonaal.ru/2019/emoji-support/</guid>
-    <description><![CDATA[<p>Emoji peut être activé dans un projet Hugo de plusieurs façons.</p>
-<div class="details admonition warning open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-exclamation-triangle fa-fw"></i>Предупреждение<i class="details-icon fas fa-angle-right fa-fw"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content">Sorry, this article has not been completely translated into <strong>French</strong>.
-Welcome to take the time to propose a translation by <a href="https://github.com/sunt-programator/CodeIT/pulls" target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch fa-fw"></i>&nbsp;making a PR</a> to the theme!</div>
-        </div>
-    </div>
+    <description><![CDATA[<p>Вова Emoji can be enabled in a Hugo project in a number of ways.</p>
 <p>The <a href="https://gohugo.io/functions/emojify/" target="_blank" rel="noopener noreferrer"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates#inline-shortcodes" target="_blank" rel="noopener noreferrer">Inline Shortcodes</a>.</p>
 <p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your <a href="https://gohugo.io/getting-started/configuration/" target="_blank" rel="noopener noreferrer">site configuration</a> and then you can type emoji shorthand codes directly in content files.</p>
 <p>These begin and end with a <strong>colon</strong> and include the <strong>code</strong> of an emoji:</p>
