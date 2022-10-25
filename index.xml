@@ -11027,6 +11027,141 @@ line 3 of code
 В частности, в файле <code>config/_default/params.toml</code> установил <code>engine = 1</code> и в графе <code>shortname = &quot;&quot;</code> поставил <em>короткое имя</em>, созданное на <strong>Disqus</strong>-e для этого сайта.<br>
 В этой теме – <strong><code>Academic</code></strong> – ничего больше добавлять не надо: всё уже сделано до нас. Единственное то, что локально (<em>localhost:1313</em>) установка комментариев не видна. Она появляется только после деплоя на сервер: это надо иметь ввиду</p>]]></description>
 </item><item>
+    <title>My Article Name – Тест</title>
+    <link>https://diagonaal.ru/2020/my-article-name/</link>
+    <pubDate>Tue, 19 May 2020 16:31:46 &#43;0300</pubDate>
+    <author>Author</author>
+    <guid>https://diagonaal.ru/2020/my-article-name/</guid>
+    <description><![CDATA[<p>[TOC]</p>
+<p>Проверка Шахматных Диаграмм</p>
+<p>
+<strong>FEN</strong>: <code>r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1</code></p>
+<p>Картинка
+
+<strong>FEN:</strong> <code>r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1</code></p>
+<p>
+<strong>FEN</strong>: <code>r1bq1rk1/p1p2pb1/1p1p3p/2nPp1p1/2P1P3/2NB1NP1/PP2QPP1/R3R1K1</code>
+</p>
+<center>Centered text</center>
+<h2 id="an-example-flowchart-линия-lr">An example <strong>flowchart</strong> линия LR:</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
+</span></span><span class="line"><span class="cl">    graph LR
+</span></span><span class="line"><span class="cl">    A[Толик] --&gt;|Плюс| B(Вовик)
+</span></span><span class="line"><span class="cl">    B --&gt; C{Родные Братья}
+</span></span><span class="line"><span class="cl">    C --&gt;|Один| D[Стрёмберг]
+</span></span><span class="line"><span class="cl">    C --&gt;|Другой| E[Дмитриев]
+</span></span><span class="line"><span class="cl">{{&lt; /mermaid &gt;}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>renders as</p>
+<div class="mermaid" id="id-1"></div>
+<h3 id="диаграмма">Диаграмма</h3>
+<a href="#some-interesting-title-">
+  <h2 id="some-interesting-title-">Some Interesting Title - диаграмма</h2>
+</a>  
+
+<p>Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the <code>diagram</code> option in your <code>config/_default/params.toml</code> file or by adding <code>diagram: true</code> to your page front matter.</p>
+<h2 id="an-example-flowchart----в-столбец-td">An example <strong>flowchart</strong> &ndash; в столбец TD:</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
+</span></span><span class="line"><span class="cl">    graph TD
+</span></span><span class="line"><span class="cl">    A[Hard] --&gt;|Text| B(Round)
+</span></span><span class="line"><span class="cl">    B --&gt; C{Decision}
+</span></span><span class="line"><span class="cl">    C --&gt;|One| D[Result 1]
+</span></span><span class="line"><span class="cl">    C --&gt;|Two| E[Result 2]
+</span></span><span class="line"><span class="cl">{{&lt; /mermaid &gt;}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>renders as</p>
+<div class="mermaid" id="id-2"></div>
+<h2 id="an-example-sequence-diagram">An example <strong>sequence diagram</strong>:</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sequenceDiagram
+</span></span><span class="line"><span class="cl">    Alice-&gt;&gt;John: Hello John, how are you?
+</span></span><span class="line"><span class="cl">    loop Healthcheck
+</span></span><span class="line"><span class="cl">    John-&gt;&gt;John: Fight against hypochondria
+</span></span><span class="line"><span class="cl">    end
+</span></span><span class="line"><span class="cl">    Note right of John: Rational thoughts!
+</span></span><span class="line"><span class="cl">    John--&gt;&gt;Alice: Great!
+</span></span><span class="line"><span class="cl">    John-&gt;&gt;Bob: How about you?
+</span></span><span class="line"><span class="cl">    Bob--&gt;&gt;John: Jolly good!
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>renders as</p>
+<div class="mermaid" id="id-3"></div>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
+</span></span><span class="line"><span class="cl">    pie title NETFLIX
+</span></span><span class="line"><span class="cl">    &#34;Time spent looking for movie&#34; : 90
+</span></span><span class="line"><span class="cl">    &#34;Time spent watching it&#34; : 10
+</span></span><span class="line"><span class="cl">{{&lt; /mermaid &gt;}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="mermaid" id="id-4"></div>
+<h2 id="base">base</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
+</span></span><span class="line"><span class="cl">graph LR;
+</span></span><span class="line"><span class="cl">    A[Hard edge] --&gt;|Link text| B(Round edge)
+</span></span><span class="line"><span class="cl">    B --&gt; C{Decision}
+</span></span><span class="line"><span class="cl">    C --&gt;|One| D[Result one]
+</span></span><span class="line"><span class="cl">    C --&gt;|Two| E[Result two]
+</span></span><span class="line"><span class="cl">{{&lt; /mermaid &gt;}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="mermaid" id="id-5"></div>]]></description>
+</item><item>
     <title>Creating a New Theme</title>
     <link>https://diagonaal.ru/2014/creating-a-new-theme/</link>
     <pubDate>Sun, 28 Sep 2014 00:00:00 &#43;0000</pubDate>
