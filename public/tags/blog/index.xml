@@ -33,7 +33,7 @@
 <h2 id="an-example-flowchart-линия-lr">An example <strong>flowchart</strong> линия LR:</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -42,14 +42,14 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
-</span></span><span class="line"><span class="cl">    graph LR
-</span></span><span class="line"><span class="cl">    A[Толик] --&gt;|Плюс| B(Вовик)
-</span></span><span class="line"><span class="cl">    B --&gt; C{Родные Братья}
-</span></span><span class="line"><span class="cl">    C --&gt;|Один| D[Стрёмберг]
-</span></span><span class="line"><span class="cl">    C --&gt;|Другой| E[Дмитриев]
-</span></span><span class="line"><span class="cl">{{&lt; /mermaid &gt;}}
-</span></span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+    graph LR
+    A[Толик] --&gt;|Плюс| B(Вовик)
+    B --&gt; C{Родные Братья}
+    C --&gt;|Один| D[Стрёмберг]
+    C --&gt;|Другой| E[Дмитриев]
+{{&lt; /mermaid &gt;}}
+</code></pre></td></tr></table>
 </div>
 </div><p>renders as</p>
 <div class="mermaid" id="id-1"></div>
@@ -62,7 +62,7 @@
 <h2 id="an-example-flowchart----в-столбец-td">An example <strong>flowchart</strong> &ndash; в столбец TD:</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -71,21 +71,21 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
-</span></span><span class="line"><span class="cl">    graph TD
-</span></span><span class="line"><span class="cl">    A[Hard] --&gt;|Text| B(Round)
-</span></span><span class="line"><span class="cl">    B --&gt; C{Decision}
-</span></span><span class="line"><span class="cl">    C --&gt;|One| D[Result 1]
-</span></span><span class="line"><span class="cl">    C --&gt;|Two| E[Result 2]
-</span></span><span class="line"><span class="cl">{{&lt; /mermaid &gt;}}
-</span></span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+    graph TD
+    A[Hard] --&gt;|Text| B(Round)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result 1]
+    C --&gt;|Two| E[Result 2]
+{{&lt; /mermaid &gt;}}
+</code></pre></td></tr></table>
 </div>
 </div><p>renders as</p>
 <div class="mermaid" id="id-2"></div>
 <h2 id="an-example-sequence-diagram">An example <strong>sequence diagram</strong>:</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -96,40 +96,40 @@
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">sequenceDiagram
-</span></span><span class="line"><span class="cl">    Alice-&gt;&gt;John: Hello John, how are you?
-</span></span><span class="line"><span class="cl">    loop Healthcheck
-</span></span><span class="line"><span class="cl">    John-&gt;&gt;John: Fight against hypochondria
-</span></span><span class="line"><span class="cl">    end
-</span></span><span class="line"><span class="cl">    Note right of John: Rational thoughts!
-</span></span><span class="line"><span class="cl">    John--&gt;&gt;Alice: Great!
-</span></span><span class="line"><span class="cl">    John-&gt;&gt;Bob: How about you?
-</span></span><span class="line"><span class="cl">    Bob--&gt;&gt;John: Jolly good!
-</span></span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">sequenceDiagram
+    Alice-&gt;&gt;John: Hello John, how are you?
+    loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John--&gt;&gt;Alice: Great!
+    John-&gt;&gt;Bob: How about you?
+    Bob--&gt;&gt;John: Jolly good!
+</code></pre></td></tr></table>
 </div>
 </div><p>renders as</p>
 <div class="mermaid" id="id-3"></div>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
-</span></span><span class="line"><span class="cl">    pie title NETFLIX
-</span></span><span class="line"><span class="cl">    &#34;Time spent looking for movie&#34; : 90
-</span></span><span class="line"><span class="cl">    &#34;Time spent watching it&#34; : 10
-</span></span><span class="line"><span class="cl">{{&lt; /mermaid &gt;}}
-</span></span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+    pie title NETFLIX
+    &#34;Time spent looking for movie&#34; : 90
+    &#34;Time spent watching it&#34; : 10
+{{&lt; /mermaid &gt;}}
+</code></pre></td></tr></table>
 </div>
 </div><div class="mermaid" id="id-4"></div>
 <h2 id="base">base</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -138,14 +138,14 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; mermaid &gt;}}
-</span></span><span class="line"><span class="cl">graph LR;
-</span></span><span class="line"><span class="cl">    A[Hard edge] --&gt;|Link text| B(Round edge)
-</span></span><span class="line"><span class="cl">    B --&gt; C{Decision}
-</span></span><span class="line"><span class="cl">    C --&gt;|One| D[Result one]
-</span></span><span class="line"><span class="cl">    C --&gt;|Two| E[Result two]
-</span></span><span class="line"><span class="cl">{{&lt; /mermaid &gt;}}
-</span></span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">{{&lt; mermaid &gt;}}
+graph LR;
+    A[Hard edge] --&gt;|Link text| B(Round edge)
+    B --&gt; C{Decision}
+    C --&gt;|One| D[Result one]
+    C --&gt;|Two| E[Result two]
+{{&lt; /mermaid &gt;}}
+</code></pre></td></tr></table>
 </div>
 </div><div class="mermaid" id="id-5"></div>]]></description>
 </item></channel>

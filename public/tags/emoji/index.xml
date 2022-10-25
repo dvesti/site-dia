@@ -25,15 +25,15 @@ Welcome to take the time to propose a translation by <a href="https://github.com
 <p>These begin and end with a <strong>colon</strong> and include the <strong>code</strong> of an emoji:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">Gone camping! :tent: Be back soon.
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">That is so funny! :joy:
-</span></span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">Gone camping! :tent: Be back soon.
+
+That is so funny! :joy:
+</code></pre></td></tr></table>
 </div>
 </div><p>The rendered output looks like this:</p>
 <p>Gone camping! ⛺ Be back soon.</p>
@@ -958,7 +958,7 @@ Welcome to take the time to propose a translation by <a href="https://github.com
 <td><code>raising_hand_man</code></td>
 </tr>
 <tr>
-<td style="text-align:center">🙇</td>
+<td style="text-align:center">🙇‍♂️</td>
 <td><code>bow</code> <br /> <code>bowing_man</code></td>
 <td style="text-align:center">🙇‍♀️</td>
 <td><code>bowing_woman</code></td>
@@ -1366,7 +1366,7 @@ Welcome to take the time to propose a translation by <a href="https://github.com
 <td><code>couplekiss_woman_woman</code></td>
 </tr>
 <tr>
-<td style="text-align:center">💑</td>
+<td style="text-align:center">👩‍❤️‍👨</td>
 <td><code>couple_with_heart</code> <br /> <code>couple_with_heart_woman_man</code></td>
 <td style="text-align:center">👨‍❤️‍👨</td>
 <td><code>couple_with_heart_man_man</code></td>
