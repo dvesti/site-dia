@@ -1,8 +1,8 @@
 baseURL = "https://diagonaal.ru/"
 # [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "en"
+defaultContentLanguage = "ru"
 # language code
-# languageCode = "en"
+languageCode = "en"
 title = "Diagonaal"
 
 # whether to use robots.txt
@@ -13,7 +13,7 @@ enableGitInfo = true
 enableEmoji = true
 
 # Ignore get JSON errors.
-ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+# ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 removePathAccents=true
 
