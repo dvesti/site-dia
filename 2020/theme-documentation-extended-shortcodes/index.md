@@ -1,14 +1,9 @@
-# Thème Documentation - Extended Shortcodes
+# Theme Documentation - Extended Shortcodes
 
 
-Le thème **CodeIT** fournit plusieurs shortcodes en plus de ceux intégrés dans Hugo.
+**CodeIT** theme provides multiple shortcodes on top of built-in ones in Hugo.
 
 <!--more-->
-
-{{< admonition warning >}}
-Sorry, this article has not been completely translated into **French**.
-Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/sunt-programator/CodeIT/pulls) to the theme!
-{{< /admonition >}}
 
 ## 1 style
 

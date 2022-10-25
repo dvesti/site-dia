@@ -1,4 +1,4 @@
-# О теме CodeIT
+# About CodeIT
 
 
 {{< style "img { height: 1.25rem; }" >}}
@@ -9,14 +9,9 @@
 [![GitHub forks](https://img.shields.io/github/forks/sunt-programator/CodeIT?style=social)](https://github.com/sunt-programator/CodeIT/fork)
 {{< /style >}}
 
-{{< admonition warning >}}
-Sorry, this article has not been completely translated into **Russian**.
-Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/sunt-programator/CodeIT/pulls) to the theme!
-{{< /admonition >}}
-
 > [:(fas fa-laptop-code fa-fw): CodeIT](https://github.com/sunt-programator/CodeIT) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
 >
-> It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+> It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
 ![Hugo Theme CodeIT](/images/Apple-Devices-Preview.png "Hugo Theme CodeIT")
 
