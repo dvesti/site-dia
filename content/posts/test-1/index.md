@@ -11,8 +11,11 @@ image:
 tags: ["test"]
 categories: ["Blog"]
 toc: false
-featuredImage: "featured.jpg"
-featuredImagePreview: "featured.jpg"  
+# featuredImage: "featured.jpg"
+# featuredImagePreview: "featured.jpg"
+resources:
+  - name: "featured-image"
+    src: "featured.jpg"   
 ---
 
 Это ~~тест~~овое сообщение _с этой_ **картинкой**: 

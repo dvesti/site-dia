@@ -9,8 +9,11 @@ categories: ["Blog"]
 toc: false
 description: "Code"
 images: [https://unsplash.com/photos/OqtafYT5kTw]
-featuredImage: "featured.jpg"
-featuredImagePreview: "featured.jpg" 
+# featuredImage: "featured.jpg"
+# featuredImagePreview: "featured.jpg"
+resources:
+  - name: "featured-image"
+    src: "featured.jpg"  
 ---
 
 Меняю стили каждый день, как я и писал ранее, в ущерб написанию заметок.  

@@ -9,7 +9,7 @@ authorLink: ""
 description: ""
 resources:
   - name: "featured-image"
-    src: "featured-image.jpg"
+    src: "featured.jpg"
 
 tags: ["Blog", "Comments"]
 categories: ["Academic"]

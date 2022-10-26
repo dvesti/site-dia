@@ -1,20 +1,21 @@
 ---
 title: "Статьи можно комментировать"
-slug: "kommentirujem-statji"
 date: "2020-07-05 17:30:13+0300"
+slug: "kommentirujem-statji"
 lastmod: ""
 draft: false
 author: "Antuan"
 authorLink: ""
 description: ""
 resources:
-  - name: "featured"
+  - name: "featured-image"
     src: "featured.jpg"
 
 tags: ["Blog", "Comments"]
 categories: ["Academic"]
 
 lightgallery: true
+featured: false
 
 toc:
   auto: false

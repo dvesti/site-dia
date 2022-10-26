@@ -1,5 +1,5 @@
 ---
-title: "My Article Name – Тест"
+title: "My Article Name"
 slug: "my-article-name"
 categories: ["Demo"]
 tags: ["blog"]
@@ -8,8 +8,6 @@ lastmod: 2020-05-19T16:31:46+03:00
 draft: false
 math: true
 diagram: true
-toc:
-  enable: true
 math:
   enable: true
 mapbox:
@@ -23,6 +21,12 @@ comment:
 description: "Шахматная диаграмма"
 featuredImage: ""
 featuredImagePreview: "featured.jpg"
+
+resources:
+  - name: "featured-image"
+    src: "" 
+  - name: "featured-image-preview"
+    src: "featured.jpg"
 ---
 
 [TOC]

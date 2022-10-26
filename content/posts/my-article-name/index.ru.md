@@ -1,6 +1,6 @@
 ---
 title: "My Article Name – Тест"
-slug: "my-article-name"
+slug: "my-article-name-ru"
 categories: ["Demo"]
 tags: ["blog"]
 date: 2020-05-19T16:31:46+03:00
@@ -21,6 +21,12 @@ comment:
 description: "Шахматная диаграмма"
 featuredImage: ""
 featuredImagePreview: "featured.jpg"
+
+resources:
+  - name: "featured-image"
+    src: "" 
+  - name: "featured-image-preview"
+    src: "featured.jpg"
 ---
 
 Проверка Шахматных Диаграмм

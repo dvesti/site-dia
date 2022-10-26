@@ -9,8 +9,11 @@ categories: ["Poetry"]
 toc: false
 description: Взляд из коробки
 images: []
-featuredImage: "featured.jpg"
-featuredImagePreview: ""  
+#featuredImage: "featured.jpg"
+#featuredImagePreview: "featured.jpg" 
+resources:
+  - name: "featured-image"
+    src: "featured.jpg" 
 ---
 
 **Почему такой ты робкий?  
