@@ -9,9 +9,9 @@ categories: ["COVID-19"]
 toc: false
 resources:
   - name: "featured-image"
-    src: "featured.jpg"
+    src: ""
   - name: "featured-image-preview"
-    src: "featured-preview.jpg"
+    src: ""
 featured: false
 image:
   placement: 2
