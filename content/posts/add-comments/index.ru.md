@@ -1,5 +1,6 @@
 ---
 title: "Статьи можно комментировать"
+slug: "kommentirujem-statji"
 date: "2020-07-05 17:30:13+0300"
 lastmod: ""
 draft: false

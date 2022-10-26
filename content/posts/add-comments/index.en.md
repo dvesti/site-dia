@@ -1,7 +1,7 @@
 ---
-weight: 1
 title: "Статьи можно комментировать-English"
 date: "2020-07-05 17:30:13+0300"
+slug: "kommentirujem-statji-en"
 lastmod: ""
 draft: false
 author: "Antuan"
