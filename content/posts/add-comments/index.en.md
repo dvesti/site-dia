@@ -8,8 +8,11 @@ author: "Antuan"
 authorLink: ""
 description: ""
 resources:
-  - name: "featured-image"
-    src: "featured.jpg"
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured.jpg
+
 
 tags: ["Blog", "Comments"]
 categories: ["Academic"]

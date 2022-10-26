@@ -10,6 +10,12 @@ categories: ["Poetry"]
 toc: false
 featuredImage: "featured.jpg"
 featuredImagePreview: "featured.jpg"
+
+resources:
+  - name: "featured-image"
+    src: "" 
+  - name: "featured-image-preview"
+    src: "featured.jpg"
 ---
 
 <!--![Котик](featured.jpg)-->  

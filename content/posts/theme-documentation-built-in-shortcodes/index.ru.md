@@ -7,7 +7,9 @@ author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
 description: "Hugo fournit plusieurs shortcodes intégrés pour la commodité de l'auteur et pour garder votre contenu de démarque propre."
 resources:
-  - name: "featured"
+  - name: "featured-image"
+    src: "featured-image.png"
+  - name: "featured-image-preview"
     src: "featured-image.png"
 
 tags: ["shortcodes"]

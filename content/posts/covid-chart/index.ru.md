@@ -32,9 +32,10 @@ license: ""
 # caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND5EUc)"
 # preview_only: true
 resources:
-  - name: "featured-image"
-    src: "featured.jpg"
-featuredImage: "" 
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured.jpg
 ---
 
 Создали [**страницу**](/2021/covid-chart/) со статистикой по коронавирусу в Эстонии.

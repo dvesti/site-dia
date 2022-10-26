@@ -1,17 +1,16 @@
 ---
-title: "Thème Documentation - Extended Shortcodes"
-date: 2020-03-03T16:29:59+08:00
-lastmod: 2020-03-03T16:29:59+08:00
+title: "Theme Documentation - Extended Shortcodes"
+date: 2020-03-03T16:29:41+08:00
+lastmod: 2020-03-03T16:29:41+08:00
 draft: false
 author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
-description: "Le thème CodeIT fournit plusieurs shortcodes en plus de ceux intégrés dans Hugo."
+description: "CodeIT theme provides multiple shortcodes on top of built-in ones in Hugo."
 resources:
   - name: "featured-image"
     src: "featured-image.jpg"
   - name: "featured-image-preview"
     src: "featured-image-preview.jpg"
-
 tags: ["shortcodes"]
 categories: ["documentation"]
 
