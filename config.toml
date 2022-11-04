@@ -18,7 +18,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 removePathAccents=true
 
 # Change the default theme to be use when building the site with Hugo
-theme = "CodeIT"
+# theme = "CodeIT"
+theme = "Lovelt"
 
 [menu]
   [[menu.main]]
