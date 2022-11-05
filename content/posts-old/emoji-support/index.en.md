@@ -17,7 +17,7 @@ categories: ["Markdown"]
 lightgallery: true
 ---
 
-Emoji can be enabled in a Hugo project in a number of ways.
+Вова Emoji can be enabled in a Hugo project in a number of ways.
 
 <!--more-->
 

@@ -1,14 +1,14 @@
 ---
 weight: 3
-title: "Theme Documentation - Built-in Shortcodes"
-date: 2020-03-04T16:29:41+08:00
-lastmod: 2020-03-04T16:29:41+08:00
+title: "Thème Documentation - Built-in Shortcodes"
+date: 2020-03-04T16:29:59+08:00
+lastmod: 2020-03-04T16:29:59+08:00
 draft: false
 author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
-description: "Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean."
+description: "Hugo fournit plusieurs shortcodes intégrés pour la commodité de l'auteur et pour garder votre contenu de démarque propre."
 resources:
-  - name: "featured-image"
+  - name: "featured"
     src: "featured-image.png"
 
 tags: ["shortcodes"]
@@ -17,9 +17,14 @@ categories: ["documentation"]
 lightgallery: true
 ---
 
-**Hugo** provides multiple built-in shortcodes for author convenience and to keep your markdown content clean.
+**Hugo** fournit plusieurs shortcodes intégrés pour la commodité de l'auteur et pour garder votre contenu de démarque propre.
 
 <!--more-->
+
+{{< admonition warning >}}
+Sorry, this article has not been completely translated into **French**.
+Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/sunt-programator/CodeIT/pulls) to the theme!
+{{< /admonition >}}
 
 Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.
 

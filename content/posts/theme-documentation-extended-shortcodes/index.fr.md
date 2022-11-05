@@ -1,12 +1,12 @@
 ---
 weight: 4
-title: "Theme Documentation - Extended Shortcodes"
-date: 2020-03-03T16:29:41+08:00
-lastmod: 2020-03-03T16:29:41+08:00
+title: "Thème Documentation - Extended Shortcodes"
+date: 2020-03-03T16:29:59+08:00
+lastmod: 2020-03-03T16:29:59+08:00
 draft: false
 author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
-description: "CodeIT theme provides multiple shortcodes on top of built-in ones in Hugo."
+description: "Le thème CodeIT fournit plusieurs shortcodes en plus de ceux intégrés dans Hugo."
 resources:
   - name: "featured-image"
     src: "featured-image.jpg"
@@ -19,9 +19,14 @@ categories: ["documentation"]
 lightgallery: true
 ---
 
-**CodeIT** theme provides multiple shortcodes on top of built-in ones in Hugo.
+Le thème **CodeIT** fournit plusieurs shortcodes en plus de ceux intégrés dans Hugo.
 
 <!--more-->
+
+{{< admonition warning >}}
+Sorry, this article has not been completely translated into **French**.
+Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/sunt-programator/CodeIT/pulls) to the theme!
+{{< /admonition >}}
 
 ## 1 style
 
