@@ -5,3 +5,6 @@
 	path = public
 	url = https://github.com/dvesti/diagonaal.git
 	branch = main
+[submodule "themes/LoveIt"]
+	path = themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
