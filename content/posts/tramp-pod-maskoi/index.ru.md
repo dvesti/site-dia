@@ -1,14 +1,14 @@
 ---
 title: "Трамп под маской"
 slug: "tramp-pod-maskoi"
-date: 2020-07-12T17:30:13+03:00  
+date: "2020-07-12 17:30:13+03:00"  
 lastmod: ""
 draft: false
 tags: ["USA"]
-categories: ["COVID-19"]
+categories: ["Covid-19"]
 toc: false
 resources:
-  - name: "featured-image"
+  - name: "featured"
     src: ""
   - name: "featured-image-preview"
     src: ""

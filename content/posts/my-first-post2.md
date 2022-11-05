@@ -32,3 +32,4 @@ resources:
 
 <!--more-->
 
+Тяф!  
