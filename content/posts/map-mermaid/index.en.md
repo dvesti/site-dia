@@ -1,6 +1,6 @@
 ---  
 title: "Map mermaid"
-date: 2020-11-18T22:38:00+08:00
+date: "2020-11-18 22:38:00+08:00"
 description: "desc txt url"
 draft: false
 categories: ["Markdown"]
