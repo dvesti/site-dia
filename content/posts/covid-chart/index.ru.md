@@ -5,7 +5,7 @@ slug: "covid-chart"
 date: 2021-03-22T02:53:07+02:00
 lastmod: 2021-03-22T02:53:07+02:00
 draft: false
-author: ""
+author: "Dia"
 authorLink: ""
 description: "Image credit: [**Dan Counsell**](https://unsplash.com/photos/zIwAchjDirM"
 
@@ -40,7 +40,7 @@ resources:
 
 Создали [**страницу**](/2021/covid-chart/) со статистикой по коронавирусу в Эстонии.
 
-<!--more-->
+<!--more-->  
 
 {{< admonition info >}}
 График <span style="color:#B03A5B">**обновляется**</span>. <span style="color:#ff6600">**Приостановлено: 01-05-2022 г.**</span>

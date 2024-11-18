@@ -12,7 +12,6 @@ math: true
 mapbox:
   accessToken: ""
 share:toc:
-  enable: true
   auto: false
   enable: true
 comment:
