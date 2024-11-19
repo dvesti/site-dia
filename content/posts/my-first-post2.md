@@ -1,8 +1,8 @@
 ---
 title: "My First Post2"
 slug: ""
-date: 2021-03-04T23:06:12+02:00
-lastmod: 2021-03-04T23:06:12+02:00
+date: "2021-03-04 23:06:12+02:00"
+lastmod: "2021-03-04 23:06:12+02:00"
 draft: true
 author: ""
 authorLink: ""

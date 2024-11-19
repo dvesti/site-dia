@@ -203,7 +203,7 @@ Also checkout this curated list of [😎 awesome research](https://github.com/em
 ### Systems biology models
 
 - [BioModels](https://www.ebi.ac.uk/biomodels/), SMBL format and generated code avaiable
-- [Virtual Metabolic Human](https://vmh.uni.lu/)
+- [Virtual Metabolic Human]()
 - [Virtual Rat](https://www.virtualrat.org)
 - [Virtual Cell](https://vcell.org)
 - [MetaNetX](https://www.metanetx.org/)
