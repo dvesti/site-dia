@@ -44,9 +44,12 @@ resources:
 
 ![Диаграмма3](https://www.dmitriev.ee/punbb/extensions/cd52/gendiag.php?size=29&coord&style=alfa&fen=r6b/p1pq1p1k/1p2p1rp/4PpBQ/3P1P2/2PR2R1/P5PP/6K1)  
 
+
 <center>Centered text</center>
 
-## An example **flowchart** линия LR:
+
+## An example **flowchart** линия LR:  
+
 
 ```
 {{</* mermaid */>}}
