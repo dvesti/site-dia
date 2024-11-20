@@ -141,7 +141,7 @@ theme = "LoveIt"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 10
+    pagination.pagerSize = 10
     # [UA-XXXXXXXX-X] google analytics code
     googleAnalytics = ""
     # copyright description used only for seo schema
@@ -156,7 +156,7 @@ theme = "LoveIt"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 10
+    pagination.pagerSize = 10
     # [UA-XXXXXXXX-X] google analytics code
     googleAnalytics = ""
     # copyright description used only for seo schema
@@ -251,7 +251,7 @@ theme = "LoveIt"
   #  Section (all posts) page config
   [params.section]
     # special amount of posts in each section page
-    paginate = 2000
+    pagination.pagerSize = 2000
     # date format (month and day)
     dateFormat = "01 02"
     # amount of RSS pages
@@ -260,7 +260,7 @@ theme = "LoveIt"
   #  List (category or tag) page config
   [params.list]
     # special amount of posts in each list page
-    paginate = 20
+    pagination.pagerSize = 20
     # date format (month and day)
     dateFormat = "01 02"
     # amount of RSS pages
@@ -291,7 +291,7 @@ theme = "LoveIt"
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
-      paginate = 10
+      pagination.pagerSize = 10
       #  replaced with hiddenFromHomePage in params.page
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
