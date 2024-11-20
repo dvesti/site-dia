@@ -1,7 +1,7 @@
 ---
 title: "Bookmarks"
 subtitle: ""
-date: "2021-02-04 15:37:34+08:00"
+date: 2021-02-04T15:37:34+08:00
 author: ""
 authorLink: ""
 description: ""
@@ -21,6 +21,8 @@ math:
   enable: false
 lightgallery: false
 comment: false
+
+weight: 100
 ---
 
 All my [bookmarks](tags/bookmark). Also see [awesome list](https://awesome.re/) for all kinds of stuff.

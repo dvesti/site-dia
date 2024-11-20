@@ -1,4 +1,10 @@
+[submodule "themes/CodeIT"]
+	path = themes/CodeIT
+	url = https://github.com/sunt-programator/CodeIT.git
+[submodule "public"]
+	path = public
+	url = https://github.com/dvesti/diagonaal.git
+	branch = main
 [submodule "themes/LoveIt"]
 	path = themes/LoveIt
 	url = https://github.com/dillonzq/LoveIt.git
-

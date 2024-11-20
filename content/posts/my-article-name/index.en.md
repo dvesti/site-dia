@@ -1,18 +1,21 @@
 ---
-title: "My Article Name"
+title: "My Article Name – Тест"
 slug: "my-article-name"
 categories: ["Demo"]
 tags: ["blog"]
-date: "2020-05-19 16:31:46+03:00"
-lastmod: "2020-05-19 16:31:46+03:00"
+date: 2020-05-19T16:31:46+03:00
+lastmod: 2020-05-19T16:31:46+03:00
 draft: false
-#math: true
+math: true
 diagram: true
+toc:
+  enable: true
 math:
   enable: true
 mapbox:
   accessToken: ""
 share:toc:
+  enable: true
   auto: false
   enable: true
 comment:
@@ -20,12 +23,6 @@ comment:
 description: "Шахматная диаграмма"
 featuredImage: ""
 featuredImagePreview: "featured.jpg"
-
-resources:
-  - name: "featured-image"
-    src: "" 
-  - name: "featured-image-preview"
-    src: "featured.jpg"
 ---
 
 [TOC]
@@ -68,7 +65,7 @@ C -->|Другой| E[Дмитриев]
 {{< /mermaid >}}
 
 ### Диаграмма
-{{/*< link-heading "Some Interesting Title - диаграмма" >*/}}
+{{< link-heading "Some Interesting Title - диаграмма" >}}
 
 Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter.
 

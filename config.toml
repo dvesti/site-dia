@@ -2,9 +2,8 @@ baseURL = "https://diagonaal.ru/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "ru"
 # language code
-languageCode = "ru"
+languageCode = "en"
 title = "Diagonaal"  
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
 # whether to use robots.txt
 enableRobotsTXT = false #true
@@ -21,7 +20,6 @@ removePathAccents=true
 # Change the default theme to be use when building the site with Hugo
 # theme = "CodeIT"
 theme = "LoveIt"
-#theme = "DoIt"
 
 [menu]
   [[menu.main]]
@@ -61,15 +59,6 @@ theme = "LoveIt"
 	  url = "/about/"
 	  title = ""
 	  weight = 4
-	  
-	[[menu.main]]
-    identifier = "documentation"
-    pre = ""
-    post = ""
-    name = "Доки"
-    url = "/categories/documentation/"
-    title = ""
-    weight = 5
 
  	[[menu.main]]
 	  identifier = "covid"
@@ -78,7 +67,7 @@ theme = "LoveIt"
 	  name = "Корона"
 	  url = "/2021/covid-chart/"
 	  title = ""
-	  weight = 6    
+	  weight = 5    
     
   #  [[menu.main]]
   #  identifier = "stuff"
@@ -152,13 +141,11 @@ theme = "LoveIt"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    pagination.pagerSize = 10
+    paginate = 10
     # [UA-XXXXXXXX-X] google analytics code
- #   googleAnalytics = ""
+    googleAnalytics = ""
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.ru.params]
-      googleAnalytics = ""
     
   [languages.en]
     weight = 2
@@ -169,14 +156,11 @@ theme = "LoveIt"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-#    paginate
-    pagination.pagerSize = 10
-#    # [UA-XXXXXXXX-X] google analytics code
-#    googleAnalytics = ""
-#    # copyright description used only for seo schema
+    paginate = 10
+    # [UA-XXXXXXXX-X] google analytics code
+    googleAnalytics = ""
+    # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.en.params]
-      googleAnalytics = ""
     
 
   #  Search config
@@ -226,7 +210,7 @@ theme = "LoveIt"
     #      index = "index.en"
     #      appID = "PASDMWALPK"
     #      searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-
+  
   # Header config
   [params.header]
     # desktop header mode ("fixed", "normal", "auto")
@@ -267,8 +251,7 @@ theme = "LoveIt"
   #  Section (all posts) page config
   [params.section]
     # special amount of posts in each section page
-#    paginate
-    pagination.pagerSize = 2000
+    paginate = 2000
     # date format (month and day)
     dateFormat = "01 02"
     # amount of RSS pages
@@ -277,8 +260,7 @@ theme = "LoveIt"
   #  List (category or tag) page config
   [params.list]
     # special amount of posts in each list page
-#    paginate
-     pagination.pagerSize= 20
+    paginate = 20
     # date format (month and day)
     dateFormat = "01 02"
     # amount of RSS pages
@@ -309,8 +291,7 @@ theme = "LoveIt"
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
-#      paginate
-      pagination.pagerSize = 10
+      paginate = 10
       #  replaced with hiddenFromHomePage in params.page
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
@@ -676,8 +657,6 @@ theme = "LoveIt"
 [Permalinks]
   # posts = ":year/:month/:filename"
   posts = ":year/:slug"
-#  tag = "tags/:slug/"  
-#  category = "categories/:slug/"  
 
 # Privacy config
 [privacy]
@@ -707,8 +686,4 @@ theme = "LoveIt"
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-#  taxonomyTerm = ["HTML"]
-#  taxonomy = ["HTML"]
-#[taxonomies]
-#  tag = ["tags"]
-#  category = ["categories"]
+  taxonomyTerm = ["HTML"]

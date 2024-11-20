@@ -4,13 +4,12 @@ title: "Theme Documentation - Content"
 date: 2020-03-05T15:58:26+08:00
 lastmod: 2020-03-05T15:58:26+08:00
 draft: false
-author: "Dillon"
-authorLink: "https://dillonzq.com"
-description: "Find out how to create and organize your content quickly and intuitively in LoveIt theme."
-images: []
+author: "Sunt Programator!"
+authorLink: "https://suntprogramator.dev/"
+description: "Find out how to create and organize your content quickly and intuitively in CodeIT theme."
 resources:
-- name: "featured-image"
-  src: "featured-image.jpg"
+  - name: "featured-image"
+    src: "featured-image.jpg"
 
 tags: ["content", "Markdown"]
 categories: ["documentation"]
@@ -23,7 +22,7 @@ math:
   enable: true
 ---
 
-Find out how to create and organize your content quickly and intuitively in **LoveIt** theme.
+Find out how to create and organize your content quickly and intuitively in **CodeIT** theme.
 
 <!--more-->
 
@@ -31,12 +30,11 @@ Find out how to create and organize your content quickly and intuitively in **Lo
 
 A few suggestions to help you get a good looking site quickly:
 
-* Keep post pages in the `content/posts` directory, for example: `content/posts/my-first-post.md`
-* Keep other pages in the `content` directory, for example: `content/about.md`
-* Local resources organization
+- Keep post pages in the `content/posts` directory, for example: `content/posts/my-first-post.md`
+- Keep other pages in the `content` directory, for example: `content/about.md`
+- Local resources organization
 
 {{< admonition note "Local Resource Reference" >}}
-{{< version 0.2.10 >}}
 
 There are three ways to reference local resources such as **images** and **music**:
 
@@ -83,7 +81,6 @@ images: []
 
 tags: []
 categories: []
-
 featuredImage: ""
 featuredImagePreview: ""
 
@@ -102,11 +99,12 @@ toc:
   auto: true
 code:
   copy: true
-  maxShownLines: 50
+  # ...
 math:
-  enable: false
+  enable: true
   # ...
 mapbox:
+  accessToken: ""
   # ...
 share:
   enable: true
@@ -129,46 +127,45 @@ seo:
   images: []
   # ...
 ---
+
 ```
 
-* **title**: the title for the content.
-* **subtitle**: {{< version 0.2.0 >}} the subtitle for the content.
-* **date**: the datetime assigned to this page, which is usually fetched from the `date` field in front matter, but this behaviour is configurabl in the [site configuration](../theme-documentation-basics#site-configuration).
-* **lastmod**: the datetime at which the content was last modified.
-* **draft**: if `true`, the content will not be rendered unless the `--buildDrafts`/`-D` flag is passed to the `hugo` command.
-* **author**: the author for the content.
-* **authorLink**: the link of the author.
-* **description**: the description for the content.
-* **license**: the special lisence for this content.
-* **images**: page images for Open Graph and Twitter Cards.
+- **title**: the title for the content.
+- **subtitle**: the subtitle for the content.
+- **date**: the datetime assigned to this page, which is usually fetched from the `date` field in front matter, but this behaviour is configurabl in the [site configuration](../theme-documentation-basics#site-configuration).
+- **lastmod**: the datetime at which the content was last modified.
+- **draft**: if `true`, the content will not be rendered unless the `--buildDrafts`/`-D` flag is passed to the `hugo` command.
+- **author**: the author for the content.
+- **authorLink**: the link of the author.
+- **description**: the description for the content.
+- **license**: the special lisence for this content.
+- **images**: page images for Open Graph and Twitter Cards.
 
-* **tags**: the tags for the content.
-* **categories**: the categories for the content.
+- **tags**: the tags for the content.
+- **categories**: the categories for the content.
+- **featuredImage**: the featured image for the content.
+- **featuredImagePreview**: the featured image for the content preview in the home page.
 
-* **featuredImage**: the featured image for the content.
-* **featuredImagePreview**: the featured image for the content preview in the home page.
+- **hiddenFromHomePage**: if `true`, the content will not be shown in the home page.
+- **hiddenFromSearch**: if `true`, the content will not be shown in the search results.
+- **twemoji**: if `true`, the content will enable the twemoji.
+- **lightgallery**: if `true`, images in the content will be shown as the gallery.
+- **ruby**: if `true`, the content will enable the [ruby extended syntax](#ruby).
+- **fraction**: if `true`, the content will enable the [fraction extended syntax](#fraction).
+- **fontawesome**: if `true`, the content will enable the [Font Awesome extended syntax](#fontawesome).
+- **linkToMarkdown**: if `true`, the footer of the content will be shown the link to the orignal Markdown file.
+- **rssFullText**: if `true`, the full text content will be shown in RSS.
 
-* **hiddenFromHomePage**: if `true`, the content will not be shown in the home page.
-* **hiddenFromSearch**: {{< version 0.2.0 >}} if `true`, the content will not be shown in the search results.
-* **twemoji**: {{< version 0.2.0 >}} if `true`, the content will enable the twemoji.
-* **lightgallery**: if `true`, images in the content will be shown as the gallery.
-* **ruby**: {{< version 0.2.0 >}} if `true`, the content will enable the [ruby extended syntax](#ruby).
-* **fraction**: {{< version 0.2.0 >}} if `true`, the content will enable the [fraction extended syntax](#fraction).
-* **fontawesome**: {{< version 0.2.0 >}} if `true`, the content will enable the [Font Awesome extended syntax](#fontawesome).
-* **linkToMarkdown**: if `true`, the footer of the content will be shown the link to the orignal Markdown file.
-* **rssFullText**: {{< version 0.2.4 >}} if `true`, the full text content will be shown in RSS.
-
-* **toc**: {{< version 0.2.9 changed >}} the same as the `params.page.toc` part in the [site configuration](../theme-documentation-basics#site-configuration).
-* **code**: {{< version 0.2.0 >}} the same as the `params.page.code` part in the [site configuration](../theme-documentation-basics#site-configuration).
-* **math**: {{< version 0.2.0 changed >}} the same as the `params.page.math` part in the [site configuration](../theme-documentation-basics#site-configuration).
-* **mapbox**: {{< version 0.2.0 >}} the same as the `params.page.mapbox` part in the [site configuration](../theme-documentation-basics#site-configuration).
-* **share**: the same as the `params.page.share` part in the [site configuration](../theme-documentation-basics#site-configuration).
-* **comment**: {{< version 0.2.0 changed >}} the same as the `params.page.comment` part in the [site configuration](../theme-documentation-basics#site-configuration).
-* **library**: {{< version 0.2.7 >}} the same as the `params.page.library` part in the [site configuration](../theme-documentation-basics#site-configuration).
-* **seo**: {{< version 0.2.10 >}} the same as the `params.page.seo` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **toc**: the same as the `params.page.toc` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **code**: the same as the `params.page.code` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **math**: the same as the `params.page.math` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **mapbox**: the same as the `params.page.mapbox` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **share**: the same as the `params.page.share` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **comment**: the same as the `params.page.comment` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **library**: the same as the `params.page.library` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **seo**: the same as the `params.page.seo` part in the [site configuration](../theme-documentation-basics#site-configuration).
 
 {{< admonition tip >}}
-{{< version 0.2.10 >}}
 
 **featuredImage** and **featuredImagePreview** support the complete usage of [local resource references](#contents-organization).
 
@@ -177,16 +174,17 @@ it is not necessary to set the parameter `featuredImage` or `featuredImagePrevie
 
 ```yaml
 resources:
-- name: featured-image
-  src: featured-image.jpg
-- name: featured-image-preview
-  src: featured-image-preview.jpg
+  - name: featured-image
+    src: featured-image.jpg
+  - name: featured-image-preview
+    src: featured-image-preview.jpg
 ```
+
 {{< /admonition >}}
 
 ## 3 Content Summaries
 
-**LoveIt** theme uses the summary of the content to display abstract information in the home page. Hugo can generate summaries of your content.
+**CodeIT** theme uses the summary of the content to display abstract information in the home page. Hugo can generate summaries of your content.
 
 ![Summary Preview](summary.png "Summary Preview")
 
@@ -216,7 +214,7 @@ You might want your summary to be something other than the text that starts the 
 
 You might want your description in the `description` variable of the article front matter as the summary.
 
-You may add the `<!--more-->` summary divider at the start of the article. Keep content that comes before the summary divider empty. Then **LoveIt** theme will use your description as the summary.
+You may add the `<!--more-->` summary divider at the start of the article. Keep content that comes before the summary divider empty. Then **CodeIT** theme will use your description as the summary.
 
 ### Priority Order of Summary Selection
 
@@ -237,7 +235,7 @@ This part is shown in the [basic markdown syntax page](../basic-markdown-syntax/
 
 ## 5 Extended Markdown Syntax {#extended-markdown-syntax}
 
-**LoveIt** theme has some extended syntax elements for you to write articles.
+**CodeIT** theme has some extended syntax elements for you to write articles.
 
 ### Emoji Support
 
@@ -245,123 +243,23 @@ This part is shown in the [emoji support page](../emoji-support/).
 
 ### Mathematical Formula
 
-{{< version 0.2.11 changed >}}
-
-**LoveIt** theme supports mathematical formulas based on [$\KaTeX$](https://katex.org/).
+**CodeIT** theme supports mathematical formulas based on [$ \KaTeX $](https://katex.org/).
 
 Set the property `enable = true` under `[params.math]` in your [site configuration](../theme-documentation-basics#site-configuration)
 and the property `math: true` of the article front matter to enable the automatic rendering of mathematical formulas.
-**$\KaTeX$** automatically renders formulas based on **specific delimiters**.
 
 {{< admonition tip >}}
-Here is a list of [$\TeX$ functions supported by $\KaTeX$](https://katex.org/docs/supported.html).
+Here is a list of [$ \TeX $ functions supported by $ \KaTeX $](https://katex.org/docs/supported.html).
 {{< /admonition >}}
-
-{{< admonition >}}
-Since Hugo generates HTML documents according to the syntax such as `_`/`*`/`>>` when rendering Markdown documents,
-and some text content in the form of escape characters
-(such as `\(`/`\)`/`\[`/`\]`/`\\`) escape processing will be performed automatically,
-therefore, additional escape character expressions are required for these places to achieve automatic rendering:
-
-* `_` -> `\_`
-* `*` -> `\*`
-* `>>` -> `\>>`
-* `\(` -> `\\(`
-* `\)` -> `\\)`
-* `\[` -> `\\[`
-* `\]` -> `\\]`
-* `\\` -> `\\\\`
-
-**LoveIt** theme supports [`raw` shortcode](../theme-documentation-extended-shortcodes#12-raw) to avoid these escape characters,
-which helps you write raw mathematical formula content.
-
-Example `raw` input:
-
-```markdown
-Inline Formula: {{</* raw */>}}\(\mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}+\mathbf{E}_{2}+\mathbf{E}_{3}+\cdots\){{</* /raw */>}}
-
-Block Formula:
-
-{{</* raw */>}}
-\[ a=b+c \\ d+e=f \]
-{{</* /raw */>}}
-```
-
-The rendered output looks like this:
-
-Inline Formula: {{< raw >}}\(\mathbf{E}=\sum_{i} \mathbf{E}_{i}=\mathbf{E}_{1}+\mathbf{E}_{2}+\mathbf{E}_{3}+\cdots\){{< /raw >}}
-
-Block Formula:
-
-{{< raw>}}
-\[ a=b+c \\ d+e=f \]
-{{< /raw >}}
-{{< /admonition >}}
-
-#### Inline Formula
-
-The default inline delimiters are:
-
-* `$ ... $`
-* `\( ... \)` (escaped: `\\( ... \\)`)
-
-For example:
-
-```tex
-$c = \pm\sqrt{a^2 + b^2}$ and \\(f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi\\)
-```
-
-The rendered output looks like this:
-
-$c = \pm\sqrt{a^2 + b^2}$ and \\(f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi\\)
 
 #### Block Formula
 
-The default block delimiters are:
+The default block delimiters are `$$`/`$$` and `\\[`/`\\]`:
 
-* `$$ ... $$`
-* `\[ ... \]` (escaped: `\\[ ... \\]`)
-* `\begin{equation} ... \end{equation}` (unnumbered: `\begin{equation*} ... \end{equation*}`)
-* `\begin{align} ... \end{align}` (unnumbered: `\begin{align*} ... \end{align*}`)
-* `\begin{alignat} ... \end{alignat}` (unnumbered: `\begin{alignat*} ... \end{alignat*}`)
-* `\begin{gather} ... \end{gather}` (unnumbered: `\begin{gather*} ... \end{gather*}`)
-* `\begin{CD} ... \end{CD}`
-
-For example:
-
-```tex
+```markdown
 $$ c = \pm\sqrt{a^2 + b^2} $$
 
 \\[ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \\]
-
-\begin{equation*}
-  \rho \frac{\mathrm{D} \mathbf{v}}{\mathrm{D} t}=\nabla \cdot \mathbb{P}+\rho \mathbf{f}
-\end{equation*}
-
-\begin{equation}
-  \mathbf{E}=\sum_{i} \mathbf{E}\_{i}=\mathbf{E}\_{1}+\mathbf{E}\_{2}+\mathbf{E}_{3}+\cdots
-\end{equation}
-
-\begin{align}
-  a&=b+c \\\\
-  d+e&=f
-\end{align}
-
-\begin{alignat}{2}
-   10&x+&3&y = 2 \\\\
-   3&x+&13&y = 4
-\end{alignat}
-
-\begin{gather}
-   a=b \\\\
-   e=b+c
-\end{gather}
-
-\begin{CD}
-   A @>a\>> B \\\\
-@VbVV @AAcA \\\\
-   C @= D
-\end{CD}
 ```
 
 The rendered output looks like this:
@@ -370,52 +268,35 @@ $$ c = \pm\sqrt{a^2 + b^2} $$
 
 \\[ f(x)=\int_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \\]
 
-\begin{equation*}
-  \rho \frac{\mathrm{D} \mathbf{v}}{\mathrm{D} t}=\nabla \cdot \mathbb{P}+\rho \mathbf{f}
-\end{equation*}
+#### Inline Formula
 
-\begin{equation}
-  \mathbf{E}=\sum_{i} \mathbf{E}\_{i}=\mathbf{E}\_{1}+\mathbf{E}\_{2}+\mathbf{E}_{3}+\cdots
-\end{equation}
+The default inline delimiters are `$`/`$` and `\\(`/`\\)`:
 
-\begin{align}
-  a&=b+c \\\\
-  d+e&=f
-\end{align}
+```markdown
+$ c = \pm\sqrt{a^2 + b^2} $ and \\( f(x)=\int\_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \\)
+```
 
-\begin{alignat}{2}
-   10&x+&3&y = 2 \\\\
-   3&x+&13&y = 4
-\end{alignat}
+The rendered output looks like this:
 
-\begin{gather}
-   a=b \\\\
-   e=b+c
-\end{gather}
-
-\begin{CD}
-   A @>a\>> B \\\\
-@VbVV @AAcA \\\\
-   C @= D
-\end{CD}
+$ c = \pm\sqrt{a^2 + b^2} $ and \\( f(x)=\int\_{-\infty}^{\infty} \hat{f}(\xi) e^{2 \pi i \xi x} d \xi \\)
 
 {{< admonition tip >}}
-You can add more inline and block delimiters in your [site configuration](../theme-documentation-basics#site-configuration).
+You can add more block and inline delimiters in your [site configuration](../theme-documentation-basics#site-configuration).
 {{< /admonition >}}
 
 #### Copy-tex
 
-**[Copy-tex](https://github.com/Khan/KaTeX/tree/master/contrib/copy-tex)** is an extension for **$\KaTeX$**.
+**[Copy-tex](https://github.com/Khan/KaTeX/tree/master/contrib/copy-tex)** is an extension for **$ \KaTeX $**.
 
-By the extension, when selecting and copying $\KaTeX$ rendered elements, copies their $\LaTeX$ source to the clipboard.
+By the extension, when selecting and copying $ \KaTeX $ rendered elements, copies their $ \LaTeX $ source to the clipboard.
 
 Set the property `copyTex = true` under `[params.math]` in your [site configuration](../theme-documentation-basics#site-configuration) to enable Copy-tex.
 
-Select and copy the formula rendered in the previous section, and you can find that the copied content is the $\LaTeX$ source code.
+Select and copy the formula rendered in the previous section, and you can find that the copied content is the LaTeX source code.
 
 #### mhchem
 
-**[mhchem](https://github.com/Khan/KaTeX/tree/master/contrib/mhchem)** is an extension for **$\KaTeX$**.
+**[mhchem](https://github.com/Khan/KaTeX/tree/master/contrib/mhchem)** is an extension for **$ \KaTeX $**.
 
 By the extension, you can write beautiful chemical equations easily in the article.
 
@@ -435,7 +316,7 @@ $$ \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} $$
 
 ### Ruby Annotation {#ruby}
 
-An extended Markdown syntax for **ruby annotation** is supported in **LoveIt** theme:
+An extended Markdown syntax for **ruby annotation** is supported in **CodeIT** theme:
 
 ```markdown
 [Hugo]{?^}(An open-source static site generator)
@@ -447,9 +328,7 @@ The rendered output looks like this:
 
 ### Fraction {#fraction}
 
-{{< version 0.2.0 >}}
-
-An extended Markdown syntax for **fraction** is supported in **LoveIt** theme:
+An extended Markdown syntax for **fraction** is supported in **CodeIT** theme:
 
 ```markdown
 [Light]{?/}[Dark]
@@ -465,7 +344,7 @@ The rendered output looks like this:
 
 ### Font Awesome {#fontawesome}
 
-**LoveIt** theme uses [Font Awesome](https://fontawesome.com/) as the icon library.
+**CodeIT** theme uses [Font Awesome](https://fontawesome.com/) as the icon library.
 You can easily use these icons in your articles.
 
 Get the `class` of icons you wanted from the [Font Awesome website](https://fontawesome.com/icons?d=gallery).

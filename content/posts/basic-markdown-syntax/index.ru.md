@@ -1,16 +1,15 @@
 ---
 weight: 4
-title: "Basic Markdown Syntax"
-date: "2019-12-01 21:57:40+08:00"
-lastmod: "2020-01-01 16:45:40+08:00"
+title: "Syntaxe de Markdown de Base"
+date: 2019-12-01T21:57:40+08:00
+lastmod: 2020-01-01T16:45:40+08:00
 draft: false
-author: "Dillon"
-authorLink: "https://dillonzq.com"
-description: "This article shows the basic Markdown syntax and format."
-images: []
+author: "Sunt Programator!"
+authorLink: "https://suntprogramator.dev/"
+description: "Cet article présente la syntaxe et le format de base de Markdown."
 resources:
-- name: "featured-image"
-  src: "featured-image.png"
+  - name: "featured-image"
+    src: "featured-image.png"
 
 tags: ["Markdown", "HTML"]
 categories: ["Markdown"]
@@ -18,14 +17,19 @@ categories: ["Markdown"]
 lightgallery: true
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files.
+Cet article propose un exemple de syntaxe Markdown de base qui peut être utilisée dans les fichiers de contenu Hugo.
 
 <!--more-->
+
+{{< admonition warning >}}
+Sorry, this article has not been completely translated into **French**.
+Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/sunt-programator/CodeIT/pulls) to the theme!
+{{< /admonition >}}
 
 {{< admonition >}}
 This article is a shameful copy of the great [Grav original page](http://learn.getgrav.org/content/markdown).
 
-If you want to know about the extended Markdown syntax of **LoveIt** theme, please read [extended Markdown syntax page](../theme-documentation-content#extended-markdown-syntax).
+If you want to know about the extented Markdown syntax of **CodeIT** theme, please read [extended Markdown syntax page](../theme-documentation-content#extended-markdown-syntax).
 {{< /admonition >}}
 
 Let's face it: Writing content for the Web is tiresome. WYSIWYG editors help alleviate this task, but they generally result in horrible code, or worse yet, ugly web pages.
@@ -63,9 +67,13 @@ Headings from `h2` through `h6` are constructed with a `#` for each level:
 
 ```markdown
 ## h2 Heading
+
 ### h3 Heading
+
 #### h4 Heading
+
 ##### h5 Heading
+
 ###### h6 Heading
 ```
 
@@ -91,6 +99,7 @@ The HTML looks like this:
 ```html
 <h3 id="custom-id">A Great Heading</h3>
 ```
+
 {{< /admonition >}}
 
 ## 2 Comments
@@ -114,15 +123,17 @@ This is a comment
 The HTML `<hr>` element is for creating a "thematic break" between paragraph-level elements.
 In Markdown, you can create a `<hr>` with any of the following:
 
-* `___`: three consecutive underscores
-* `---`: three consecutive dashes
-* `***`: three consecutive asterisks
+- `___`: three consecutive underscores
+- `---`: three consecutive dashes
+- `***`: three consecutive asterisks
 
 The rendered output looks like this:
 
-___
 ---
-***
+
+---
+
+---
 
 ## 4 Body Copy
 
@@ -139,7 +150,12 @@ soluta officiis concludaturque ei qui, vide sensibus vim ad.
 The HTML looks like this:
 
 ```html
-<p>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.</p>
+<p>
+  Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et
+  legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis
+  inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei
+  qui, vide sensibus vim ad.
+</p>
 ```
 
 A **line break** can be done with one blank line.
@@ -151,9 +167,7 @@ If you need a certain HTML tag (with a class) you can simply use HTML:
 ```html
 Paragraph in Markdown.
 
-<div class="class">
-    This is <b>HTML</b>
-</div>
+<div class="class">This is <b>HTML</b></div>
 
 Paragraph in Markdown.
 ```
@@ -168,7 +182,7 @@ The following snippet of text is **rendered as bold text**.
 
 ```markdown
 **rendered as bold text**
-__rendered as bold text__
+**rendered as bold text**
 ```
 
 The HTML looks like this:
@@ -184,7 +198,7 @@ For emphasizing a snippet of text with italics.
 The following snippet of text is _rendered as italicized text_.
 
 ```markdown
-*rendered as italicized text*
+_rendered as italicized text_
 _rendered as italicized text_
 ```
 
@@ -217,21 +231,21 @@ The HTML looks like this:
 Bold, italics, and strikethrough can be used in combination.
 
 ```markdown
-***bold and italics***
+**_bold and italics_**
 ~~**strikethrough and bold**~~
-~~*strikethrough and italics*~~
-~~***bold, italics and strikethrough***~~
+~~_strikethrough and italics_~~
+~~**_bold, italics and strikethrough_**~~
 ```
 
 The rendered output looks like this:
 
-***bold and italics***
+**_bold and italics_**
 
 ~~**strikethrough and bold**~~
 
-~~*strikethrough and italics*~~
+~~_strikethrough and italics_~~
 
-~~***bold, italics and strikethrough***~~
+~~**_bold, italics and strikethrough_**~~
 
 The HTML looks like this:
 
@@ -239,7 +253,9 @@ The HTML looks like this:
 <em><strong>bold and italics</strong></em>
 <del><strong>strikethrough and bold</strong></del>
 <del><em>strikethrough and italics</em></del>
-<del><em><strong>bold, italics and strikethrough</strong></em></del>
+<del
+  ><em><strong>bold, italics and strikethrough</strong></em></del
+>
 ```
 
 ## 7 Blockquotes
@@ -261,7 +277,9 @@ The HTML looks like this:
 ```html
 <blockquote>
   <p>
-    <strong>Fusion Drive</strong> combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.
+    <strong>Fusion Drive</strong> combines a hard drive with a flash storage
+    (solid-state drive) and presents it as a single logical volume with the
+    space of both drives combined.
   </p>
 </blockquote>
 ```
@@ -270,17 +288,19 @@ Blockquotes can also be nested:
 
 ```markdown
 > Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
-Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
->> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
-odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
+> Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
+>
+> > Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
+> > odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
 ```
 
 The rendered output looks like this:
 
 > Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
-Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
->> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
-odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
+> Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
+>
+> > Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
+> > odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
 
 ## 8 Lists
 
@@ -291,42 +311,44 @@ A list of items in which the order of the items does not explicitly matter.
 You may use any of the following symbols to denote bullets for each list item:
 
 ```markdown
-* valid bullet
 - valid bullet
-+ valid bullet
+
+* valid bullet
+
+- valid bullet
 ```
 
 For example:
 
 ```markdown
-* Lorem ipsum dolor sit amet
-* Consectetur adipiscing elit
-* Integer molestie lorem at massa
-* Facilisis in pretium nisl aliquet
-* Nulla volutpat aliquam velit
-  * Phasellus iaculis neque
-  * Purus sodales ultricies
-  * Vestibulum laoreet porttitor sem
-  * Ac tristique libero volutpat at
-* Faucibus porta lacus fringilla vel
-* Aenean sit amet erat nunc
-* Eget porttitor lorem
+- Lorem ipsum dolor sit amet
+- Consectetur adipiscing elit
+- Integer molestie lorem at massa
+- Facilisis in pretium nisl aliquet
+- Nulla volutpat aliquam velit
+  - Phasellus iaculis neque
+  - Purus sodales ultricies
+  - Vestibulum laoreet porttitor sem
+  - Ac tristique libero volutpat at
+- Faucibus porta lacus fringilla vel
+- Aenean sit amet erat nunc
+- Eget porttitor lorem
 ```
 
 The rendered output looks like this:
 
-* Lorem ipsum dolor sit amet
-* Consectetur adipiscing elit
-* Integer molestie lorem at massa
-* Facilisis in pretium nisl aliquet
-* Nulla volutpat aliquam velit
-  * Phasellus iaculis neque
-  * Purus sodales ultricies
-  * Vestibulum laoreet porttitor sem
-  * Ac tristique libero volutpat at
-* Faucibus porta lacus fringilla vel
-* Aenean sit amet erat nunc
-* Eget porttitor lorem
+- Lorem ipsum dolor sit amet
+- Consectetur adipiscing elit
+- Integer molestie lorem at massa
+- Facilisis in pretium nisl aliquet
+- Nulla volutpat aliquam velit
+  - Phasellus iaculis neque
+  - Purus sodales ultricies
+  - Vestibulum laoreet porttitor sem
+  - Ac tristique libero volutpat at
+- Faucibus porta lacus fringilla vel
+- Aenean sit amet erat nunc
+- Eget porttitor lorem
 
 The HTML looks like this:
 
@@ -336,7 +358,8 @@ The HTML looks like this:
   <li>Consectetur adipiscing elit</li>
   <li>Integer molestie lorem at massa</li>
   <li>Facilisis in pretium nisl aliquet</li>
-  <li>Nulla volutpat aliquam velit
+  <li>
+    Nulla volutpat aliquam velit
     <ul>
       <li>Phasellus iaculis neque</li>
       <li>Purus sodales ultricies</li>
@@ -415,7 +438,7 @@ The rendered output looks like this:
 1. Faucibus porta lacus fringilla vel
 1. Aenean sit amet erat nunc
 1. Eget porttitor lorem
-{{< /admonition >}}
+   {{< /admonition >}}
 
 ### Task Lists
 
@@ -451,7 +474,8 @@ The HTML looks like this:
 
 ```html
 <p>
-  In this example, <code>&lt;section&gt;&lt;/section&gt;</code> should be wrapped with <strong>code</strong>.
+  In this example, <code>&lt;section&gt;&lt;/section&gt;</code> should be
+  wrapped with <strong>code</strong>.
 </p>
 ```
 
@@ -491,9 +515,11 @@ The HTML looks like this:
 Use "fences" <code>```</code> to block in multiple lines of code with a language attribute.
 
 {{< highlight markdown >}}
+
 ```markdown
 Sample text here...
 ```
+
 {{< / highlight >}}
 
 The HTML looks like this:
@@ -514,6 +540,7 @@ To activate it, simply add the file extension of the language you want to use di
 For example, to apply syntax highlighting to JavaScript code:
 
 {{< highlight markdown >}}
+
 ```js
 grunt.initConfig({
   assemble: {
@@ -534,6 +561,7 @@ grunt.initConfig({
   }
 };
 ```
+
 {{< / highlight >}}
 
 The rendered output looks like this:
@@ -568,20 +596,20 @@ grunt.initConfig({
 Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.
 
 ```markdown
-| Option | Description |
-| ------ | ----------- |
+| Option | Description                                                               |
+| ------ | ------------------------------------------------------------------------- |
 | data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| engine | engine to be used for processing templates. Handlebars is the default.    |
+| ext    | extension to be used for dest files.                                      |
 ```
 
 The rendered output looks like this:
 
-| Option | Description |
-| ------ | ----------- |
+| Option | Description                                                               |
+| ------ | ------------------------------------------------------------------------- |
 | data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| engine | engine to be used for processing templates. Handlebars is the default.    |
+| ext    | extension to be used for dest files.                                      |
 
 The HTML looks like this:
 
@@ -596,11 +624,16 @@ The HTML looks like this:
   <tbody>
     <tr>
       <td>data</td>
-      <td>path to data files to supply the data that will be passed into templates.</td>
+      <td>
+        path to data files to supply the data that will be passed into
+        templates.
+      </td>
     </tr>
     <tr>
       <td>engine</td>
-      <td>engine to be used for processing templates. Handlebars is the default.</td>
+      <td>
+        engine to be used for processing templates. Handlebars is the default.
+      </td>
     </tr>
     <tr>
       <td>ext</td>
@@ -616,25 +649,26 @@ Adding a colon on the right side of the dashes below any heading will right alig
 Adding colons on both sides of the dashes below any heading will center align text for that column.
 
 ```markdown
-| Option | Description |
-|:------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| Option |                                                               Description |
+| :----: | ------------------------------------------------------------------------: |
+|  data  | path to data files to supply the data that will be passed into templates. |
+| engine |    engine to be used for processing templates. Handlebars is the default. |
+|  ext   |                                      extension to be used for dest files. |
 ```
 
 The rendered output looks like this:
 
-| Option | Description |
-|:------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| Option |                                                               Description |
+| :----: | ------------------------------------------------------------------------: |
+|  data  | path to data files to supply the data that will be passed into templates. |
+| engine |    engine to be used for processing templates. Handlebars is the default. |
+|  ext   |                                      extension to be used for dest files. |
+
 {{< /admonition >}}
 
-## 11 Links {#links}
+## 11 Links
 
-### Basic Link
+### Basic Link {#links}
 
 ```markdown
 <https://assemble.io>
@@ -680,21 +714,25 @@ Named anchors enable you to jump to the specified anchor point on the same page.
 
 ```markdown
 ## Table of Contents
-  * [Chapter 1](#chapter-1)
-  * [Chapter 2](#chapter-2)
-  * [Chapter 3](#chapter-3)
+
+- [Chapter 1](#chapter-1)
+- [Chapter 2](#chapter-2)
+- [Chapter 3](#chapter-3)
 ```
 
 will jump to these sections:
 
 ```markdown
 ## Chapter 1 <a id="chapter-1"></a>
+
 Content for chapter one.
 
 ## Chapter 2 <a id="chapter-2"></a>
+
 Content for chapter one.
 
 ## Chapter 3 <a id="chapter-3"></a>
+
 Content for chapter one.
 ```
 
@@ -754,11 +792,11 @@ Like links, images also have a footnote style syntax:
 With a reference later in the document defining the URL location:
 
 ```markdown
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+[id]: https://octodex.github.com/images/dojocat.jpg "The Dojocat"
 ```
 
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+[id]: https://octodex.github.com/images/dojocat.jpg "The Dojocat"
 
 {{< admonition tip >}}
-**LoveIt** theme has [special shortcode for image](../theme-documentation-extended-shortcodes#image), which provides more features.
+**CodeIT** theme has [special shortcode for image](../theme-documentation-extended-shortcodes#image), which provides more features.
 {{< /admonition >}}

@@ -1,46 +1,32 @@
 ---
 title: "Статистика по Covid-19 в Эстонии"
-subtitle: "График обновляется"
-slug: "covid-chart"
 date: 2021-03-22T02:53:07+02:00
-lastmod: 2021-03-22T02:53:07+02:00
+lastmod: ""
+slug: "covid-chart"
 draft: false
-author: "Dia"
-authorLink: ""
-description: "Image credit: [**Dan Counsell**](https://unsplash.com/photos/zIwAchjDirM"
-
 tags: [charts]
 categories: [Covid-19]
-
-hiddenFromHomePage: false
-hiddenFromSearch: false
-toc:
-  enable: false
-math:
-  enable: false
-lightgallery: false
-license: ""
-
-#image: 
-#  placement: 2
-#  caption: 'Image credit: [**Dan Counsell**](https://unsplash.com/photos/zIwAchjDirM)'
-#  preview_only: false
-#featured_image_caption: "Image: ImageSource" # quotation marks to allow colon
-#featured_image_alt: Alt tag for the featured image
-# featuredImage: ""
-# featuredImagePreview: "featured.jpg"
-# caption: "Image credit: [**Markus Winkler**](https://unsplash.com/photos/IrRbSND5EUc)"
-# preview_only: true
+toc: false
+code:
+  copy: true
+math: true
+mapbox:
+  accessToken: ""
+share:toc:
+  enable: true
+  auto: false
+  enable: true
+comment:
+  enable: true
 resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured.jpg
+  - name: "featured"
+    src: "featured.jpg"
+lightgallery: true 
 ---
 
 Создали [**страницу**](/2021/covid-chart/) со статистикой по коронавирусу в Эстонии.
 
-<!--more-->  
+<!--more-->
 
 {{< admonition info >}}
 График <span style="color:#B03A5B">**обновляется**</span>. <span style="color:#ff6600">**Приостановлено: 01-05-2022 г.**</span>
